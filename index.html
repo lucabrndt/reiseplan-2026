@@ -6,30 +6,39 @@
   <meta name="description" content="Reiseführer München → Zürich → Istanbul → Bangkok → Laos → Vietnam → Kambodscha, Aug–Okt 2026" />
   <title>Reiseplan 2026 — Südostasien</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <style>
     /* ── CUSTOM PROPERTIES ──────────────────────── */
     :root {
-      --bg:        #faf6f1;
-      --bg-alt:    #f2e9de;
-      --surface:   #fffbf7;
-      --nav:       #1c0a00;
-      --nav-txt:   #f0e4d4;
-      --primary:   #c07740;
-      --primary-d: #8b5228;
-      --accent:    #d4a83a;
-      --txt:       #2c1a0e;
-      --txt2:      #6b4a2a;
-      --border:    #e4d0bb;
-      --code-bg:   #1c0a00;
-      --code-txt:  #f0e4d4;
-      --r:         12px;
-      --sh:        0 2px 12px rgba(0,0,0,.10);
-      --sh-sm:     0 1px 4px  rgba(0,0,0,.07);
-      --nav-h:     52px;
-      --ease:      .25s ease;
+      --primary:       #00aa6c;
+      --primary-d:     #007a4d;
+      --primary-dk:    #005c3a;
+      --primary-light: #e6f7f2;
+      --primary-mid:   #a7f3d0;
+      --accent:        #f59e0b;
+      --bg:            #f4f6f8;
+      --surface:       #ffffff;
+      --surface2:      #f8fafc;
+      --txt:           #111827;
+      --txt2:          #6b7280;
+      --txt3:          #9ca3af;
+      --border:        #e5e7eb;
+      --border-mid:    #d1d5db;
+      --code-bg:       #1e1e1e;
+      --code-txt:      #4ade80;
+      --r:             14px;
+      --r-sm:          8px;
+      --sh:            0 4px 24px rgba(0,0,0,.08);
+      --sh-sm:         0 1px 8px rgba(0,0,0,.05);
+      --sh-lg:         0 8px 40px rgba(0,0,0,.12);
+      --nav-h:         64px;
+      --ease:          .22s ease;
     }
 
     /* ── RESET ──────────────────────────────────── */
@@ -37,26 +46,26 @@
 
     html {
       scroll-behavior: smooth;
-      scroll-padding-top: calc(var(--nav-h) + 8px);
+      scroll-padding-top: calc(var(--nav-h) + 12px);
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
       background: var(--bg);
       color: var(--txt);
       line-height: 1.65;
       -webkit-font-smoothing: antialiased;
     }
 
-    h1, h2, h3 { line-height: 1.25; }
+    h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
     a { color: var(--primary); text-decoration: none; }
     a:hover { text-decoration: underline; }
     img { display: block; max-width: 100%; }
 
     .container {
-      max-width: 920px;
+      max-width: 960px;
       margin: 0 auto;
-      padding: 0 16px;
+      padding: 0 20px;
     }
 
     /* ── STICKY NAV ─────────────────────────────── */
@@ -65,27 +74,27 @@
       top: 0;
       z-index: 1000;
       height: var(--nav-h);
-      background: var(--nav);
+      background: rgba(255,255,255,.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 12px rgba(0,0,0,.06);
       display: flex;
       align-items: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,.35);
+      justify-content: space-between;
+      padding: 0 20px;
+      gap: 12px;
     }
 
-    .nav-brand {
-      flex-shrink: 0;
-      padding: 0 14px;
-      border-right: 1px solid rgba(255,255,255,.12);
-    }
-
+    .nav-brand { flex-shrink: 0; }
     .nav-brand a {
-      color: var(--accent);
-      font-weight: 700;
-      font-size: .9rem;
+      color: var(--primary-d);
+      font-weight: 800;
+      font-size: .95rem;
+      letter-spacing: -.02em;
       white-space: nowrap;
-      letter-spacing: -.01em;
     }
-
-    .nav-brand a:hover { text-decoration: none; opacity: .8; }
+    .nav-brand a:hover { text-decoration: none; color: var(--primary); }
 
     .nav-links {
       display: flex;
@@ -94,344 +103,225 @@
       overflow-x: auto;
       scrollbar-width: none;
       -webkit-overflow-scrolling: touch;
-      padding: 0 8px;
       flex: 1;
     }
-
     .nav-links::-webkit-scrollbar { display: none; }
 
     .nav-links a {
-      color: var(--nav-txt);
-      font-size: .78rem;
+      color: var(--txt2);
+      font-size: .77rem;
+      font-weight: 500;
       white-space: nowrap;
-      padding: 6px 9px;
-      border-radius: 6px;
-      transition: background var(--ease), color var(--ease);
-      opacity: .75;
+      padding: 6px 11px;
+      border-radius: 20px;
+      transition: all var(--ease);
     }
+    .nav-links a:hover { text-decoration: none; background: var(--primary-light); color: var(--primary-d); }
+    .nav-links a.active { background: var(--primary); color: #fff; }
 
-    .nav-links a:hover,
-    .nav-links a.active {
-      background: rgba(255,255,255,.11);
-      color: var(--accent);
-      text-decoration: none;
-      opacity: 1;
+    /* Hamburger */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 8px 4px;
+      border: none;
+      background: none;
+      flex-shrink: 0;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--txt);
+      border-radius: 2px;
+      transition: all var(--ease);
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    @media (max-width: 640px) {
+      .nav-hamburger { display: flex; }
+      .nav-links {
+        display: none;
+        position: fixed;
+        top: var(--nav-h);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--surface);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+        padding: 16px;
+        overflow-y: auto;
+        z-index: 999;
+        border-top: 1px solid var(--border);
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a {
+        font-size: .9rem;
+        padding: 12px 16px;
+        border-radius: 10px;
+        color: var(--txt);
+      }
+      .nav-links a.active { background: var(--primary); color: #fff; }
     }
 
     /* ── SITE HEADER ────────────────────────────── */
     .site-header {
-      background: linear-gradient(155deg, #1c0a00 0%, #3a1a08 40%, #5c3118 75%, #8b5228 100%);
-      padding: 56px 16px 44px;
+      position: relative;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/1280px-Angkor_Wat.jpg');
+      background-size: cover;
+      background-position: center 35%;
+      padding: 80px 20px 64px;
       text-align: center;
+      overflow: hidden;
     }
-
+    .site-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 20, 12, 0.72) 0%,
+        rgba(0, 30, 18, 0.80) 60%,
+        rgba(0, 40, 24, 0.88) 100%
+      );
+      z-index: 0;
+    }
+    .site-header > * { position: relative; z-index: 1; }
     .site-header h1 {
-      font-size: clamp(1.7rem, 5vw, 2.9rem);
+      font-size: clamp(1.8rem, 5vw, 3rem);
       font-weight: 800;
-      color: var(--accent);
-      letter-spacing: -.03em;
+      color: #fff;
+      letter-spacing: -.04em;
       margin-bottom: 14px;
+      text-shadow: 0 2px 12px rgba(0,0,0,.4);
     }
-
     .route-line {
-      font-size: clamp(.8rem, 2vw, 1rem);
-      color: rgba(240,228,212,.75);
-      max-width: 600px;
+      font-size: clamp(.85rem, 2vw, 1.05rem);
+      color: rgba(255,255,255,.85);
+      max-width: 640px;
       margin: 0 auto;
-      line-height: 1.9;
+      line-height: 2;
     }
 
     /* ── OVERVIEW SECTION ───────────────────────── */
     .section-overview {
-      padding: 36px 0 48px;
+      padding: 48px 0 60px;
+      background: var(--surface);
     }
-
     .section-overview h2 {
-      font-size: 1.4rem;
-      margin-bottom: 18px;
-      color: var(--primary-d);
+      font-size: 1.5rem;
+      margin-bottom: 22px;
+      color: var(--txt);
     }
-
     .overview-map {
       width: 100%;
       height: 340px;
       border-radius: var(--r);
       box-shadow: var(--sh);
       overflow: hidden;
-      background: var(--bg-alt);
-      margin-bottom: 28px;
+      background: var(--bg);
+      margin-bottom: 40px;
     }
-
     @media (min-width: 540px) { .overview-map { height: 420px; } }
     @media (min-width: 768px) { .overview-map { height: 480px; } }
 
-    /* ── TIMELINE TABLE ─────────────────────────── */
-    .timeline-wrap {
-      overflow-x: auto;
-      border-radius: var(--r);
-      box-shadow: var(--sh-sm);
+    /* ── VERTICAL TIMELINE ──────────────────────── */
+    .timeline-list {
+      padding-left: 26px;
+      max-height: 560px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
     }
+    .tl-item {
+      position: relative;
+      border-left: 2px solid var(--border);
+      padding: 0 0 10px 20px;
+    }
+    .tl-item:last-child {
+      border-left-color: transparent;
+      padding-bottom: 0;
+    }
+    .tl-dot {
+      position: absolute;
+      left: -7px;
+      top: 12px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--primary);
+      border: 2.5px solid var(--surface);
+      box-shadow: 0 0 0 2px var(--primary-mid);
+    }
+    .tl-dot.flight { background: #2563eb; box-shadow: 0 0 0 2px #bfdbfe; }
+    .tl-dot.bus    { background: #d97706; box-shadow: 0 0 0 2px #fde68a; }
+    .tl-dot.train  { background: #7c3aed; box-shadow: 0 0 0 2px #ddd6fe; }
+    .tl-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r-sm);
+      padding: 10px 14px;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+      box-shadow: var(--sh-sm);
+      transition: box-shadow var(--ease);
+    }
+    .tl-card:hover { box-shadow: var(--sh); }
+    .tl-date   { font-size: .78rem; font-weight: 700; color: var(--primary-d); white-space: nowrap; min-width: 90px; }
+    .tl-place  { font-size: .875rem; font-weight: 600; color: var(--txt); flex: 1; }
+    .tl-detail { font-size: .8rem; color: var(--txt2); }
 
+    /* ── TABLES (Visa section) ───────────────────── */
+    .timeline-wrap { overflow-x: auto; }
     .tl-table {
       width: 100%;
       border-collapse: collapse;
       background: var(--surface);
-      font-size: .865rem;
+      font-size: .875rem;
       min-width: 420px;
+      border-radius: var(--r-sm);
+      overflow: hidden;
     }
-
     .tl-table thead { background: var(--primary); color: #fff; }
-
     .tl-table th {
-      padding: 10px 14px;
+      padding: 11px 16px;
       text-align: left;
       font-weight: 600;
       white-space: nowrap;
+      font-size: .83rem;
     }
-
     .tl-table td {
-      padding: 8px 14px;
+      padding: 10px 16px;
       border-bottom: 1px solid var(--border);
       vertical-align: top;
     }
-
     .tl-table tr:last-child td { border-bottom: none; }
-    .tl-table tr:nth-child(even) td { background: #fdf7f2; }
-
-    .tl-date {
-      white-space: nowrap;
-      font-weight: 600;
-      color: var(--primary-d);
-    }
+    .tl-table tr:nth-child(even) td { background: var(--surface2); }
+    .tl-table .tl-date { white-space: nowrap; font-weight: 700; color: var(--primary-d); }
 
     /* ── CITY SECTIONS ──────────────────────────── */
     .city-section {
-      border-bottom: 2px solid var(--border);
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
     }
 
-    /* Hero / image placeholder */
     .city-hero {
       position: relative;
-      height: 220px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      height: 250px;
       overflow: hidden;
     }
+    @media (min-width: 540px) { .city-hero { height: 320px; } }
+    @media (min-width: 768px) { .city-hero { height: 390px; } }
 
-    @media (min-width: 540px) { .city-hero { height: 290px; } }
-    @media (min-width: 768px) { .city-hero { height: 340px; } }
-
-    .city-hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,.28);
-    }
-
-    .city-hero-inner {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-      color: #fff;
-      text-shadow: 0 2px 10px rgba(0,0,0,.55);
-      padding: 0 16px;
-    }
-
-    .city-flag  { font-size: 2.8rem; display: block; margin-bottom: 8px; line-height: 1; }
-    .city-name  { font-size: clamp(1.7rem, 5vw, 2.6rem); font-weight: 800; letter-spacing: -.03em; margin-bottom: 6px; }
-    .city-dates { font-size: .9rem; opacity: .9; font-weight: 500; }
-
-    /* City body: map + accordion */
-    .city-body { padding: 24px 0 32px; }
-
-    .city-map {
-      width: 100%;
-      height: 220px;
-      border-radius: var(--r);
-      box-shadow: var(--sh);
-      overflow: hidden;
-      background: var(--bg-alt);
-      margin-bottom: 20px;
-    }
-
-    @media (min-width: 540px) { .city-map { height: 280px; } }
-
-    /* ── ACCORDION ──────────────────────────────── */
-    .accordion { display: flex; flex-direction: column; gap: 6px; }
-
-    .accordion-item {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r);
-      overflow: hidden;
-      box-shadow: var(--sh-sm);
-    }
-
-    .accordion-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      width: 100%;
-      padding: 13px 15px;
-      background: none;
-      border: none;
-      cursor: pointer;
-      text-align: left;
-      font-family: inherit;
-      font-size: .92rem;
-      font-weight: 600;
-      color: var(--txt);
-      transition: background var(--ease);
-    }
-
-    .accordion-header:hover                    { background: var(--bg-alt); }
-    .accordion-header[aria-expanded="true"]    { background: var(--bg-alt); border-bottom: 1px solid var(--border); }
-
-    .acc-icon  { font-size: 1rem; flex-shrink: 0; }
-    .acc-title { flex: 1; }
-
-    .acc-arrow {
-      flex-shrink: 0;
-      font-size: 1.1rem;
-      color: var(--primary);
-      transition: transform var(--ease);
-    }
-
-    .accordion-header[aria-expanded="true"] .acc-arrow { transform: rotate(90deg); }
-
-    /* Smooth height animation with grid trick */
-    .accordion-body {
-      display: grid;
-      grid-template-rows: 0fr;
-      transition: grid-template-rows .28s ease;
-    }
-
-    .accordion-body.open { grid-template-rows: 1fr; }
-
-    .accordion-body-inner { overflow: hidden; }
-
-    .accordion-content {
-      padding: 16px;
-      color: var(--txt2);
-      font-size: .88rem;
-    }
-
-    .placeholder-note {
-      color: var(--border);
-      font-style: italic;
-    }
-
-    /* ── CODE BLOCK / KI-PROMPTS ────────────────── */
-    .code-wrap { position: relative; }
-
-    .copy-btn {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      padding: 4px 10px;
-      background: rgba(255,255,255,.1);
-      color: #f0e4d4;
-      border: 1px solid rgba(255,255,255,.18);
-      border-radius: 6px;
-      font-size: .73rem;
-      font-family: inherit;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background var(--ease);
-      z-index: 1;
-    }
-
-    .copy-btn:hover          { background: rgba(255,255,255,.2); }
-    .copy-btn.copied         { background: #27ae60; border-color: #27ae60; }
-
-    pre.ki-code {
-      background: var(--code-bg);
-      color: var(--code-txt);
-      padding: 14px 14px 14px;
-      border-radius: 8px;
-      overflow-x: auto;
-      font-size: .8rem;
-      line-height: 1.75;
-      font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, monospace;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
-
-    /* ── VISA SECTION ───────────────────────────── */
-    .section-visa {
-      padding: 40px 0 60px;
-      background: var(--bg-alt);
-    }
-
-    .section-visa h2 {
-      font-size: 1.4rem;
-      margin-bottom: 20px;
-      color: var(--primary-d);
-    }
-
-    .visa-grid {
-      display: grid;
-      gap: 12px;
-      grid-template-columns: 1fr;
-    }
-
-    @media (min-width: 480px) { .visa-grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 720px) { .visa-grid { grid-template-columns: repeat(3, 1fr); } }
-
-    .visa-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r);
-      padding: 16px;
-      box-shadow: var(--sh-sm);
-    }
-
-    .visa-card .vc-country { font-weight: 700; font-size: .95rem; margin-bottom: 6px; }
-    .visa-card .vc-type    { font-size: .83rem; color: var(--txt2); }
-    .visa-card .vc-how     { font-size: .8rem; color: var(--txt2); margin-top: 4px; }
-
-    .visa-card .vc-cost {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 2px 9px;
-      background: var(--bg-alt);
-      border-radius: 4px;
-      font-size: .79rem;
-      font-weight: 700;
-      color: var(--primary-d);
-    }
-
-    .visa-sub-h {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--primary-d);
-      margin: 28px 0 14px;
-      padding-bottom: 6px;
-      border-bottom: 2px solid var(--border);
-    }
-
-    /* ── FOOTER ─────────────────────────────────── */
-    footer {
-      background: var(--nav);
-      color: rgba(240,228,212,.5);
-      text-align: center;
-      padding: 20px 16px;
-      font-size: .85rem;
-    }
-
-    /* ── LEAFLET TWEAKS ─────────────────────────── */
-    .leaflet-popup-content-wrapper {
-      border-radius: 8px !important;
-      box-shadow: var(--sh) !important;
-      font-family: inherit;
-    }
-
-    .leaflet-popup-content { margin: 10px 14px !important; font-size: .84rem; }
-    .leaflet-popup-content strong { color: var(--primary-d); }
-    .leaflet-popup-content a { color: var(--primary); }
-
-    /* ── CITY HERO WITH IMAGE ──────────────────── */
     .city-hero-img {
       position: absolute;
       inset: 0;
@@ -440,95 +330,333 @@
       object-fit: cover;
       z-index: 0;
     }
-    .city-hero::after { z-index: 1; }
+    .city-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.7) 0%, rgba(0,0,0,.25) 50%, transparent 100%);
+      z-index: 1;
+    }
+    .city-hero-inner {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      padding: 20px 28px 22px;
+      color: #fff;
+    }
+    .city-flag  { font-size: 2rem; display: block; margin-bottom: 4px; line-height: 1; }
+    .city-name  { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; letter-spacing: -.03em; margin-bottom: 6px; text-shadow: 0 2px 8px rgba(0,0,0,.35); }
+    .city-dates { font-size: .82rem; font-weight: 600; background: rgba(0,0,0,.3); display: inline-block; padding: 3px 12px; border-radius: 20px; }
 
-    /* ── CITY INTRO BOX ─────────────────────────── */
+    /* City 2-col layout */
+    .city-body { padding: 28px 0 36px; }
+    .city-layout {
+      display: grid;
+      gap: 22px;
+      margin-bottom: 28px;
+    }
+    @media (min-width: 768px) {
+      .city-layout { grid-template-columns: 1fr 360px; align-items: start; }
+    }
+
+    .city-map {
+      width: 100%;
+      height: 240px;
+      border-radius: var(--r);
+      box-shadow: var(--sh);
+      overflow: hidden;
+      background: var(--bg);
+    }
+    @media (min-width: 540px) { .city-map { height: 270px; } }
+    @media (min-width: 768px) {
+      .city-map { height: 340px; position: sticky; top: calc(var(--nav-h) + 16px); }
+    }
+
+    /* City intro box */
     .city-intro {
-      background: #fef9ec;
-      border: 1px solid #e8d096;
-      border-left: 4px solid var(--accent);
-      border-radius: 0 var(--r) var(--r) 0;
-      padding: 14px 16px;
-      margin-bottom: 20px;
+      background: #f0fdf8;
+      border: 1px solid var(--primary-mid);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 var(--r-sm) var(--r-sm) 0;
+      padding: 16px 18px;
       font-size: .875rem;
-      line-height: 1.65;
+      line-height: 1.7;
       color: var(--txt);
     }
-    .city-intro p + p  { margin-top: 6px; }
-    .city-intro .warn  { color: #b91c1c; font-weight: 600; }
+    .city-intro p + p { margin-top: 6px; }
+    .city-intro .warn { color: #dc2626; font-weight: 600; }
 
-    /* ── POI LIST ───────────────────────────────── */
-    .poi-list { display: flex; flex-direction: column; }
+    /* ── ACCORDION ──────────────────────────────── */
+    .accordion { display: flex; flex-direction: column; gap: 8px; }
 
-    .poi { padding: 13px 0; border-bottom: 1px solid var(--border); }
-    .poi:first-child  { padding-top: 4px; }
-    .poi:last-child   { border-bottom: none; padding-bottom: 4px; }
+    .accordion-item {
+      border: 1px solid var(--border);
+      border-radius: var(--r-sm);
+      overflow: hidden;
+      background: var(--surface);
+      box-shadow: var(--sh-sm);
+    }
 
+    .accordion-header {
+      width: 100%;
+      text-align: left;
+      background: var(--surface);
+      border: none;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--txt);
+      transition: background var(--ease);
+    }
+    .accordion-header:hover { background: var(--surface2); }
+    .accordion-header[aria-expanded="true"] {
+      background: var(--primary-light);
+      color: var(--primary-d);
+      border-bottom: 1px solid var(--primary-mid);
+    }
+    .acc-icon  { font-size: 1rem; flex-shrink: 0; }
+    .acc-title { flex: 1; }
+    .acc-arrow {
+      color: var(--txt3);
+      font-size: 1rem;
+      transition: transform var(--ease);
+      flex-shrink: 0;
+    }
+    .accordion-header[aria-expanded="true"] .acc-arrow {
+      transform: rotate(90deg);
+      color: var(--primary);
+    }
+
+    .accordion-body {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows .28s ease;
+    }
+    .accordion-body.open { grid-template-rows: 1fr; }
+    .accordion-body-inner { overflow: hidden; }
+    .accordion-content { padding: 18px; }
+    .placeholder-note { color: var(--txt3); font-style: italic; font-size: .875rem; }
+
+    /* ── POI CARDS ──────────────────────────────── */
+    .poi-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    @media (min-width: 560px) { .poi-list { grid-template-columns: repeat(2, 1fr); } }
+
+    .poi {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--r-sm);
+      padding: 14px 16px;
+      transition: transform var(--ease), box-shadow var(--ease), border-color var(--ease);
+    }
+    .poi:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--sh);
+      border-color: var(--primary-mid);
+    }
     .poi-name {
       font-weight: 700;
-      font-size: .91rem;
+      font-size: .9rem;
       color: var(--txt);
-      margin-bottom: 5px;
+      margin-bottom: 6px;
     }
-
     .poi-desc {
-      font-size: .855rem;
+      font-size: .845rem;
       color: var(--txt2);
       line-height: 1.65;
+      margin-bottom: 8px;
     }
-
     .poi-meta {
       display: inline-block;
-      margin-top: 7px;
-      padding: 2px 9px;
-      background: var(--bg-alt);
-      border-radius: 4px;
-      font-size: .76rem;
+      padding: 3px 10px;
+      background: var(--primary-light);
       color: var(--primary-d);
+      border-radius: 20px;
+      font-size: .74rem;
       font-weight: 600;
     }
 
-    .must {
-      font-style: italic;
-      font-weight: 400;
-      color: var(--primary);
-      font-size: .83rem;
+    /* Essen panel — warm cards */
+    [data-panel-idx="2"] .poi {
+      background: #fffbf0;
+      border-color: #fde68a;
     }
+    [data-panel-idx="2"] .poi:hover { border-color: #f59e0b; }
+    [data-panel-idx="2"] .poi-meta  { background: #fef9c3; color: #92400e; }
+
+    /* Geheimtipps panel — light green */
+    [data-panel-idx="3"] .poi {
+      background: #f0fdf8;
+      border-color: var(--primary-mid);
+    }
+    [data-panel-idx="3"] .poi:hover { border-color: var(--primary); }
 
     /* ── SECTION LABEL WITHIN ACCORDION ────────── */
     .acc-lbl {
-      font-size: .75rem;
+      font-size: .72rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: .07em;
-      color: var(--primary);
-      margin: 14px 0 0;
-      padding: 8px 0 4px;
+      color: var(--primary-d);
+      margin: 16px 0 8px;
+      padding: 8px 0 6px;
       border-top: 1px solid var(--border);
+      grid-column: 1 / -1;
     }
+    .acc-lbl:first-child { margin-top: 0; border-top: none; }
 
     /* ── TIP LIST ───────────────────────────────── */
     .tip-list {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      padding: 4px 0;
+      gap: 8px;
+      padding: 0;
     }
     .tip-list li {
-      padding-left: 18px;
-      position: relative;
+      padding: 11px 14px 11px 36px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--r-sm);
       font-size: .875rem;
       color: var(--txt2);
       line-height: 1.65;
+      position: relative;
     }
     .tip-list li::before {
       content: '›';
       position: absolute;
-      left: 0;
+      left: 14px;
+      top: 10px;
       color: var(--primary);
       font-weight: 700;
-      font-size: 1.05rem;
+      font-size: 1.1rem;
+    }
+
+    /* ── KI-PROMPTS ─────────────────────────────── */
+    .code-wrap { position: relative; }
+    .copy-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 5px 12px;
+      background: rgba(255,255,255,.1);
+      color: #4ade80;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 6px;
+      font-size: .72rem;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background var(--ease);
+      z-index: 1;
+    }
+    .copy-btn:hover  { background: rgba(255,255,255,.2); }
+    .copy-btn.copied { background: #16a34a; border-color: #16a34a; }
+
+    pre.ki-code {
+      position: relative;
+      background: var(--code-bg);
+      color: var(--code-txt);
+      padding: 42px 18px 18px;
+      border-radius: var(--r-sm);
+      overflow-x: auto;
+      font-size: .8rem;
+      line-height: 1.8;
+      font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, monospace;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    pre.ki-code::before {
+      content: '⬤  ⬤  ⬤';
+      position: absolute;
+      top: 12px;
+      left: 14px;
+      font-size: .45rem;
+      color: rgba(255,255,255,.2);
+      letter-spacing: 5px;
+    }
+
+    /* ── VISA SECTION ───────────────────────────── */
+    .section-visa {
+      padding: 52px 0 68px;
+      background: var(--bg);
+    }
+    .section-visa h2 {
+      font-size: 1.5rem;
+      margin-bottom: 4px;
+      color: var(--txt);
+    }
+    .visa-sub-h {
+      font-size: .78rem;
+      font-weight: 700;
+      color: var(--txt3);
+      margin: 28px 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .visa-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 480px) { .visa-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 720px) { .visa-grid { grid-template-columns: repeat(3, 1fr); } }
+
+    .visa-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 18px;
+      box-shadow: var(--sh-sm);
+      transition: transform var(--ease), box-shadow var(--ease);
+    }
+    .visa-card:hover { transform: translateY(-2px); box-shadow: var(--sh); }
+    .visa-card .vc-country { font-weight: 700; font-size: .95rem; margin-bottom: 6px; }
+    .visa-card .vc-type    { font-size: .83rem; color: var(--txt2); }
+    .visa-card .vc-how     { font-size: .8rem; color: var(--txt2); margin-top: 4px; }
+    .visa-card .vc-cost {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 3px 10px;
+      background: var(--primary-light);
+      border-radius: 20px;
+      font-size: .79rem;
+      font-weight: 700;
+      color: var(--primary-d);
+    }
+
+    /* ── LEAFLET TWEAKS ─────────────────────────── */
+    .leaflet-popup-content-wrapper {
+      border-radius: 10px !important;
+      box-shadow: var(--sh) !important;
+      font-family: 'Inter', sans-serif;
+    }
+    .leaflet-popup-content { margin: 12px 16px !important; font-size: .84rem; }
+    .leaflet-popup-content strong { color: var(--primary-d); }
+    .leaflet-popup-content a { color: var(--primary); }
+
+    .must { font-style: italic; color: var(--primary); font-size: .83rem; }
+
+    /* ── FOOTER ─────────────────────────────────── */
+    footer {
+      background: #1a1a2e;
+      color: rgba(255,255,255,.45);
+      text-align: center;
+      padding: 28px 20px;
+      font-size: .85rem;
     }
   </style>
 </head>
@@ -539,6 +667,9 @@
   <div class="nav-brand">
     <a href="#uebersicht">🌏 Reise 2026</a>
   </div>
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menü öffnen" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
   <div class="nav-links" id="nav-links">
     <a href="#uebersicht">Überblick</a>
     <a href="#zuerich">🇨🇭 Zürich</a>
@@ -572,14 +703,7 @@
     <div class="container">
       <h2>🗺️ Gesamtüberblick &amp; Route</h2>
       <div id="overview-map" class="overview-map"></div>
-      <div class="timeline-wrap">
-        <table class="tl-table">
-          <thead>
-            <tr><th>Datum</th><th>Ort</th><th>Details</th></tr>
-          </thead>
-          <tbody id="timeline-body"></tbody>
-        </table>
-      </div>
+      <div class="timeline-list" id="timeline-body"></div>
     </div>
   </section>
 
@@ -2612,14 +2736,21 @@ const ROUTE = [
    BUILD DOM
 ═══════════════════════════════════════════════ */
 
-// Timeline
+// Timeline — vertical dots
 (function buildTimeline() {
-  const tbody = document.getElementById('timeline-body');
+  const list = document.getElementById('timeline-body');
   TIMELINE.forEach(([date, place, detail]) => {
-    const tr = document.createElement('tr');
-    tr.innerHTML =
-      `<td class="tl-date">${date}</td><td>${place}</td><td>${detail}</td>`;
-    tbody.appendChild(tr);
+    const dotClass = place.includes('✈️') ? 'flight' : place.includes('🚌') ? 'bus' : place.includes('🚂') ? 'train' : '';
+    const item = document.createElement('div');
+    item.className = 'tl-item';
+    item.innerHTML = `
+      <div class="tl-dot ${dotClass}"></div>
+      <div class="tl-card">
+        <span class="tl-date">${date}</span>
+        <span class="tl-place">${place}</span>
+        ${detail ? `<span class="tl-detail">${detail}</span>` : ''}
+      </div>`;
+    list.appendChild(item);
   });
 })();
 
@@ -2646,7 +2777,7 @@ const ROUTE = [
       }
 
       return `
-        <div class="accordion-item">
+        <div class="accordion-item" data-panel-idx="${PANELS.indexOf(p)}">
           <button class="accordion-header" aria-expanded="false">
             <span class="acc-icon">${p.icon}</span>
             <span class="acc-title">${p.title}</span>
@@ -2682,14 +2813,18 @@ const ROUTE = [
       </div>
       <div class="city-body">
         <div class="container">
-          ${introHTML}
-          <div
-            id="map-${city.id}"
-            class="city-map"
-            data-lat="${city.lat}"
-            data-lng="${city.lng}"
-            data-zoom="${city.zoom}"
-          ></div>
+          <div class="city-layout">
+            <div class="city-layout-content">${introHTML}</div>
+            <div class="city-layout-map">
+              <div
+                id="map-${city.id}"
+                class="city-map"
+                data-lat="${city.lat}"
+                data-lng="${city.lng}"
+                data-zoom="${city.zoom}"
+              ></div>
+            </div>
+          </div>
           <div class="accordion">${accordionHTML}</div>
         </div>
       </div>`;
@@ -2887,6 +3022,33 @@ function updateNav() {
 
 window.addEventListener('scroll', updateNav, { passive: true });
 updateNav();
+
+/* ═══════════════════════════════════════════════
+   HAMBURGER MENU
+═══════════════════════════════════════════════ */
+
+(function initHamburger() {
+  const btn   = document.getElementById('nav-hamburger');
+  const links = document.getElementById('nav-links');
+  if (!btn || !links) return;
+
+  btn.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+
+  // Close when a nav link is clicked
+  links.addEventListener('click', e => {
+    if (e.target.tagName === 'A') {
+      links.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+  });
+})();
 </script>
 </body>
 </html>

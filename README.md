@@ -52,7 +52,7 @@ git add index.html README.md
 git commit -m "Reiseplan 2026"
 git remote add origin https://github.com/DEIN-USERNAME/reiseplan-2026.git
 git branch -M main
-git push -u origin main
+git push --set-upstream origin main
 ```
 
 ### Schritt 3 — GitHub Pages aktivieren
