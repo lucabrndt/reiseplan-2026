@@ -679,6 +679,7 @@
     <a href="#vientiane">🇱🇦 Vientiane</a>
     <a href="#vang-vieng">Vang Vieng</a>
     <a href="#luang-prabang">Luang Prabang</a>
+    <a href="#nong-khiaw">Nong Khiaw (optional)</a>
     <a href="#da-nang">🇻🇳 Da Nang</a>
     <a href="#hoi-an">Hội An</a>
     <a href="#bangkok-geburtstag">🎂 Bangkok</a>
@@ -818,6 +819,12 @@ const CITIES = [
     dates: '20.–22. August',
     lat: 19.8877, lng: 102.1348, zoom: 14,
     gradient: 'linear-gradient(150deg,#c35000 0%,#e67e22 55%,#f5a623 100%)',
+  },
+  {
+    id: 'nong-khiaw', name: 'Nong Khiaw', flag: '🇱🇦',
+    dates: 'Optional — falls Zeit ist',
+    lat: 20.5667, lng: 102.9833, zoom: 13,
+    gradient: 'linear-gradient(150deg,#2c5f2d 0%,#5b8c5a 55%,#97bc62 100%)',
   },
   {
     id: 'da-nang', name: 'Da Nang', flag: '🇻🇳',
@@ -1610,8 +1617,10 @@ const CC = {
   <li><strong>Jumbos (Shared Tuk-Tuks)</strong> — Günstigste Fortbewegung in der Stadt: Sammel-Tuk-Tuks auf festen Routen, ~10.000 KIP pro Fahrt. Einfach an der Straße winken und einsteigen.</li>
   <li><strong>Vientiane ist flach &amp; überschaubar</strong> — Viele Sehenswürdigkeiten liegen in Gehweite voneinander. Die Altstadt misst nur wenige Kilometer — ideal für Fußgänger.</li>
   <li><strong>Währung:</strong> Lao Kip (LAK). USD und Thai Baht werden fast überall akzeptiert, geben aber schlechtere Rate als Kip. ATMs in der Innenstadt, Gebühr ~20.000–30.000 KIP pro Abhebung mit ausländischer Karte — größere Beträge auf einmal abheben.</li>
-  <li><strong>SIM / Wlan:</strong> Lao Telecom oder Unitel SIM günstig erhältlich. Viele Cafés und Restaurants haben gutes Wlan.</li>
-  <li><strong>Weiter nach Vang Vieng:</strong> Hochgeschwindigkeitszug (Laos-China Railway) ab Bahnhof Vientiane (außerhalb der Stadt — Tuk-Tuk dorthin ~30.000 KIP). Fahrzeit ~1,5 Stunden, Preis ~$5. Frühzeitig auf <strong>12go.asia</strong> buchen — Züge sind oft ausgebucht!</li>
+  <li><strong>SIM / Wlan:</strong> Lao Telecom oder <strong>Unitel</strong> SIM günstig erhältlich — von Reisenden empfohlen wegen gutem Empfang auch außerhalb der Städte. Viele Cafés und Restaurants haben gutes Wlan.</li>
+  <li><strong>Grobe Umrechnung:</strong> ~1 Baht ≈ 670 Kip, falls ihr noch Baht übrig habt und wechseln wollt (schwankt).</li>
+  <li><strong>Weiter nach Vang Vieng:</strong> Hochgeschwindigkeitszug (Laos-China Railway) ab dem <strong>Vientiane Railway Station</strong> — der liegt ca. 17 km außerhalb der Innenstadt, plant ~30–40 Min. und ~30.000–50.000 KIP Taxi/Tuk-Tuk zusätzlich ein. Fahrzeit ~1,5 Stunden, Preis ~$5. Einlass zum Bahnsteig nur mit Ticket + Reisepass, Kontrolle wie am Flughafen.</li>
+  <li>⚠️ <strong>Zugticket unbedingt vorab buchen</strong> — am besten über die App <strong>„LCR Ticket"</strong>, mind. 3–4 Tage im Voraus (sonst 12go.asia). Ein Reisepaar, das diese Strecke im Oktober 2024 ohne Vorabbuchung gefahren ist, musste auf die <strong>Business Class ausweichen — ca. 3× teurer</strong> als 2nd/1st Class, weil die günstigeren Klassen schon ausverkauft waren.</li>
 </ul>`,
 
       'KI-Prompts': `"Vientiane hidden gems local tips 2026"
@@ -1641,10 +1650,16 @@ const CC = {
     panels: {
       'Sehenswürdigkeiten': `
 <div class="poi-list">
+  <div class="acc-lbl">🛏️ Unterkunftstipp</div>
+  <div class="poi">
+    <div class="poi-name">Lisha (The Grand) Riverside Hotel</div>
+    <div class="poi-desc">Von Reisenden empfohlen: VIP-Zimmer für 2 Personen ~1.400 Baht/Nacht inkl. Frühstücksbuffet (über trip.com/Agoda/Booking buchbar). Eigenes Bad mit Wanne, TV, Kühlschrank, Pool, direkt am Fluss. Zimmer etwas in die Jahre gekommen, aber die Flussaussicht auf die Karstberge ist sehr schön — abends Heißluftballons/Paramotoren über dem Fluss sichtbar.</div>
+    <span class="poi-meta">~1.400 Baht/Nacht · trip.com · Flussblick</span>
+  </div>
   <div class="acc-lbl">💧 Blaue Lagunen</div>
   <div class="poi">
     <div class="poi-name">Blue Lagoon 1</div>
-    <div class="poi-desc">Die bekannteste und am meisten besuchte Lagune — türkisblaues Wasser (in der Trockenzeit intensiver, im August möglicherweise bräunlicher), Sprungplattformen in verschiedenen Höhen (~5 m), Seilschaukel. Direkt daneben liegt <strong>Tham Phu Kham Höhle</strong> (120 m Aufstieg, liegender Buddha tief in der Höhle, Stalaktiten, Wände glitzern im Taschenlampen-Licht) — immer kombinieren. Früh morgens oder spätnachmittags gehen, mittags sehr voll.</div>
+    <div class="poi-desc">Die bekannteste und am meisten besuchte Lagune — türkisblaues Wasser (in der Trockenzeit intensiver, im August möglicherweise bräunlicher), Sprungplattformen in verschiedenen Höhen (~5 m), Seilschaukel. Direkt daneben liegt <strong>Tham Phu Kham Höhle</strong> (120 m Aufstieg, liegender Buddha tief in der Höhle, Stalaktiten, Wände glitzern im Taschenlampen-Licht) — immer kombinieren. Früh morgens oder spätnachmittags gehen, mittags sehr voll. ⚠️ Zufahrtsstraße hat viele Schlaglöcher — vorsichtig fahren. Auf dem Ticket steht der Hinweis, Wertsachen selbst im Auge zu behalten. Direkt am Eingang: <strong>Eyung Pizza &amp; Coffee</strong> — nette Atmosphäre, Pizza nachmittags aber oft ausverkauft (dann Chicken Wings).</div>
     <span class="poi-meta">~50.000 KIP Eintritt · 8 km vom Zentrum · ~15 min</span>
   </div>
   <div class="poi">
@@ -1675,7 +1690,7 @@ const CC = {
   </div>
   <div class="poi">
     <div class="poi-name">Tham Sang Dreieck (4 Höhlen)</div>
-    <div class="poi-desc">14 km vom Zentrum: Vier Höhlen nah beieinander als Halbtagesausflug kombinierbar. <strong>Tham Sang</strong> (Elefantenhöhle — ein Stalaktit hat Elefantenform, heilig), <strong>Tham Hoi</strong>, <strong>Tham Loup</strong> und <strong>Tham Nam</strong> (Wasserhöhle, im August gesperrt). Ideal wenn man mehrere Höhlen effizient verbinden will.</div>
+    <div class="poi-desc">14 km vom Zentrum: Vier Höhlen nah beieinander als Halbtagesausflug kombinierbar. <strong>Tham Sang</strong> (Elefantenhöhle — ein Stalaktit hat Elefantenform, heilig), <strong>Tham Hoi</strong>, <strong>Tham Loup</strong> und <strong>Tham Nam</strong> (Wasserhöhle, im August gesperrt). Ideal wenn man mehrere Höhlen effizient verbinden will. Am Eingang ("Tham None &amp; Angel Cave") hängt eine Übersichtskarte der Gegend mit <strong>Nam Taen Waterfall</strong>, Kajak-Strecken (5/10 km) und einer Trekking-Route (~15 km) — lohnt sich, vor Ort einen Blick draufzuwerfen.</div>
     <span class="poi-meta">14 km · Halbtagesausflug · 4 Höhlen kombiniert</span>
   </div>
 </div>`,
@@ -1721,6 +1736,21 @@ const CC = {
     <div class="poi-desc">Vang Vieng hat viele Backpacker-Cafés mit günstigen westlichen Gerichten: Burger, Falafel, Pasta, Pancakes. Nach zwei Tagen intensiver Lao-Küche manchmal willkommen. Preise trotzdem sehr günstig (~30.000–50.000 KIP).</div>
     <span class="poi-meta">~30.000–50.000 KIP · Hauptstraße im Zentrum</span>
   </div>
+  <div class="poi">
+    <div class="poi-name">Mr. Mo Restaurant ⭐⭐</div>
+    <div class="poi-desc">Von Einheimischen empfohlener Geheimtipp, kein Touristenladen. Nudelsuppe, Laab (Fleischsalat) und Khao Moo Krob (knuspriger Reis mit Schweinefleisch) — alles hausgemacht. Reisende, die ihn erst am letzten Tag entdeckt haben, waren sich einig: unbedingt vorher hin.</div>
+    <span class="poi-meta">Lokaler Geheimtipp · Nudelsuppe, Laab, Khao Moo Krob</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Café mit Bergblick</div>
+    <div class="poi-desc">Kleines Café ca. 1,3 km vom Zentrum mit Blick auf die Karstberge, sehr freundlicher Besitzer. Am besten morgens oder abends hin — mittags brennt die Sonne zu stark auf der Terrasse.</div>
+    <span class="poi-meta">1,3 km vom Zentrum · morgens/abends besser</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Phu Mai Café</div>
+    <div class="poi-desc">Weiterer Café-Name, der bei Reisenden als fester Stopp in Vang Vieng auftauchte, ohne dass mehr Details überliefert sind — einfach mal nachschauen, ob's auf dem Weg liegt.</div>
+    <span class="poi-meta">Name notiert · Details unbekannt</span>
+  </div>
 </div>`,
 
       'Geheimtipps': `
@@ -1728,14 +1758,19 @@ const CC = {
   <div class="acc-lbl">🏔️ Aussichtspunkte</div>
   <div class="poi">
     <div class="poi-name">Nam Xay Viewpoint ⭐</div>
-    <div class="poi-desc">Der beliebteste Aufstieg in Vang Vieng. Steiler Climb von ~30–40 Minuten über Stufen und Felspfade. Oben: 360°-Blick über die gesamte Karstlandschaft, Reisfelder, den Nam Song Fluss und das Stadtgebiet. Früh morgens gehen — vor 8 Uhr bist du fast allein, gegen 9 Uhr kommen die ersten Gruppen. Mittagssonne unbedingt vermeiden.</div>
-    <span class="poi-meta">Früh morgens gehen · ~30–40 min Aufstieg · 360°-Blick</span>
+    <div class="poi-desc">Der beliebteste Aufstieg in Vang Vieng. Geöffnet 5:00–17:30 Uhr, Eintritt ~20.000 KIP/Person, Startpunkt 7,6 km vom Zentrum (~20 min Roller, gleiche Straße wie Blue Lagoon 1). Steiler Climb von ~30–40 Minuten über Stufen und Felspfade (~350–390 m), für untrainierte Personen wirklich anstrengend. Oben: 360°-Blick über die gesamte Karstlandschaft, Reisfelder, den Nam Song Fluss und das Stadtgebiet. Kleiner Getränkeladen am Parkplatz — trotzdem eigenes Wasser mitbringen. Früh morgens gehen — vor 8 Uhr bist du fast allein, gegen 9 Uhr kommen die ersten Gruppen.</div>
+    <span class="poi-meta">~20.000 KIP · 5:00–17:30 Uhr · ~30–40 min Aufstieg · Wasser mitnehmen!</span>
   </div>
   <div class="acc-lbl">🚣 Aktivitäten</div>
   <div class="poi">
     <div class="poi-name">Tubing auf dem Nam Song River</div>
     <div class="poi-desc">Auf einem aufgeblasenen Reifen den Nam Song Fluss langsam hinuntertreiben — früher berüchtigte Partymeile, heute chillig und entspannt. Im August hat der Fluss mehr Wasser und die Strömung ist stärker. Günstig (~60.000 KIP inkl. Leihring und Rücktransport).</div>
     <span class="poi-meta">~60.000 KIP · im August stärkere Strömung</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Kajak ab der Namsong Blue Bridge ⭐</div>
+    <div class="poi-desc">Auch ohne organisierte Tour spontan machbar: Startpunkt an der blauen Brücke (Sapan Fah/Namsong Blue Bridge), ~150.000 KIP/Person, Strecke ca. 10 km. Spätestens bis 17 Uhr dort ankommen — danach sind je nach Andrang keine Boote mehr verfügbar. Unsichere Paddler bekommen Unterstützung, ein Guide begleitet im eigenen Boot. Strömung streckenweise wechselhaft.</div>
+    <span class="poi-meta">~150.000 KIP · 10 km · spätestens 17 Uhr starten</span>
   </div>
   <div class="poi">
     <div class="poi-name">Hot Air Balloon ⭐ (optional)</div>
@@ -1751,12 +1786,15 @@ const CC = {
 
       'Praktisches': `
 <ul class="tip-list">
-  <li><strong>Motorrad mieten</strong> — Am besten direkt beim Hostel oder an einer der vielen Verleihstationen auf der Hauptstraße. Automatik für ~4€/Tag, Halbautomatik für ~5–8€. Führerschein wird nicht kontrolliert, aber Helm immer tragen. E-Bikes als Alternative für kürzere Strecken (~3€/Tag).</li>
+  <li><strong>Motorrad mieten</strong> — Am besten direkt beim Hostel oder an einer der vielen Verleihstationen auf der Hauptstraße. Automatik für ~4€/Tag, Halbautomatik für ~5–8€ (~150.000–170.000 KIP/24h). Als Pfand wird meist Reisepass oder Personalausweis einbehalten. Führerschein wird nicht kontrolliert, aber Helm immer tragen. E-Bikes als Alternative für kürzere Strecken (~3€/Tag).</li>
   <li><strong>Taschenlampe mitbringen</strong> — Für alle Höhlen absolut notwendig. Entweder eigene Stirnlampe oder am Eingang leihen (~10.000 KIP) — eigene ist besser und heller.</li>
+  <li><strong>Wäsche waschen:</strong> "Champa Laundry" wurde von Reisenden als Waschsalon-Stopp genutzt — praktisch, falls der Rucksack nach der ersten Woche eine Auffrischung braucht.</li>
   <li><strong>Früh los zu den Lagunen</strong> — Vor 9 Uhr starten. Mittags (11–14 Uhr) sind Blue Lagoon 1 und Nam Xay extrem voll. Frühzeitig zurück wenn Regen droht — Feldwege können aufweichen.</li>
   <li><strong>Regenzeit-Hinweis August</strong> — Morgens oft schönes Wetter, Regen häufig nachmittags. Frühzeitig aufbrechen, nachmittags zurück oder im Café warten. Tham Nam Höhle ist im August meist gesperrt (Wasserstand).</li>
   <li><strong>Bargeld</strong> — Wenige ATMs in Vang Vieng, Gebühren hoch. In Vientiane genug Kip abheben bevor du fährst. Lagunen-Eintritte nur bar.</li>
-  <li><strong>Weiter nach Luang Prabang:</strong> Hochgeschwindigkeitszug, ~2h, ~$8. Bahnhof ist außerhalb der Stadt — Tuk-Tuk dorthin ~30.000 KIP. Frühzeitig auf <strong>12go.asia</strong> buchen, beliebte Züge ausgebucht!</li>
+  <li><strong>Bahnhof-Transfer:</strong> ~5,2 km außerhalb, ~15 min. Geteiltes Songthaew ~40.000 KIP/Person, privat gechartert ~130.000 KIP (verhandeln!). Alternative: App <strong>inDriver</strong> — Preis vorher fest vereinbart, oft bequemer.</li>
+  <li>⚠️ <strong>Preise verhandeln</strong>, wo es keine Festpreise gibt (Songthaews, Charter-Fahrten) — mehrere Reiseberichte erwähnen unabsichtlich überteuerte Fahrten genau in dieser Gegend.</li>
+  <li><strong>Weiter nach Luang Prabang:</strong> Hochgeschwindigkeitszug, ~2h, ~$8. Bahnhof ist außerhalb der Stadt — Tuk-Tuk dorthin ~30.000 KIP. <strong>Ticket vorab per LCR-Ticket-App buchen</strong> (mind. 3–4 Tage im Voraus) — sonst Gefahr, nur noch teure Business Class zu bekommen.</li>
 </ul>`,
 
       'KI-Prompts': `"Vang Vieng blue lagoon guide 2026"
@@ -1787,6 +1825,13 @@ const CC = {
     panels: {
       'Sehenswürdigkeiten': `
 <div class="poi-list">
+  <div class="acc-lbl">🛏️ Unterkunftstipp</div>
+  <div class="poi">
+    <div class="poi-name">Sokview Residence ⭐⭐</div>
+    <div class="poi-desc">Neu eröffnete Unterkunft direkt am Mekong. Deluxe River View Zimmer ~1.600 Baht/Nacht (trip.com/Agoda/Booking), komplett neu ausgestattet (Bad mit Wanne, Waschmaschine, Kühlschrank, Sofa/Netflix, Balkon zum Sonnenuntergang). Kostenlose Leihfahrräder, 2,5 km / ~6 min zum Nachtmarkt. Besitzer kümmert sich persönlich und gibt gute Vor-Ort-Tipps.</div>
+    <span class="poi-meta">~1.600 Baht/Nacht · trip.com · Mekong-Blick · Leihfahrräder</span>
+  </div>
+  <div class="acc-lbl">🏛️ Sehenswürdigkeiten</div>
   <div class="poi">
     <div class="poi-name">Almosenzeremonie (Tak Bat) ⭐⭐⭐</div>
     <div class="poi-desc">Das ikonischste Erlebnis in Luang Prabang. Jeden Morgen ab ca. <strong>5:30 Uhr</strong> ziehen Hunderte Mönche in leuchtenden Safranroben schweigend durch die Altstadtstraßen und nehmen von knienden Einheimischen Klebreis entgegen. Jahrhunderte alte Tradition — kein Touristenevent, sondern echte religiöse Praxis die täglich stattfindet.</div>
@@ -1802,18 +1847,18 @@ const CC = {
   </div>
   <div class="poi">
     <div class="poi-name">Kuang Si Wasserfälle ⭐⭐⭐</div>
-    <div class="poi-desc">Das absolute Naturhighlight und eines der schönsten Naturwunder Südostasiens. 30 km südlich von Luang Prabang, mehrstufiger Wasserfall durch Dschungel in türkisfarbene Kalksteinterrassen (Travertin). Schwimmen in den Becken möglich! Auf dem Gelände befindet sich auch eine <strong>Bärenschutzstation (Free the Bears)</strong> mit Sonnenbären — lohnt sich. August: Mehr Wasser (mächtiger!), aber die Farbe kann bräunlich sein statt türkis. Trotzdem beeindruckend. <strong>Früh morgens</strong> (8–9 Uhr) — mittags bis zu 200+ Besucher gleichzeitig.</div>
+    <div class="poi-desc">Das absolute Naturhighlight und eines der schönsten Naturwunder Südostasiens. 30 km südlich von Luang Prabang, mehrstufiger Wasserfall durch Dschungel in türkisfarbene Kalksteinterrassen (Travertin). Schwimmen in den Becken möglich! Auf dem Gelände befindet sich auch eine <strong>Bärenschutzstation (Free the Bears)</strong> mit Sonnenbären — lohnt sich. August: Mehr Wasser (mächtiger!), aber die Farbe kann bräunlich sein statt türkis. Trotzdem beeindruckend. <strong>Früh morgens</strong> (8–9 Uhr) — mittags bis zu 200+ Besucher gleichzeitig. ⚠️ Genug Zeitpuffer einplanen: Ein Reisepaar musste den Ausflug wegen einer Reifenpanne kurzfristig canceln — bei 30 km einfacher Strecke lieber nicht auf den letzten Nachmittag legen.</div>
     <span class="poi-meta">~$3 Eintritt · früh morgens! · Tuk-Tuk ~$4 geteilt · Bärenschutzstation</span>
   </div>
   <div class="poi">
     <div class="poi-name">Wat Xieng Thong ⭐⭐</div>
-    <div class="poi-desc">Der bedeutendste und schönste Tempel Luang Prabangs, erbaut 1560 unter König Setthathirath. Charakteristisch: die mehrfach abgestuften, geschwungenen Dächer die fast den Boden berühren — "wie eine Glucke die ihre Küken schützt", sagt die lokale Überlieferung. Außenwände mit farbigen Glasmosaiken (Lebensbaum), Innenräume mit vergoldeten Wandmalereien. Abends weniger Besucher, schöneres Licht.</div>
-    <span class="poi-meta">~15.000–20.000 KIP · täglich 8–17 Uhr · nördlichste Spitze der Halbinsel</span>
+    <div class="poi-desc">Der bedeutendste und schönste Tempel Luang Prabangs, erbaut 1560 unter König Setthathirath. Charakteristisch: die mehrfach abgestuften, geschwungenen Dächer die fast den Boden berühren — "wie eine Glucke die ihre Küken schützt", sagt die lokale Überlieferung. Außenwände mit farbigen Glasmosaiken (Lebensbaum), Innenräume mit vergoldeten Wandmalereien. Abends weniger Besucher, schöneres Licht. Beliebter Fotospot: das goldverzierte Fenster im Eingangsbereich. Rauchverbot im gesamten Tempelbereich. Liegt ca. 1,6 km vom Nachtmarkt, ~5 min mit dem Roller.</div>
+    <span class="poi-meta">~30.000 KIP (Preise ziehen an) · täglich 8–17 Uhr · nördlichste Spitze der Halbinsel</span>
   </div>
   <div class="poi">
     <div class="poi-name">Mount Phousi ⭐</div>
-    <div class="poi-desc">Hügel mitten in der Altstadt, 328 Stufen hinauf (von der Sakkaline-Seite oder der That Chomsi-Seite). Oben: goldener Stupa Chomsi und 360°-Blick über Mekong, Nam Khan, Dschungel und die Altstadt im Abendlicht. Sonnenuntergang ist der beste Zeitpunkt — viele Locals kommen dann ebenfalls. Lass dir ~20–30 min für den Aufstieg.</div>
-    <span class="poi-meta">~20.000 KIP · Sonnenuntergang ideal · ~20–30 min Aufstieg</span>
+    <div class="poi-desc">Hügel mitten in der Altstadt, 328 Stufen hinauf (von der Sakkaline-Seite oder der That Chomsi-Seite). Oben: goldener Stupa Chomsi und 360°-Blick über Mekong, Nam Khan, Dschungel und die Altstadt im Abendlicht. Sonnenuntergang ist der beste Zeitpunkt — viele Locals kommen dann ebenfalls, wird von mehreren Reisenden als absolutes Tages-Highlight in LP beschrieben. Lass dir ~20–30 min für den Aufstieg.</div>
+    <span class="poi-meta">~30.000 KIP · Sonnenuntergang ideal · ~20–30 min Aufstieg</span>
   </div>
   <div class="poi">
     <div class="poi-name">Royal Palace Museum (Haw Kham)</div>
@@ -1904,13 +1949,23 @@ const CC = {
     <div class="poi-desc">Früh morgens (6–8 Uhr) kaufen lokale Einheimische hier ein — kein Touristenmarkt. Frischer Mekong-Fisch (noch lebend), schwarze Hühner, Heuschrecken und Grillen, Palmblätter, getrocknete Kräuter, Pilze. Sehr lokal, sehr authentisch, manchmal herausfordernd für ungeübte Nasen. Gratis reinschauen — wichtig ist Zurückhaltung und Respekt.</div>
     <span class="poi-meta">6–8 Uhr morgens · lokal · gratis</span>
   </div>
+  <div class="poi">
+    <div class="poi-name">Bamboo Garden Restaurant ⭐</div>
+    <div class="poi-desc">TripAdvisor "Travellers' Choice"-Award, gutes Lao/Thai-Essen (Reis, Larb, Suppe, gebratenes Gemüse), WiFi vorhanden. Solide, mehrfach bestätigte Empfehlung von Reisenden.</div>
+    <span class="poi-meta">TripAdvisor Travellers' Choice</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Formula B ⭐</div>
+    <div class="poi-desc">Vintage-Café in einem hübschen Kolonialgebäude, Milchshakes/Frappés, Deko mit alten Schallplatten und Buddha-Statuen. Besonderes Ambiente, gut für eine Pause in der Altstadt.</div>
+    <span class="poi-meta">Vintage-Café · Shakes/Frappés</span>
+  </div>
 </div>`,
 
       'Praktisches': `
 <ul class="tip-list">
   <li><strong>Früh aufstehen zahlt sich aus:</strong> Almosenzeremonie 5:30h, Morgenmarkt 6–8h, Kuang Si früh morgens (8–9 Uhr) — drei Gründe früh aufzustehen. LP-Abende sind dafür entspannt.</li>
   <li><strong>Tuk-Tuk</strong> für kurze Strecken innerhalb LP: ~20.000–30.000 KIP. Nach Kuang Si: ~300.000 KIP Hin- und Rückfahrt alleine — besser mit anderen Reisenden teilen oder Minivan nehmen (~$4 geteilt). Morgens am Nachtmarkt Mitfahrer suchen.</li>
-  <li><strong>Motorrad mieten</strong> (~80.000–100.000 KIP/Tag) für maximale Unabhängigkeit — besonders für Tad Sae und Erkundungen jenseits der Altstadt sinnvoll.</li>
+  <li><strong>Motorrad mieten</strong> (~80.000–150.000 KIP/Tag, viele Verleihstationen rund um den Nachtmarkt) für maximale Unabhängigkeit — besonders für Tad Sae und Erkundungen jenseits der Altstadt sinnvoll. ⚠️ Straßen können Schlaglöcher haben — ein Reisebericht erwähnt genau hier eine Reifenpanne, also lieber vorsichtig fahren und Zeitpuffer für Ausflüge einplanen.</li>
   <li><strong>Cash-Laos:</strong> Luang Prabang läuft auf Bargeld. ATMs in der Altstadt, Gebühr ~20.000–30.000 KIP pro Abhebung mit ausländischer Karte. Größere Beträge auf einmal abheben.</li>
   <li><strong>Weiter nach Da Nang:</strong> Flug von Luang Prabang International (LPQ). Meist via Bangkok (Air Asia, ~1,5h) oder via Hanoi. Auf Google Flights oder Skyscanner checken — frühzeitig buchen!</li>
   <li><strong>Kleidung:</strong> Für Tempel (Wat Xieng Thong, Royal Palace) Schultern und Knie bedecken. Leichter Schal oder Sarong immer im Rucksack ist praktisch.</li>
@@ -1921,6 +1976,52 @@ const CC = {
 "ທ່ອງທ່ຽວຫຼວງພະບາງ ສະຖານທີ່ດີ" (Luang Prabang auf Laotisch)
 "Kuang Si falls tips early morning"
 "Tad Sae waterfall Luang Prabang"`,
+    },
+  },
+
+  'nong-khiaw': {
+    image:    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Nong_Khiaw_view.jpg/1280px-Nong_Khiaw_view.jpg',
+    imageAlt: 'Karstberge über dem Nam Ou Fluss bei Nong Khiaw, Laos',
+    intro: `
+      <p>🧭 <strong>Optionaler Zusatz-Stopp</strong> — aktuell nicht im festen Zeitplan. Nur sinnvoll, wenn ihr bewusst einen Tag aus Vientiane/Vang Vieng/Luang Prabang dafür abzwackt (siehe Hinweis im Laos-Überblick oben in der Übersicht).</p>
+      <p>🏞️ Kleines Städtchen am Nam Ou Fluss, eingerahmt von dramatischen Karstnadeln — einer der fotogenischsten, ruhigsten Orte in Laos. Guter Kontrast, falls ihr nach den drei Kernstädten noch einen "Durchatmen"-Tag wollt.</p>
+    `,
+    pins: [
+      { lat: 20.5667, lng: 102.9833, name: 'Nong Khiaw Zentrum', desc: 'Brücke über den Nam Ou · Karstpanorama' },
+      { lat: 20.5721, lng: 102.9877, name: 'Kamphan Guesthouse',  desc: 'Unterkunftstipp · Flussblick · ~250.000 KIP/2 Pers.' },
+    ],
+    panels: {
+      'Sehenswürdigkeiten': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Nam Ou Fluss &amp; Karstberge ⭐⭐</div>
+    <div class="poi-desc">Das eigentliche Erlebnis hier ist die Landschaft selbst: die Brücke über den Nam Ou mit den Karstnadeln im Hintergrund, besonders morgens im Nebel oder zum Sonnenuntergang. Kein Eintritt, einfach hinsetzen und schauen.</div>
+    <span class="poi-meta">Gratis · morgens Nebel oder Sonnenuntergang am schönsten</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Viewpoint-Wanderungen</div>
+    <div class="poi-desc">Mehrere Aussichtspunkte rund um Nong Khiaw sind zu Fuß erreichbar (u.a. Richtung Pha Daeng Peak) — vor Ort erfragen, Zustand und Beschilderung ändern sich häufiger.</div>
+    <span class="poi-meta">Vor Ort erfragen · mehrere Optionen</span>
+  </div>
+  <div class="acc-lbl">🛏️ Unterkunftstipp</div>
+  <div class="poi">
+    <div class="poi-name">Kamphan Guesthouse ⭐</div>
+    <div class="poi-desc">Mittleres Preissegment, Zimmer mit Flussblick &amp; Klimaanlage ~250.000 KIP für 2 Personen (Agoda/Booking). Eigenes Bad, guter Besitzer (betreibt nebenbei einen kleinen Laden), sehr gute Lage direkt am Fluss.</div>
+    <span class="poi-meta">~250.000 KIP/2 Pers. · Agoda/Booking · Flussblick</span>
+  </div>
+</div>`,
+
+      'Praktisches': `
+<ul class="tip-list">
+  <li><strong>Hinkommen ab Luang Prabang:</strong> Tuk-Tuk zur "Sokprasert Bus Station" (~11 km, ~25 min, ~50.000 KIP/Person), dann Minivan LP → Nong Khiaw (3 tägliche Abfahrten: 9:00/11:00/13:00 Uhr, gleiche Zeiten für die Rückfahrt). Strecke 133 km, Fahrzeit 3,5–4 Std., ~120.000 KIP/Person. Unterwegs kurzer Tankstellen-Stopp (~10 min, WC vorhanden).</li>
+  <li><strong>Ankunft:</strong> Vom Ausstiegspunkt der Minivans gibt's einen lokalen Shuttle zur Unterkunft, ~5 min, ~20.000 KIP/Person (wer schnell ist, kann auch laufen).</li>
+  <li><strong>Weiter nach Muang Ngoi Neua</strong> (falls angehängt): ~1h Boot ab Nong Khiaw.</li>
+  <li><strong>Rückfahrt nach Luang Prabang:</strong> gleicher Minivan-Fahrplan (9/11/13 Uhr) in umgekehrter Richtung.</li>
+</ul>`,
+
+      'KI-Prompts': `"Nong Khiaw hidden gems things to do"
+"Nong Khiaw viewpoint hike guide"
+"Nong Khiaw to Muang Ngoi boat schedule"`,
     },
   },
 
