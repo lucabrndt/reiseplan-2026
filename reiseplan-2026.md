@@ -15,9 +15,7 @@
 | **7.–14. Aug** | 🇹🇭 Bangkok | Ankommen, 1 Woche mit Freundin |
 | **15. Aug** | 🚂 Bangkok → Nong Khai | Übernachtzug |
 | **16. Aug morgens** | 🇹🇭 Nong Khai | Kurzstopp ~2–3h, dann Grenze |
-| **16.–17. Aug** | 🇱🇦 Vientiane | 2 Tage |
-| **18.–19. Aug** | 🇱🇦 Vang Vieng | 2 Tage |
-| **20.–22. Aug** | 🇱🇦 Luang Prabang | 3 Tage |
+| **16.–22. Aug** | 🇱🇦 Laos (flexibel) | Nichts gebucht — Vientiane ist der Einstieg (Zugstrecke endet dort), Luang Prabang aktuell wahrscheinlichster Ausstieg (beste Flüge weiter) — alles dazwischen frei, siehe "Mögliche Stopps in Laos" |
 | **23. Aug** | ✈️ Luang Prabang → Da Nang | |
 | **23.–25. Aug** | 🇻🇳 Da Nang | Freund besuchen, 3 Tage |
 | **25.–27. Aug** | 🇻🇳 Hội An | 2 Tage |
@@ -316,29 +314,28 @@ Das Highlight für Budget-Reisende. **Keine Touristenfähre buchen** — einfach
 >
 > **⚠️ Tickets früh buchen!** Ein thailändisches Reisepaar, das im Oktober 2024 exakt diese Strecke gefahren ist, hat berichtet: Ohne Vorabbuchung waren an mehreren Stationen die günstigen Klassen (2nd/1st Class) bereits ausverkauft — sie mussten auf **Business Class** ausweichen, die **~3x so teuer** war. Am besten die App **"LCR Ticket"** nutzen und mind. 3–4 Tage im Voraus buchen, sonst notfalls über 12go.asia. Der Einlass zum Bahnsteig ist streng (Ticket + Pass, Kontrolle wie am Flughafen) — man kommt ohne gültiges Ticket gar nicht erst rein.
 
-### 🧭 Wie strikt ist das eigentlich? — Nimm es als Angebot, nicht als Pflichtprogramm
+### 🧭 Mögliche Stopps in Laos — Zeitfenster: 16.–22. August (7 Tage)
 
-Ihr habt **7 Tage in Laos** (16.–22. Aug, Rückflug ab Luang Prabang steht am 23. fest). Die Aufteilung 2/2/3 unten ist ein **Vorschlag**, keine Vorgabe — schiebt die Tage zwischen den Städten hin und her, wie ihr vor Ort Lust habt. Merkt ihr, dass euch Vang Vieng mehr zieht als Vientiane, bleibt einfach länger dort und kürzt woanders.
+**Wichtig: Nichts davon ist gebucht** — auch der Rückflug ab Luang Prabang nicht, das war bisher nur die naheliegendste Annahme im Plan, weil von dort die Verbindungen weiter nach Vietnam am einfachsten sind. Fix ist eigentlich nur die Geografie: Die Zugstrecke aus Thailand endet in **Vientiane**, da kommt ihr an, ob ihr dort bleibt oder gleich weiterfahrt ist eure Entscheidung. Wo ihr Laos wieder verlasst, ist komplett offen — Luang Prabang bietet sich an (mehr/einfachere Flüge Richtung Vietnam), aber auch Vientiane hat einen Flughafen. Unten eine Einordnung mit Tage-Empfehlung, damit ihr spontan entscheiden könnt, statt einem starren Plan zu folgen.
 
-Eine Sache lohnt sich trotzdem, vorher im Kopf zu haben: Wenn ihr versucht, zusätzlich noch Nong Khiaw, Muang Ngoi Neua, Plain of Jars, die Kong-Lo-Höhle oder die 4000 Islands unterzubringen, bleibt bei 7 Tagen für jede Stadt am Ende nur noch **ca. 1 Tag** übrig — dann seid ihr die ganze Zeit unterwegs statt anzukommen, und genau das würde die Reise eher stressig als schön machen. Realistischer: **maximal einen** der Zusatz-Stopps bewusst auswählen (oder auch keinen) und dafür den drei Kernstädten genug Luft lassen.
+| Ort | Charakter | Empfehlung |
+|---|---|---|
+| 🇱🇦 **Vientiane** | Entspannte "Kleinstadt-Hauptstadt". COPE Visitor Center + Buddha Park die Highlights, sonst eher zum Ankommen. | Einstiegspunkt (Zugstrecke endet hier) — 1–2 Tage reichen meist |
+| 🇱🇦 **Vang Vieng** | Aktivort: Lagunen, Höhlen, Kajak, Motorrad durch Karstlandschaft. | Optional, aber naheliegend — 2–3 Tage, wenn Aktivität/Natur euch wichtig ist |
+| 🇱🇦 **Luang Prabang** | Kulturell am dichtesten: Almosenzeremonie, Kuang Si, Tempel, Nachtmarkt. | Wahrscheinlich sinnvollster Ausstieg (beste Flüge weiter, nicht gebucht) — 2–3 Tage |
+| 🇱🇦 **Nong Khiaw** *(Zusatz-Stopp)* | Kleines Flussstädtchen zwischen Karstnadeln, ruhigster der vier Orte. Eigener Abschnitt weiter unten. | Nur falls Zeit übrig ist — 1–2 Tage, geht zulasten von Vang Vieng oder Luang Prabang |
 
-Unten eine kurze Einordnung, was jeder Ort bietet — damit ihr vor Ort (oder schon vorher) entscheiden könnt, was zu euch passt, statt alles abhaken zu wollen:
+Grober Rechenweg: 7 Tage minus 1–2 An-/Abreisetage (Zug + evtl. Umstieg) lässt realistisch **~5–6 Tage** zum Verteilen. Merkt ihr vor Ort, dass euch eine Stadt mehr zieht als die andere — einfach umschichten. Wichtig ist nur: **maximal einen** Zusatz-Stopp (Nong Khiaw o.ä.) einplanen, sonst bleibt überall nur ~1 Tag übrig und ihr seid die ganze Zeit unterwegs statt anzukommen.
 
-**Die drei Kernstädte (feste Zugverbindung, easy zu kombinieren):**
-- **Vientiane** — entspannte "Kleinstadt-Hauptstadt", COPE Visitor Center + Buddha Park sind die Pflicht-Momente, sonst eher zum Ankommen und Reinfinden.
-- **Vang Vieng** — Aktivort: Lagunen, Höhlen, Kajak, Motorrad durch die Karstlandschaft. Wer aktiv sein will, hier mehr Zeit lassen.
-- **Luang Prabang** — kulturell am dichtesten: Almosenzeremonie, Kuang Si, Tempel, Nachtmarkt. Wer's ruhiger und kulturell mag, hier mehr Zeit lassen.
-
-**Zusatz-Stopps (nur EINEN davon einplanen, falls überhaupt):**
-- **Nong Khiaw** (3–4h Minivan von LP) — Kleines Städtchen an einem Fluss zwischen dramatischen Karstnadeln, einer der fotogenischsten Orte in Laos, sehr ruhig. Guter Kontrast zu den drei Kernstädten, wenn ihr noch einen "Durchatmen"-Tag wollt. Voller Abschnitt mit allen Infos weiter unten, direkt nach Luang Prabang.
-- **Muang Ngoi Neua** (1h Boot von Nong Khiaw) — Noch eine Stufe ruhiger: kein Auto, kein Lärm, Höhlen, Reisfelder. Nur sinnvoll, wenn ihr Nong Khiaw sowieso einbaut und noch einen Tag draufsetzen wollt.
-- **Plain of Jars / Phonsavan** — Kulturell/historisch faszinierend (Steinurnenfeld, Vietnamkrieg-Geschichte), aber mit ~7h Bus von LP ein echter Umweg — nur wenn euch das Thema wirklich reizt.
-- **Kong Lo Höhle / Thakhek** — Legendäre 7-km-Flusshöhle, aber der größte Umweg von allen. Eher was für einen zweiten Laos-Trip als für diese Reise.
-- **4000 Islands / Don Det** (Süd-Laos) — Schön, aber geografisch am weitesten weg von eurer Route — würde eigene Tage kosten, die ihr woanders nicht mehr habt.
+**Weitere Zusatz-Stopps, die geografisch weiter draußen liegen (eher nichts für diesen Trip, aber der Vollständigkeit halber):**
+- **Muang Ngoi Neua** (1h Boot von Nong Khiaw) — Noch eine Stufe ruhiger: kein Auto, kein Lärm. Nur sinnvoll, wenn ihr Nong Khiaw sowieso einbaut.
+- **Plain of Jars / Phonsavan** — Steinurnenfeld, faszinierend, aber ~7h Bus von LP — echter Umweg.
+- **Kong Lo Höhle / Thakhek** — Legendär, aber der größte Umweg von allen. Eher was für einen zweiten Laos-Trip.
+- **4000 Islands / Don Det** (Süd-Laos) — Schön, aber am weitesten weg von eurer Route.
 
 ---
 
-## 🇱🇦 VIENTIANE — 16.–17. August (2 Tage)
+## 🇱🇦 VIENTIANE — Einstiegspunkt ab 16. August (nichts gebucht), Empfehlung: 1–2 Tage
 *Laos' Hauptstadt wirkt eher wie eine große Kleinstadt — entspannt, überschaubar, ohne die übliche Hauptstadt-Hektik.*
 
 ### 🏛️ Sehenswürdigkeiten & Kultur
@@ -395,7 +392,7 @@ Unten eine kurze Einordnung, was jeder Ort bietet — damit ihr vor Ort (oder sc
 
 ---
 
-## 🇱🇦 VANG VIENG — 18.–19. August (2 Tage)
+## 🇱🇦 VANG VIENG — optional, Empfehlung: 2–3 Tage
 *Kleine Stadt zwischen dramatischen Karstfelsen am Nam Song Fluss. Früher berüchtigte Partystadt, heute Naturparadies.*
 
 > **Wichtigster Tipp:** **Motorrad oder E-Bike mieten** (~4–8€/Tag) — ohne geht fast nichts. Die Lagunen und Höhlen liegen alle 8–17 km außerhalb der Stadt.
@@ -404,7 +401,7 @@ Unten eine kurze Einordnung, was jeder Ort bietet — damit ihr vor Ort (oder sc
 
 ### 🛏️ Unterkunftstipp
 
-**Lisha (The Grand) Riverside Hotel** — Von Reisenden empfohlen: VIP-Zimmer für 2 Personen ~1.400 Baht/Nacht inkl. Frühstücksbuffet (Buchung z.B. über trip.com/Agoda/Booking suchen). Eigenes Bad mit Badewanne, TV, Kühlschrank, Pool, direkt am Fluss — Zimmer etwas in die Jahre gekommen, aber die **Flussaussicht auf die Karstberge ist sehr schön** (abends Heißluftballons/Paramotoren über dem Fluss sichtbar).
+**Lisha (The Grand) Riverside Hotel** — Von Reisenden empfohlen: VIP-Zimmer für 2 Personen ~1.400 Baht/Nacht inkl. Frühstücksbuffet (Buchung z.B. über trip.com/Agoda/Booking suchen). Eigenes Bad mit Badewanne, TV, Kühlschrank, Pool, direkt am Fluss — Zimmer etwas in die Jahre gekommen, aber die **Flussaussicht auf die Karstberge ist sehr schön** (abends Heißluftballons/Paramotoren über dem Fluss sichtbar). ⚠️ Das ist ein **privates Hotelzimmer, kein Hostel** — ~18 €/Person/Nacht, deutlich mehr als ein Dorm-Bett. Wer möglichst günstig im Hostel schlafen will: Dorm-Betten in Vang Vieng gibt's ab ~3–6 $ (~3–5 €)/Nacht, z.B. über Hostelworld/Hostelz vor Ort vergleichen.
 
 ### 💧 Blaue Lagunen
 
@@ -474,12 +471,12 @@ Unten eine kurze Einordnung, was jeder Ort bietet — damit ihr vor Ort (oder sc
 
 ---
 
-## 🇱🇦 LUANG PRABANG — 20.–22. August (3 Tage)
+## 🇱🇦 LUANG PRABANG — wahrscheinlichster Ausstieg (nichts gebucht), Empfehlung: 2–3 Tage
 *UNESCO-Weltkulturerbe, schönste Stadt in Laos. Mönche, Wasserfälle, Kolonialarchitektur, Mekong.*
 
 ### 🛏️ Unterkunftstipp
 
-**Sokview Residence** ⭐⭐ — Neu eröffnete Unterkunft direkt am Mekong. Deluxe River View Zimmer ~1.600 Baht/Nacht (trip.com/Agoda/Booking), komplett neu ausgestattet (Bad mit Wanne, Waschmaschine, Kühlschrank, Sofa/Netflix, Balkon zum Sonnenuntergang). **Kostenlose Leihfahrräder**, 2,5 km / ~6 Min. zum Nachtmarkt. Besitzer kümmert sich persönlich und gibt gute Vor-Ort-Tipps — von Reisenden als echte Empfehlung hervorgehoben.
+**Sokview Residence** ⭐⭐ — Neu eröffnete Unterkunft direkt am Mekong. Deluxe River View Zimmer ~1.600 Baht/Nacht (trip.com/Agoda/Booking), komplett neu ausgestattet (Bad mit Wanne, Waschmaschine, Kühlschrank, Sofa/Netflix, Balkon zum Sonnenuntergang). **Kostenlose Leihfahrräder**, 2,5 km / ~6 Min. zum Nachtmarkt. Besitzer kümmert sich persönlich und gibt gute Vor-Ort-Tipps — von Reisenden als echte Empfehlung hervorgehoben. ⚠️ Auch das ist ein **privates Hotelzimmer, kein Hostel** — ~21 €/Person/Nacht. Für reine Hostel-Budgets: Dorm-Betten in Luang Prabang gibt's ab ~3 $ (~3 €)/Nacht.
 
 ### 🏛️ Sehenswürdigkeiten & Kultur
 
@@ -572,19 +569,45 @@ Unten eine kurze Einordnung, was jeder Ort bietet — damit ihr vor Ort (oder sc
 
 **Ankunft in Nong Khiaw** — Vom Ausstiegspunkt der Minivans gibt's einen lokalen Shuttle zur Unterkunft, ~5 Min., ~20.000 KIP/Person (wer schnell ist, kann auch laufen).
 
-### 🏛️ Sehenswürdigkeiten & Landschaft
+### 🏛️ Sehenswürdigkeiten & Aktivitäten
 
 **Nam Ou Fluss & Karstberge** ⭐⭐ — Das eigentliche Erlebnis hier ist die Landschaft selbst: die Brücke über den Nam Ou mit den Karstnadeln im Hintergrund, besonders morgens im Nebel oder zum Sonnenuntergang. Kein Eintritt, einfach hinsetzen und schauen.
 
-**Viewpoint-Wanderungen** — Mehrere Aussichtspunkte rund um Nong Khiaw sind zu Fuß erreichbar (u.a. Richtung Pha Daeng Peak) — vor Ort erfragen, Zustand/Beschilderung ändert sich häufiger.
+**Pha Daeng Peak** ⭐⭐ — Der bekannteste Aussichtspunkt, 360°-Blick über die Stadt und die umliegenden Berge. Eingang gut ausgeschildert ca. 500 m östlich der Brücke. Aufstieg 1–1,5 Std., ~20.000 KIP Eintritt. Perfekter Sonnenaufgangs- oder Sonnenuntergangs-Spot.
+
+**Sleeping Woman Viewpoint** — Zweiter Aussichtspunkt auf der Nordseite des Flusses, ca. 1 Std. Aufstieg. Weniger überlaufen als Pha Daeng.
+
+**Pha Tok Höhlen** (~2 km außerhalb) — Höhle hoch in einer Kalksteinklippe, diente Dorfbewohnern und Pathet-Lao-Kämpfern im Vietnamkrieg als Schutzraum, mit Infoschildern zu den ehemaligen Kommandoposten. Weg führt durch Reisfelder. ~20.000 KIP Eintritt, Taschenlampe vor Ort leihbar. Rückweg oft mit kleinem Longtail-Boot möglich (~50.000 KIP für 2 Personen).
+
+**"100 Waterfalls"-Trek** ⭐⭐ — Gilt als einer der schönsten Treks in Laos, ein- bis mehrtägig organisiert (z.B. von Tiger Trail). Für alle mit etwas mehr Zeit/Kondition.
+
+**Weitere Aktivitäten** — Kajak/Kanu auf dem Nam Ou, Klettern/Abseilen, Mountainbike mieten (z.B. bei Riverside Guest House ~50.000 KIP/Tag), Kräuter-Dampfbad/Massage bei "Sabai Sabai".
 
 ### 🛏️ Unterkunftstipp
 
-**Kamphan Guesthouse** ⭐ — Mittleres Preissegment, Zimmer mit Flussblick & Klimaanlage ~250.000 KIP für 2 Personen (Agoda/Booking). Eigenes Bad, guter Besitzer (betreibt nebenbei einen kleinen Laden), sehr gute Lage direkt am Fluss.
+**Kamphan Guesthouse** ⭐ — Mittleres Preissegment, Zimmer mit Flussblick & Klimaanlage ~250.000 KIP für 2 Personen (Agoda/Booking). Eigenes Bad, guter Besitzer (betreibt nebenbei einen kleinen Laden), sehr gute Lage direkt am Fluss. Mit ~5 €/Person/Nacht schon nah an Hostel-Niveau, aber ein privates Zimmer statt Dorm.
+
+**Mandala Ou Resort** — Falls ihr's etwas komfortabler wollt (echter Splurge, kein Budget-Tipp): einziges Hotel im Ort mit Pool, hoch über dem Fluss gelegen, Bungalows mit Öko-Keramikheizung, kostenloses Fahrrad für Gäste. ~$58–68/Nacht inkl. Frühstück — das Mehrfache eines Hostel-Betts.
+
+### 🎨 Kunst & Design
+
+**Karstlandschaft & Fluss als Naturkunst** — Genau wie in Vang Vieng ist hier die Landschaft selbst der Hauptgrund zu kommen: senkrechte Karstnadeln über dem Nam Ou, oft im Morgennebel oder im warmen Abendlicht. Kein kuratiertes Museum, keine Galerie — dafür ein guter Ort zum Runterkommen und Fotografieren nach den dichteren Programmen in Vientiane/Vang Vieng/Luang Prabang.
+
+### 🍜 Essen
+
+**CT Restaurant** — Direkt an der Brücke, schöner Flussblick von der Terrasse, guter Lao-Kaffee, kostenloses WLAN.
+
+**Vongmany Restaurant** — Gutes Lao-Essen, probiert das lokale Gericht **Jeow Mak Len** (pfannengebratene Tomaten mit Kräutern, dazu gedünstetes Gemüse zum Dippen) — bei Einheimischen sehr beliebt, ~15.000 KIP.
+
+**Delilah's** — Alles hausgemacht (Brot, Eis, Suppen, Salate), Lao-Western-Fusion mit kreativem Twist.
+
+**Chennai** — Gutes indisches Restaurant, Thali für zwei Personen für ~30.000 KIP, gute Shakes.
 
 ### 💡 Praktisches Nong Khiaw
 
-- Weiterreise nach Muang Ngoi Neua (falls ihr das anhängt): ~1h Boot ab Nong Khiaw.
+- **Hinkommen ab LP:** siehe Transport-Box oben (Minivan 9/11/13 Uhr, ~120.000 KIP) — günstiger, aber langsamer geht's auch mit dem öffentlichen Bus ab Busbahnhof LP für ~50.000–70.000 KIP, dauert aber ähnlich lang und ist weniger planbar.
+- **Weiterreise nach Muang Ngoi Neua** (falls ihr das anhängt): Boote fahren um 10:30 und 14:30 Uhr, gut 1 Std., ~25.000 KIP.
+- **Fahrrad mieten** vor Ort ~10.000–50.000 KIP/Tag (Stadtrad/Mountainbike), gut um die zwei Straßen und die Umgebung zu erkunden.
 - Rückfahrt nach Luang Prabang: gleicher Minivan-Fahrplan (9/11/13 Uhr) in umgekehrter Richtung.
 
 ### 🗺️ KI-Prompts vor Ort
@@ -990,12 +1013,34 @@ Kaufen am offiziellen Ticketschalter (nicht von Händlern!). Das Ticket gilt fü
 
 | Region | Budget/Tag |
 |---|---|
-| Schweiz | 50–80 CHF (teuer!) |
-| Istanbul | 15–25€ |
-| Thailand | 800–1.500 Baht ($20–40) |
-| Laos | $15–25 |
-| Vietnam | $20–35 |
-| Kambodscha | $25–40 |
+| Schweiz | 50–80 CHF (~54–87 €) (teuer!) |
+| Istanbul | 15–25 € |
+| Thailand | 800–1.500 Baht ($20–40 / ~21–40 €) |
+| Laos | $15–25 (~13–22 €) |
+| Vietnam | $20–35 (~17–31 €) |
+| Kambodscha | $25–40 (~22–35 €) |
+
+### 💰 Gesamtbudget (Schätzung)
+
+*Tage/Region aus dem Zeitplan oben gezählt (Zürich 4, Istanbul 2, Thailand insgesamt 37 — Bangkok x3 + Korat, Laos 7, Vietnam 9, Kambodscha 2 = 61 Tage). Angepasst: Hin- und Rückflug Deutschland ist bereits gebucht/bezahlt und zählt nicht mehr mit. In Zürich keine Unterkunft nötig (bei Clement) — nur Essen/Nahverkehr eingerechnet. In Thailand eventuell auch keine Unterkunft nötig — deshalb zwei Szenarien.*
+
+| Posten | Rechnung | Betrag |
+|---|---|---|
+| 🇨🇭 Schweiz (4 Tage, **ohne Unterkunft**) | 4 × 27–49 € (nur Essen/Nahverkehr) | 108–196 € |
+| 🇹🇷 Istanbul (2 Tage) | 2 × 15–25 € | 30–50 € |
+| 🇹🇭 Thailand (37 Tage) — **mit** Unterkunft | 37 × 21–40 € | 777–1.480 € |
+| 🇹🇭 Thailand (37 Tage) — **ohne** Unterkunft *(Alternative, falls zutreffend)* | 37 × 13–24 € (nur Essen/Nahverkehr) | 481–888 € |
+| 🇱🇦 Laos (7 Tage) | 7 × 13–22 € | 91–154 € |
+| 🇻🇳 Vietnam (9 Tage) | 9 × 17–31 € | 153–279 € |
+| 🇰🇭 Kambodscha (2 Tage) | 2 × 22–35 € | 44–70 € |
+| 🛂 Visa gesamt | Türkei ~35 € + Laos ~31 € + Vietnam ~25 € + Kambodscha ~26 € (Thailand gratis) | **≈ 117 €** |
+| ✈️ Flüge/Bahn/Fernbusse **innerhalb** der Reise *(ohne Deutschland-Hin-&-Rückflug — der ist schon bezahlt!)* | Flixbus München–Zürich, Nachtzug Bangkok–Nong Khai, Laos-China-Bahn, alle Inlandsflüge Südostasien (LP–Da Nang, Da Nang–Bangkok, Bangkok–HCMC, HCMC–Siem Reap, Siem Reap–Bangkok) | **≈ 450–820 €** |
+
+**GESAMT, falls du in Thailand eine Unterkunft brauchst:** 108+30+777+91+153+44+117+450 = **≈ 1.770 €** bis 196+50+1.480+154+279+70+117+820 = **≈ 3.170 €**
+
+**GESAMT, falls du in Thailand keine Unterkunft brauchst:** 108+30+481+91+153+44+117+450 = **≈ 1.470 €** bis 196+50+888+154+279+70+117+820 = **≈ 2.570 €**
+
+⚠️ Der Inlands-Flug/Bahn-Posten ist die größte verbleibende Unsicherheit — hängt stark davon ab, wann und wie ihr bucht. Sobald ihr einzelne Strecken gebucht habt, einfach durch die echten Zahlen ersetzen. Alles andere basiert auf den Budget/Tag-Werten oben, die selbst grobe Richtwerte sind.
 
 ---
 

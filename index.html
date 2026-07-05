@@ -738,15 +738,37 @@
         <table class="tl-table">
           <thead><tr><th>Region</th><th>Budget/Tag</th></tr></thead>
           <tbody>
-            <tr><td>🇨🇭 Schweiz (Zürich)</td><td>50–80 CHF (teuer!)</td></tr>
+            <tr><td>🇨🇭 Schweiz (Zürich)</td><td>50–80 CHF (~54–87 €) (teuer!)</td></tr>
             <tr><td>🇹🇷 Istanbul</td><td>15–25 €</td></tr>
-            <tr><td>🇹🇭 Thailand (Bangkok, Korat)</td><td>800–1.500 Baht (~20–40 $)</td></tr>
-            <tr><td>🇱🇦 Laos</td><td>15–25 $</td></tr>
-            <tr><td>🇻🇳 Vietnam</td><td>20–35 $</td></tr>
-            <tr><td>🇰🇭 Kambodscha (Siem Reap)</td><td>25–40 $ (Angkor Pass extra)</td></tr>
+            <tr><td>🇹🇭 Thailand (Bangkok, Korat)</td><td>800–1.500 Baht (~20–40 $ / ~21–40 €)</td></tr>
+            <tr><td>🇱🇦 Laos</td><td>15–25 $ (~13–22 €)</td></tr>
+            <tr><td>🇻🇳 Vietnam</td><td>20–35 $ (~17–31 €)</td></tr>
+            <tr><td>🇰🇭 Kambodscha (Siem Reap)</td><td>25–40 $ (~22–35 €) (Angkor Pass extra)</td></tr>
           </tbody>
         </table>
       </div>
+
+      <h3 class="visa-sub-h">💰 Gesamtbudget <em>(Schätzung)</em></h3>
+      <p style="font-size:.85rem;color:var(--txt2);margin-bottom:12px">Tage/Region aus dem Zeitplan gezählt (Zürich 4, Istanbul 2, Thailand insgesamt 37 — Bangkok x3 + Korat, Laos 7, Vietnam 9, Kambodscha 2 = 61 Tage). Angepasst: Hin- und Rückflug Deutschland ist bereits gebucht/bezahlt und zählt nicht mehr mit. In Zürich keine Unterkunft nötig (bei Clement) — nur Essen/Nahverkehr eingerechnet. In Thailand eventuell auch keine Unterkunft nötig — deshalb zwei Szenarien.</p>
+      <div class="timeline-wrap" style="margin-bottom:28px">
+        <table class="tl-table">
+          <thead><tr><th>Posten</th><th>Rechnung</th><th>Betrag</th></tr></thead>
+          <tbody>
+            <tr><td>🇨🇭 Schweiz (4 Tage, <strong>ohne Unterkunft</strong>)</td><td>4 × 27–49 € (nur Essen/Nahverkehr)</td><td>108–196 €</td></tr>
+            <tr><td>🇹🇷 Istanbul (2 Tage)</td><td>2 × 15–25 €</td><td>30–50 €</td></tr>
+            <tr><td>🇹🇭 Thailand (37 Tage) — <strong>mit</strong> Unterkunft</td><td>37 × 21–40 €</td><td>777–1.480 €</td></tr>
+            <tr><td>🇹🇭 Thailand (37 Tage) — <strong>ohne</strong> Unterkunft <em>(Alternative)</em></td><td>37 × 13–24 € (nur Essen/Nahverkehr)</td><td>481–888 €</td></tr>
+            <tr><td>🇱🇦 Laos (7 Tage)</td><td>7 × 13–22 €</td><td>91–154 €</td></tr>
+            <tr><td>🇻🇳 Vietnam (9 Tage)</td><td>9 × 17–31 €</td><td>153–279 €</td></tr>
+            <tr><td>🇰🇭 Kambodscha (2 Tage)</td><td>2 × 22–35 €</td><td>44–70 €</td></tr>
+            <tr><td>🛂 Visa gesamt</td><td>Türkei ~35 € + Laos ~31 € + Vietnam ~25 € + Kambodscha ~26 € (Thailand gratis)</td><td><strong>≈ 117 €</strong></td></tr>
+            <tr><td>✈️ Flüge/Bahn/Fernbusse <strong>innerhalb</strong> der Reise</td><td>ohne Deutschland-Hin-&amp;-Rückflug (schon bezahlt!) — Flixbus München–Zürich, Nachtzug Bangkok–Nong Khai, Laos-China-Bahn, alle Inlandsflüge SO-Asien</td><td><strong>≈ 450–820 €</strong></td></tr>
+            <tr><td><strong>GESAMT — mit Unterkunft in Thailand</strong></td><td></td><td><strong>≈ 1.770–3.170 €</strong></td></tr>
+            <tr><td><strong>GESAMT — ohne Unterkunft in Thailand</strong></td><td></td><td><strong>≈ 1.470–2.570 €</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:.85rem;color:var(--txt2);margin-bottom:28px">⚠️ Der Inlands-Flug/Bahn-Posten ist die größte verbleibende Unsicherheit — hängt stark davon ab, wann und wie ihr bucht. Sobald ihr einzelne Strecken gebucht habt, einfach durch die echten Zahlen ersetzen.</p>
 
       <h3 class="visa-sub-h">📱 Nützliche Apps</h3>
       <div class="visa-grid" id="apps-grid" style="margin-bottom:28px"></div>
@@ -804,19 +826,19 @@ const CITIES = [
   },
   {
     id: 'vientiane', name: 'Vientiane', flag: '🇱🇦',
-    dates: '16.–17. August',
+    dates: 'Einstieg ab 16. Aug (nichts gebucht) · 1–2 Tage',
     lat: 17.9757, lng: 102.6331, zoom: 13,
     gradient: 'linear-gradient(150deg,#b03020 0%,#e67e22 55%,#f39c12 100%)',
   },
   {
     id: 'vang-vieng', name: 'Vang Vieng', flag: '🇱🇦',
-    dates: '18.–19. August',
+    dates: 'Optional · Empfehlung 2–3 Tage',
     lat: 18.9229, lng: 102.4477, zoom: 13,
     gradient: 'linear-gradient(150deg,#0d5ebd 0%,#0096c7 55%,#90e0ef 100%)',
   },
   {
     id: 'luang-prabang', name: 'Luang Prabang', flag: '🇱🇦',
-    dates: '20.–22. August',
+    dates: 'wahrscheinlichster Ausstieg (nichts gebucht) · 2–3 Tage',
     lat: 19.8877, lng: 102.1348, zoom: 14,
     gradient: 'linear-gradient(150deg,#c35000 0%,#e67e22 55%,#f5a623 100%)',
   },
@@ -1498,8 +1520,20 @@ const CC = {
     image:    'https://upload.wikimedia.org/wikipedia/commons/d/db/Pha_That_Luang.jpg',
     imageAlt: 'Pha That Luang – nationales Symbol von Laos, Vientiane',
     intro: `
-      <p>📅 <strong>16.–17. August</strong> — 2 Tage in Laos' Hauptstadt.</p>
+      <p>📅 <strong>Einstiegspunkt ab 16. August</strong> — nichts gebucht, Dauer flexibel, Empfehlung 1–2 Tage.</p>
       <p>Vientiane wirkt eher wie eine entspannte Kleinstadt als eine Hauptstadt — überschaubar, ohne Hektik, mit buddhistischen Tempeln, französischem Kolonialerbe und Mekong-Atmosphäre. Günstigstes Pflaster auf der ganzen Reise.</p>
+      <p>🧭 <strong>Mögliche Stopps in Laos — Zeitfenster 16.–22. August (7 Tage):</strong> Nichts davon ist gebucht, auch der Rückflug ab Luang Prabang nicht — das war bisher nur die naheliegendste Annahme, weil von dort die Verbindungen weiter nach Vietnam am einfachsten sind. Fix ist eigentlich nur die Geografie: Die Zugstrecke aus Thailand endet hier in Vientiane, da kommt ihr an. Wo ihr Laos wieder verlasst, ist komplett offen — Luang Prabang bietet sich an, aber auch Vientiane hat einen Flughafen. Kurze Einordnung:</p>
+      <table class="tl-table" style="margin-bottom:14px">
+        <thead><tr><th>Ort</th><th>Charakter</th><th>Empfehlung</th></tr></thead>
+        <tbody>
+          <tr><td>🇱🇦 Vientiane</td><td>Entspannte "Kleinstadt-Hauptstadt", COPE + Buddha Park die Highlights</td><td>Einstiegspunkt · 1–2 Tage</td></tr>
+          <tr><td>🇱🇦 Vang Vieng</td><td>Aktivort: Lagunen, Höhlen, Kajak, Motorrad</td><td>Optional · 2–3 Tage</td></tr>
+          <tr><td>🇱🇦 Luang Prabang</td><td>Kulturell am dichtesten: Almosenzeremonie, Kuang Si, Tempel</td><td>wahrscheinlichster Ausstieg · 2–3 Tage</td></tr>
+          <tr><td>🇱🇦 Nong Khiaw</td><td>Ruhigster Zusatz-Stopp, Karstlandschaft am Fluss</td><td>Nur falls Zeit übrig · 1–2 Tage</td></tr>
+        </tbody>
+      </table>
+      <p>Grober Rechenweg: 7 Tage minus 1–2 An-/Abreisetage lässt realistisch ~5–6 Tage zum Verteilen. Merkt ihr vor Ort, dass euch eine Stadt mehr zieht — einfach umschichten.</p>
+      <p>⚠️ <strong class="warn">Nicht alles reinquetschen wollen:</strong> Höchstens <strong>einen</strong> Zusatz-Stopp (Nong Khiaw o.ä.) einplanen — sonst bleibt überall nur ~1 Tag übrig und ihr seid die ganze Zeit unterwegs statt anzukommen.</p>
     `,
     pins: [
       { lat: 17.9802, lng: 102.6359, name: 'Pha That Luang ⭐⭐',         desc: '45 m goldene Stupa · abends im Sonnenuntergang' },
@@ -1634,7 +1668,7 @@ const CC = {
     image:    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/VientianeProvince_VangVieng9_tango7174.jpg/1280px-VientianeProvince_VangVieng9_tango7174.jpg',
     imageAlt: 'Karstberge am Nam Song Fluss, Vang Vieng, Laos',
     intro: `
-      <p>📅 <strong>18.–19. August</strong> — 2 Tage zwischen dramatischen Karstfelsen am Nam Song Fluss.</p>
+      <p>📅 <strong>Optional</strong> — Empfehlung: 2–3 Tage zwischen dramatischen Karstfelsen am Nam Song Fluss.</p>
       <p>🏍️ <strong>Motorrad oder E-Bike mieten ist Pflicht</strong> (~4–8€/Tag) — ohne geht fast nichts. Die Lagunen und Höhlen liegen alle 8–17 km außerhalb der Stadt und sind nicht anders erreichbar.</p>
       <p>🌧️ <strong class="warn">August = Regenzeit:</strong> Die Lagunen können bräunlich statt türkis sein. Trotzdem schön — und deutlich weniger Touristen als in der Trockenzeit.</p>
     `,
@@ -1653,8 +1687,8 @@ const CC = {
   <div class="acc-lbl">🛏️ Unterkunftstipp</div>
   <div class="poi">
     <div class="poi-name">Lisha (The Grand) Riverside Hotel</div>
-    <div class="poi-desc">Von Reisenden empfohlen: VIP-Zimmer für 2 Personen ~1.400 Baht/Nacht inkl. Frühstücksbuffet (über trip.com/Agoda/Booking buchbar). Eigenes Bad mit Wanne, TV, Kühlschrank, Pool, direkt am Fluss. Zimmer etwas in die Jahre gekommen, aber die Flussaussicht auf die Karstberge ist sehr schön — abends Heißluftballons/Paramotoren über dem Fluss sichtbar.</div>
-    <span class="poi-meta">~1.400 Baht/Nacht · trip.com · Flussblick</span>
+    <div class="poi-desc">Von Reisenden empfohlen: VIP-Zimmer für 2 Personen ~1.400 Baht/Nacht inkl. Frühstücksbuffet (über trip.com/Agoda/Booking buchbar). Eigenes Bad mit Wanne, TV, Kühlschrank, Pool, direkt am Fluss. Zimmer etwas in die Jahre gekommen, aber die Flussaussicht auf die Karstberge ist sehr schön — abends Heißluftballons/Paramotoren über dem Fluss sichtbar. ⚠️ Privates Hotelzimmer, kein Hostel — ~18 €/Person/Nacht. Für reine Hostel-Budgets: Dorm-Betten in Vang Vieng ab ~3–6 $ (~3–5 €)/Nacht.</div>
+    <span class="poi-meta">~1.400 Baht/Nacht (kein Hostel) · trip.com · Flussblick</span>
   </div>
   <div class="acc-lbl">💧 Blaue Lagunen</div>
   <div class="poi">
@@ -1808,7 +1842,7 @@ const CC = {
     image:    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Kuang_Si_waterfalls_in_Luang_Prabang%2C_Laos.jpg/1280px-Kuang_Si_waterfalls_in_Luang_Prabang%2C_Laos.jpg',
     imageAlt: 'Kuang Si Wasserfälle bei Luang Prabang, Laos',
     intro: `
-      <p>📅 <strong>20.–22. August</strong> — 3 Tage in der schönsten Stadt Laos.</p>
+      <p>📅 <strong>Wahrscheinlichster Ausstieg</strong> (nichts gebucht, beste Flüge weiter nach Vietnam) — Empfehlung: 2–3 Tage in der schönsten Stadt Laos.</p>
       <p>🏛️ <strong>UNESCO-Weltkulturerbe</strong> — Luang Prabang ist die besterhaltene buddhistische Stadt Südostasiens: Mönche, Wasserfälle, Kolonialarchitektur, Mekong. Die Altstadt auf der Halbinsel ist kompakt und zu Fuß erlebbar.</p>
       <p>🌧️ <strong class="warn">August = Regenzeit:</strong> Kuang Si Wasserfälle führen mehr Wasser (mächtiger!), Farbe kann bräunlicher sein. Tad Sae bei sehr viel Regen evtl. gesperrt. Früh morgens starten.</p>
     `,
@@ -1828,8 +1862,8 @@ const CC = {
   <div class="acc-lbl">🛏️ Unterkunftstipp</div>
   <div class="poi">
     <div class="poi-name">Sokview Residence ⭐⭐</div>
-    <div class="poi-desc">Neu eröffnete Unterkunft direkt am Mekong. Deluxe River View Zimmer ~1.600 Baht/Nacht (trip.com/Agoda/Booking), komplett neu ausgestattet (Bad mit Wanne, Waschmaschine, Kühlschrank, Sofa/Netflix, Balkon zum Sonnenuntergang). Kostenlose Leihfahrräder, 2,5 km / ~6 min zum Nachtmarkt. Besitzer kümmert sich persönlich und gibt gute Vor-Ort-Tipps.</div>
-    <span class="poi-meta">~1.600 Baht/Nacht · trip.com · Mekong-Blick · Leihfahrräder</span>
+    <div class="poi-desc">Neu eröffnete Unterkunft direkt am Mekong. Deluxe River View Zimmer ~1.600 Baht/Nacht (trip.com/Agoda/Booking), komplett neu ausgestattet (Bad mit Wanne, Waschmaschine, Kühlschrank, Sofa/Netflix, Balkon zum Sonnenuntergang). Kostenlose Leihfahrräder, 2,5 km / ~6 min zum Nachtmarkt. Besitzer kümmert sich persönlich und gibt gute Vor-Ort-Tipps. ⚠️ Privates Hotelzimmer, kein Hostel — ~21 €/Person/Nacht. Für reine Hostel-Budgets: Dorm-Betten in Luang Prabang ab ~3 $ (~3 €)/Nacht.</div>
+    <span class="poi-meta">~1.600 Baht/Nacht (kein Hostel) · trip.com · Mekong-Blick</span>
   </div>
   <div class="acc-lbl">🏛️ Sehenswürdigkeiten</div>
   <div class="poi">
@@ -1980,8 +2014,8 @@ const CC = {
   },
 
   'nong-khiaw': {
-    image:    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Nong_Khiaw_view.jpg/1280px-Nong_Khiaw_view.jpg',
-    imageAlt: 'Karstberge über dem Nam Ou Fluss bei Nong Khiaw, Laos',
+    image:    'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Nam_ou_1.jpg/1280px-Nam_ou_1.jpg',
+    imageAlt: 'Der Nam Ou Fluss bei Nong Khiaw, umgeben von Karstbergen, Laos',
     intro: `
       <p>🧭 <strong>Optionaler Zusatz-Stopp</strong> — aktuell nicht im festen Zeitplan. Nur sinnvoll, wenn ihr bewusst einen Tag aus Vientiane/Vang Vieng/Luang Prabang dafür abzwackt (siehe Hinweis im Laos-Überblick oben in der Übersicht).</p>
       <p>🏞️ Kleines Städtchen am Nam Ou Fluss, eingerahmt von dramatischen Karstnadeln — einer der fotogenischsten, ruhigsten Orte in Laos. Guter Kontrast, falls ihr nach den drei Kernstädten noch einen "Durchatmen"-Tag wollt.</p>
@@ -1989,6 +2023,8 @@ const CC = {
     pins: [
       { lat: 20.5667, lng: 102.9833, name: 'Nong Khiaw Zentrum', desc: 'Brücke über den Nam Ou · Karstpanorama' },
       { lat: 20.5721, lng: 102.9877, name: 'Kamphan Guesthouse',  desc: 'Unterkunftstipp · Flussblick · ~250.000 KIP/2 Pers.' },
+      { lat: 20.5680, lng: 102.9880, name: 'Pha Daeng Peak ⭐⭐',   desc: '360°-Aussicht · Sonnenauf-/untergang · ~20.000 KIP' },
+      { lat: 20.5715, lng: 102.9800, name: 'Pha Tok Höhlen',      desc: 'Kriegsgeschichte · ~20.000 KIP · Reisfeld-Zugang' },
     ],
     panels: {
       'Sehenswürdigkeiten': `
@@ -1999,23 +2035,82 @@ const CC = {
     <span class="poi-meta">Gratis · morgens Nebel oder Sonnenuntergang am schönsten</span>
   </div>
   <div class="poi">
-    <div class="poi-name">Viewpoint-Wanderungen</div>
-    <div class="poi-desc">Mehrere Aussichtspunkte rund um Nong Khiaw sind zu Fuß erreichbar (u.a. Richtung Pha Daeng Peak) — vor Ort erfragen, Zustand und Beschilderung ändern sich häufiger.</div>
-    <span class="poi-meta">Vor Ort erfragen · mehrere Optionen</span>
+    <div class="poi-name">Pha Daeng Peak ⭐⭐</div>
+    <div class="poi-desc">Der bekannteste Aussichtspunkt, 360°-Blick über die Stadt und die umliegenden Berge. Eingang gut ausgeschildert ca. 500 m östlich der Brücke. Aufstieg 1–1,5 Std., ~20.000 KIP Eintritt. Perfekter Sonnenaufgangs- oder Sonnenuntergangs-Spot.</div>
+    <span class="poi-meta">~20.000 KIP · 1–1,5 Std. Aufstieg · Sonnenauf-/untergang</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Sleeping Woman Viewpoint</div>
+    <div class="poi-desc">Zweiter Aussichtspunkt auf der Nordseite des Flusses, ca. 1 Std. Aufstieg. Weniger überlaufen als Pha Daeng.</div>
+    <span class="poi-meta">~1 Std. Aufstieg · ruhiger als Pha Daeng</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Pha Tok Höhlen</div>
+    <div class="poi-desc">Höhle hoch in einer Kalksteinklippe, diente Dorfbewohnern und Pathet-Lao-Kämpfern im Vietnamkrieg als Schutzraum, mit Infoschildern zu den ehemaligen Kommandoposten. Weg führt durch Reisfelder, ca. 2 km außerhalb. ~20.000 KIP Eintritt, Taschenlampe vor Ort leihbar. Rückweg oft mit kleinem Longtail-Boot möglich (~50.000 KIP für 2 Personen).</div>
+    <span class="poi-meta">~20.000 KIP · ~2 km außerhalb · Kriegsgeschichte</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">"100 Waterfalls"-Trek ⭐⭐</div>
+    <div class="poi-desc">Gilt als einer der schönsten Treks in Laos, ein- bis mehrtägig organisiert (z.B. von Tiger Trail). Für alle mit etwas mehr Zeit/Kondition.</div>
+    <span class="poi-meta">1–2 Tage · organisierte Tour nötig</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Weitere Aktivitäten</div>
+    <div class="poi-desc">Kajak/Kanu auf dem Nam Ou, Klettern/Abseilen, Mountainbike mieten (z.B. bei Riverside Guest House ~50.000 KIP/Tag), Kräuter-Dampfbad/Massage bei "Sabai Sabai".</div>
+    <span class="poi-meta">Kajak · Klettern · Fahrrad · Massage</span>
   </div>
   <div class="acc-lbl">🛏️ Unterkunftstipp</div>
   <div class="poi">
     <div class="poi-name">Kamphan Guesthouse ⭐</div>
-    <div class="poi-desc">Mittleres Preissegment, Zimmer mit Flussblick &amp; Klimaanlage ~250.000 KIP für 2 Personen (Agoda/Booking). Eigenes Bad, guter Besitzer (betreibt nebenbei einen kleinen Laden), sehr gute Lage direkt am Fluss.</div>
-    <span class="poi-meta">~250.000 KIP/2 Pers. · Agoda/Booking · Flussblick</span>
+    <div class="poi-desc">Mittleres Preissegment, Zimmer mit Flussblick &amp; Klimaanlage ~250.000 KIP für 2 Personen (Agoda/Booking). Eigenes Bad, guter Besitzer (betreibt nebenbei einen kleinen Laden), sehr gute Lage direkt am Fluss. Mit ~5 €/Person/Nacht schon nah an Hostel-Niveau, aber privates Zimmer statt Dorm.</div>
+    <span class="poi-meta">~5 €/Person · Agoda/Booking · Flussblick</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Mandala Ou Resort</div>
+    <div class="poi-desc">Falls ihr's etwas komfortabler wollt (echter Splurge, kein Budget-Tipp): einziges Hotel im Ort mit Pool, hoch über dem Fluss gelegen, Bungalows mit Öko-Keramikheizung, kostenloses Fahrrad für Gäste. Das Mehrfache eines Hostel-Betts.</div>
+    <span class="poi-meta">~$58–68/Nacht (Splurge, kein Hostel) · einziger Pool im Ort</span>
+  </div>
+</div>`,
+
+      'Kunst & Design': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Karstlandschaft &amp; Fluss als Naturkunst</div>
+    <div class="poi-desc">Genau wie in Vang Vieng ist hier die Landschaft selbst der Hauptgrund zu kommen: senkrechte Karstnadeln über dem Nam Ou, oft im Morgennebel oder im warmen Abendlicht. Kein kuratiertes Museum, keine Galerie — dafür ist Nong Khiaw ein Ort zum Runterkommen und Fotografieren nach den dichteren Programmen in Vientiane/Vang Vieng/Luang Prabang.</div>
+    <span class="poi-meta">Gratis · morgens Nebel oder Sonnenuntergang am schönsten</span>
+  </div>
+</div>`,
+
+      'Essen & Streetfood': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">CT Restaurant</div>
+    <div class="poi-desc">Direkt an der Brücke, schöner Flussblick von der Terrasse, guter Lao-Kaffee, kostenloses WLAN.</div>
+    <span class="poi-meta">Flussblick · guter Kaffee · WLAN</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Vongmany Restaurant</div>
+    <div class="poi-desc">Gutes Lao-Essen, probiert das lokale Gericht <strong>Jeow Mak Len</strong> (pfannengebratene Tomaten mit Kräutern, dazu gedünstetes Gemüse zum Dippen) — bei Einheimischen sehr beliebt.</div>
+    <span class="poi-meta">~15.000 KIP · lokaler Klassiker</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Delilah's</div>
+    <div class="poi-desc">Alles hausgemacht (Brot, Eis, Suppen, Salate), Lao-Western-Fusion mit kreativem Twist.</div>
+    <span class="poi-meta">Hausgemacht · Fusion-Küche</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Chennai</div>
+    <div class="poi-desc">Gutes indisches Restaurant, Thali für zwei Personen für ~30.000 KIP, gute Shakes.</div>
+    <span class="poi-meta">~30.000 KIP Thali für 2 · gute Shakes</span>
   </div>
 </div>`,
 
       'Praktisches': `
 <ul class="tip-list">
-  <li><strong>Hinkommen ab Luang Prabang:</strong> Tuk-Tuk zur "Sokprasert Bus Station" (~11 km, ~25 min, ~50.000 KIP/Person), dann Minivan LP → Nong Khiaw (3 tägliche Abfahrten: 9:00/11:00/13:00 Uhr, gleiche Zeiten für die Rückfahrt). Strecke 133 km, Fahrzeit 3,5–4 Std., ~120.000 KIP/Person. Unterwegs kurzer Tankstellen-Stopp (~10 min, WC vorhanden).</li>
+  <li><strong>Hinkommen ab Luang Prabang:</strong> Tuk-Tuk zur "Sokprasert Bus Station" (~11 km, ~25 min, ~50.000 KIP/Person), dann Minivan LP → Nong Khiaw (3 tägliche Abfahrten: 9:00/11:00/13:00 Uhr, gleiche Zeiten für die Rückfahrt). Strecke 133 km, Fahrzeit 3,5–4 Std., ~120.000 KIP/Person. Unterwegs kurzer Tankstellen-Stopp (~10 min, WC vorhanden). Günstiger, aber langsamer/weniger planbar: öffentlicher Bus ab Busbahnhof LP für ~50.000–70.000 KIP.</li>
   <li><strong>Ankunft:</strong> Vom Ausstiegspunkt der Minivans gibt's einen lokalen Shuttle zur Unterkunft, ~5 min, ~20.000 KIP/Person (wer schnell ist, kann auch laufen).</li>
-  <li><strong>Weiter nach Muang Ngoi Neua</strong> (falls angehängt): ~1h Boot ab Nong Khiaw.</li>
+  <li><strong>Weiter nach Muang Ngoi Neua</strong> (falls angehängt): Boote fahren um 10:30 und 14:30 Uhr, gut 1 Std., ~25.000 KIP.</li>
+  <li><strong>Fahrrad mieten</strong> vor Ort ~10.000–50.000 KIP/Tag (Stadtrad/Mountainbike) — gut um die zwei Straßen und die Umgebung zu erkunden.</li>
   <li><strong>Rückfahrt nach Luang Prabang:</strong> gleicher Minivan-Fahrplan (9/11/13 Uhr) in umgekehrter Richtung.</li>
 </ul>`,
 
@@ -2785,9 +2880,7 @@ const TIMELINE = [
   ['7.–14. Aug',       '🇹🇭 Bangkok',                  'Ankommen, 1 Woche mit Freundin'],
   ['15. Aug',          '🚂 Bangkok → Nong Khai',       'Übernachtzug'],
   ['16. Aug morgens',  '🇹🇭 Nong Khai',                'Kurzstopp ~2–3h, dann Grenze'],
-  ['16.–17. Aug',      '🇱🇦 Vientiane',                '2 Tage'],
-  ['18.–19. Aug',      '🇱🇦 Vang Vieng',               '2 Tage'],
-  ['20.–22. Aug',      '🇱🇦 Luang Prabang',            '3 Tage'],
+  ['16.–22. Aug',      '🇱🇦 Laos (flexibel)',          'Nichts gebucht — Vientiane Einstieg, Luang Prabang wahrscheinlichster Ausstieg, Rest offen'],
   ['23. Aug',          '✈️ Luang Prabang → Da Nang',   ''],
   ['23.–25. Aug',      '🇻🇳 Da Nang',                  'Freund besuchen, 3 Tage'],
   ['25.–27. Aug',      '🇻🇳 Hội An',                   '2 Tage'],
