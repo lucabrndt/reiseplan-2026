@@ -359,9 +359,18 @@
       display: grid;
       gap: 22px;
       margin-bottom: 28px;
+      min-width: 0;
     }
     @media (min-width: 768px) {
       .city-layout { grid-template-columns: 1fr 360px; align-items: start; }
+    }
+
+    /* Grid items default to min-width:auto, which lets oversized content
+       (tables, the Leaflet map, long unbreakable text) force this wider
+       than the viewport on mobile. min-width:0 lets them shrink properly. */
+    .city-layout-content, .city-layout-map {
+      min-width: 0;
+      max-width: 100%;
     }
 
     .city-map {
@@ -371,6 +380,7 @@
       box-shadow: var(--sh);
       overflow: hidden;
       background: var(--bg);
+      max-width: 100%;
     }
     @media (min-width: 540px) { .city-map { height: 270px; } }
     @media (min-width: 768px) {
@@ -452,6 +462,7 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 12px;
+      min-width: 0;
     }
     @media (min-width: 560px) { .poi-list { grid-template-columns: repeat(2, 1fr); } }
 
