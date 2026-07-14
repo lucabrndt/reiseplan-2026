@@ -47,9 +47,12 @@
     html {
       scroll-behavior: smooth;
       scroll-padding-top: calc(var(--nav-h) + 12px);
+      max-width: 100%;
     }
 
     body {
+      max-width: 100%;
+      overflow-x: hidden;
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
       background: var(--bg);
       color: var(--txt);
@@ -1523,15 +1526,17 @@ const CC = {
       <p>📅 <strong>Einstiegspunkt ab 16. August</strong> — nichts gebucht, Dauer flexibel, Empfehlung 1–2 Tage.</p>
       <p>Vientiane wirkt eher wie eine entspannte Kleinstadt als eine Hauptstadt — überschaubar, ohne Hektik, mit buddhistischen Tempeln, französischem Kolonialerbe und Mekong-Atmosphäre. Günstigstes Pflaster auf der ganzen Reise.</p>
       <p>🧭 <strong>Mögliche Stopps in Laos — Zeitfenster 16.–22. August (7 Tage):</strong> Nichts davon ist gebucht, auch der Rückflug ab Luang Prabang nicht — das war bisher nur die naheliegendste Annahme, weil von dort die Verbindungen weiter nach Vietnam am einfachsten sind. Fix ist eigentlich nur die Geografie: Die Zugstrecke aus Thailand endet hier in Vientiane, da kommt ihr an. Wo ihr Laos wieder verlasst, ist komplett offen — Luang Prabang bietet sich an, aber auch Vientiane hat einen Flughafen. Kurze Einordnung:</p>
-      <table class="tl-table" style="margin-bottom:14px">
-        <thead><tr><th>Ort</th><th>Charakter</th><th>Empfehlung</th></tr></thead>
-        <tbody>
-          <tr><td>🇱🇦 Vientiane</td><td>Entspannte "Kleinstadt-Hauptstadt", COPE + Buddha Park die Highlights</td><td>Einstiegspunkt · 1–2 Tage</td></tr>
-          <tr><td>🇱🇦 Vang Vieng</td><td>Aktivort: Lagunen, Höhlen, Kajak, Motorrad</td><td>Optional · 2–3 Tage</td></tr>
-          <tr><td>🇱🇦 Luang Prabang</td><td>Kulturell am dichtesten: Almosenzeremonie, Kuang Si, Tempel</td><td>wahrscheinlichster Ausstieg · 2–3 Tage</td></tr>
-          <tr><td>🇱🇦 Nong Khiaw</td><td>Ruhigster Zusatz-Stopp, Karstlandschaft am Fluss</td><td>Nur falls Zeit übrig · 1–2 Tage</td></tr>
-        </tbody>
-      </table>
+      <div class="timeline-wrap" style="margin-bottom:14px">
+        <table class="tl-table">
+          <thead><tr><th>Ort</th><th>Charakter</th><th>Empfehlung</th></tr></thead>
+          <tbody>
+            <tr><td>🇱🇦 Vientiane</td><td>Entspannte "Kleinstadt-Hauptstadt", COPE + Buddha Park die Highlights</td><td>Einstiegspunkt · 1–2 Tage</td></tr>
+            <tr><td>🇱🇦 Vang Vieng</td><td>Aktivort: Lagunen, Höhlen, Kajak, Motorrad</td><td>Optional · 2–3 Tage</td></tr>
+            <tr><td>🇱🇦 Luang Prabang</td><td>Kulturell am dichtesten: Almosenzeremonie, Kuang Si, Tempel</td><td>wahrscheinlichster Ausstieg · 2–3 Tage</td></tr>
+            <tr><td>🇱🇦 Nong Khiaw</td><td>Ruhigster Zusatz-Stopp, Karstlandschaft am Fluss</td><td>Nur falls Zeit übrig · 1–2 Tage</td></tr>
+          </tbody>
+        </table>
+      </div>
       <p>Grober Rechenweg: 7 Tage minus 1–2 An-/Abreisetage lässt realistisch ~5–6 Tage zum Verteilen. Merkt ihr vor Ort, dass euch eine Stadt mehr zieht — einfach umschichten.</p>
       <p>⚠️ <strong class="warn">Nicht alles reinquetschen wollen:</strong> Höchstens <strong>einen</strong> Zusatz-Stopp (Nong Khiaw o.ä.) einplanen — sonst bleibt überall nur ~1 Tag übrig und ihr seid die ganze Zeit unterwegs statt anzukommen.</p>
     `,
