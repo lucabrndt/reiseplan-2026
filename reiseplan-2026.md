@@ -316,22 +316,26 @@ Das Highlight für Budget-Reisende. **Keine Touristenfähre buchen** — einfach
 
 ### 🧭 Mögliche Stopps in Laos — Zeitfenster: 16.–22. August (7 Tage)
 
-**Wichtig: Nichts davon ist gebucht** — auch der Rückflug ab Luang Prabang nicht, das war bisher nur die naheliegendste Annahme im Plan, weil von dort die Verbindungen weiter nach Vietnam am einfachsten sind. Fix ist eigentlich nur die Geografie: Die Zugstrecke aus Thailand endet in **Vientiane**, da kommt ihr an, ob ihr dort bleibt oder gleich weiterfahrt ist eure Entscheidung. Wo ihr Laos wieder verlasst, ist komplett offen — Luang Prabang bietet sich an (mehr/einfachere Flüge Richtung Vietnam), aber auch Vientiane hat einen Flughafen. Unten eine Einordnung mit Tage-Empfehlung, damit ihr spontan entscheiden könnt, statt einem starren Plan zu folgen.
+**Wichtig: Nichts davon ist gebucht** — auch der Rückflug ab Luang Prabang nicht, das war bisher nur die naheliegendste Annahme im Plan, weil von dort die Verbindungen weiter nach Vietnam am einfachsten sind. Fix ist eigentlich nur die Geografie: Die Zugstrecke aus Thailand endet in **Vientiane**, da kommt ihr an, ob ihr dort bleibt oder gleich weiterfahrt ist eure Entscheidung. Wo ihr Laos wieder verlasst, ist komplett offen.
 
-| Ort | Charakter | Empfehlung |
-|---|---|---|
-| 🇱🇦 **Vientiane** | Entspannte "Kleinstadt-Hauptstadt". COPE Visitor Center + Buddha Park die Highlights, sonst eher zum Ankommen. | Einstiegspunkt (Zugstrecke endet hier) — 1–2 Tage reichen meist |
-| 🇱🇦 **Vang Vieng** | Aktivort: Lagunen, Höhlen, Kajak, Motorrad durch Karstlandschaft. | Optional, aber naheliegend — 2–3 Tage, wenn Aktivität/Natur euch wichtig ist |
-| 🇱🇦 **Luang Prabang** | Kulturell am dichtesten: Almosenzeremonie, Kuang Si, Tempel, Nachtmarkt. | Wahrscheinlich sinnvollster Ausstieg (beste Flüge weiter, nicht gebucht) — 2–3 Tage |
-| 🇱🇦 **Nong Khiaw** *(Zusatz-Stopp)* | Kleines Flussstädtchen zwischen Karstnadeln, ruhigster der vier Orte. Eigener Abschnitt weiter unten. | Nur falls Zeit übrig ist — 1–2 Tage, geht zulasten von Vang Vieng oder Luang Prabang |
+**Bewusst mehr Optionen aufgelistet als in 7 Tage passen** — die Idee ist nicht, alles abzuklappern, sondern dass ihr vor Ort seht, was euch zieht, und spontan entscheidet. Gefällt's euch irgendwo besonders gut, bleibt einfach länger und lasst was anderes weg. Sortiert nach Interessen:
 
-Grober Rechenweg: 7 Tage minus 1–2 An-/Abreisetage (Zug + evtl. Umstieg) lässt realistisch **~5–6 Tage** zum Verteilen. Merkt ihr vor Ort, dass euch eine Stadt mehr zieht als die andere — einfach umschichten. Wichtig ist nur: **maximal einen** Zusatz-Stopp (Nong Khiaw o.ä.) einplanen, sonst bleibt überall nur ~1 Tag übrig und ihr seid die ganze Zeit unterwegs statt anzukommen.
+| Ort | Fluss/Schwimmen | Wandern | Kultur | Entspannung |
+|---|---|---|---|---|
+| 🇱🇦 **Vientiane** | – | – | ⭐⭐⭐ | ⭐ |
+| 🇱🇦 **Vang Vieng** | ⭐⭐⭐ | ⭐⭐⭐ | – | ⭐ |
+| 🇱🇦 **Luang Prabang** | ⭐⭐ (Kuang Si) | ⭐ | ⭐⭐⭐ | ⭐⭐ |
+| 🇱🇦 **Nong Khiaw** | ⭐⭐ | ⭐⭐⭐ | ⭐ | ⭐⭐ |
+| 🇱🇦 **Muang Ngoi Neua** | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ (Dorfleben) | ⭐⭐⭐ |
+| 🇱🇦 **Thakhek-Loop** *(Alternative)* | ⭐⭐⭐ (Kong Lor) | – | – | – |
+| 🇱🇦 **4000 Islands** *(Alternative)* | ⭐⭐⭐ | – | ⭐ | ⭐⭐⭐ |
 
-**Weitere Zusatz-Stopps, die geografisch weiter draußen liegen (eher nichts für diesen Trip, aber der Vollständigkeit halber):**
-- **Muang Ngoi Neua** (1h Boot von Nong Khiaw) — Noch eine Stufe ruhiger: kein Auto, kein Lärm. Nur sinnvoll, wenn ihr Nong Khiaw sowieso einbaut.
-- **Plain of Jars / Phonsavan** — Steinurnenfeld, faszinierend, aber ~7h Bus von LP — echter Umweg.
-- **Kong Lo Höhle / Thakhek** — Legendär, aber der größte Umweg von allen. Eher was für einen zweiten Laos-Trip.
-- **4000 Islands / Don Det** (Süd-Laos) — Schön, aber am weitesten weg von eurer Route.
+Vientiane, Vang Vieng und Luang Prabang liegen alle an der Zugstrecke und lassen sich gut kombinieren. Nong Khiaw und Muang Ngoi Neua hängen dran (nur per Bus/Boot ab Luang Prabang), sind aber eine Ecke ruhiger und wandern-lastiger. Der Thakhek-Loop und die 4000 Islands liegen geografisch im Süden, also komplett gegenläufig zur restlichen Route — die wären eher ein **Ersatz für den Norden** als eine Ergänzung dazu, siehe die eigenen Abschnitte weiter unten für Details und Zeitaufwand.
+
+Grober Rechenweg für die Nord-Route: 7 Tage minus 1–2 An-/Abreisetage (Zug + evtl. Umstieg) lässt realistisch **~5–6 Tage** zum Verteilen auf so viele Orte, wie euch reizen. Merkt ihr vor Ort, dass euch eine Stadt mehr zieht — einfach umschichten, das ist ausdrücklich der Plan.
+
+**Weiterhin geografisch am Rand, aber nicht mehr ausgeschlossen:**
+- **Plain of Jars / Phonsavan** — Steinurnenfeld, faszinierend, aber ~7h Bus von Luang Prabang — echter Umweg, eher was für einen zweiten Laos-Trip.
 
 ---
 
@@ -603,6 +607,14 @@ Grober Rechenweg: 7 Tage minus 1–2 An-/Abreisetage (Zug + evtl. Umstieg) läss
 
 **Chennai** — Gutes indisches Restaurant, Thali für zwei Personen für ~30.000 KIP, gute Shakes.
 
+### 💡 Geheimtipps
+
+**"100 Waterfalls"-Trek** ⭐⭐ — Wird oft nur am Rande erwähnt, gilt aber unter erfahrenen Laos-Reisenden als einer der schönsten Treks im Land — durch Dschungel, über und durch dutzende kleine Flussüberquerungen und Kaskaden. Ein- oder mehrtägig organisierbar (z. B. Tiger Trail in Luang Prabang).
+
+**Kräuter-Dampfbad & Massage "Sabai Sabai"** — Nach dem Pha-Daeng-Aufstieg oder einem Tag Kajak genau richtig: traditionelles laotisches Kräuter-Dampfbad, danach Öl- oder Fußmassage. Sehr günstig im Vergleich zu Thailand.
+
+**Sonnenuntergang von der Brücke statt vom Viewpoint** — Während alle zum Sonnenuntergang auf Pha Daeng oder Sleeping Woman hochsteigen, bleiben viele Einheimische einfach auf der Brücke im Zentrum — kostenlos, kein Aufstieg, fast der gleiche Blick auf die Karstsilhouetten im Abendlicht.
+
 ### 💡 Praktisches Nong Khiaw
 
 - **Hinkommen ab LP:** siehe Transport-Box oben (Minivan 9/11/13 Uhr, ~120.000 KIP) — günstiger, aber langsamer geht's auch mit dem öffentlichen Bus ab Busbahnhof LP für ~50.000–70.000 KIP, dauert aber ähnlich lang und ist weniger planbar.
@@ -615,6 +627,157 @@ Grober Rechenweg: 7 Tage minus 1–2 An-/Abreisetage (Zug + evtl. Umstieg) läss
 "Nong Khiaw hidden gems things to do"
 "Nong Khiaw viewpoint hike guide"
 "Nong Khiaw to Muang Ngoi boat schedule"
+```
+
+---
+
+## 🇱🇦 MUANG NGOI NEUA — optional, nur per Boot ab Nong Khiaw
+
+> **Nur per Boot erreichbar** — kein Auto, keine Straße, kaum Strom. Boote ab Nong Khiaw 2× täglich (~10:30 und 14:30 Uhr), Fahrzeit gut 1 Std., ~25.000 KIP. Der ruhigste Ort auf der ganzen Reise — eher etwas für "wenn's euch in Nong Khiaw richtig gut gefällt" als ein Tagesausflug, da Anreise + Rhythmus vor Ort praktisch mindestens 2 Nächte brauchen, damit sich's lohnt.
+
+Für dich interessant, wenn du neben Wandern und Fluss auch **echte Dorfkultur** statt Museum willst — Tageswanderungen zu ethnischen Minderheitendörfern sind hier der Clou, teils mit Übernachtung bei Familien.
+
+### 🏛️ Sehenswürdigkeiten
+
+**Nam Ou Fluss & Dorfleben** ⭐⭐⭐ — Muang Ngoi ist autofrei und praktisch straßenlos — nur ein Fußweg zieht sich durchs Dorf, drumherum Karstnadeln und der Nam Ou. Kein Programm nötig: am Fluss sitzen, Fischerbooten zuschauen. WLAN ist selten, Strom oft nur stundenweise per Generator.
+
+**Tageswanderung nach Ban Na** ⭐⭐ — Der Klassiker: ca. 2 km zu Fuß, vorbei an der Flusshöhle Tham Kang, durch Reisfelder zum Dorf Ban Na und weiter zu den Nachbardörfern Ban Houaisene und Ban Huei Boe. Bewohnt von ethnischen Minderheiten. Übernachtung im Dorf lässt sich meist über deine Unterkunft in Muang Ngoi vorab organisieren.
+
+**Pha Noi Höhle** — Weg beginnt hinter dem Wat Okad Savaram, direkt beim Trailhead des Muang-Ngoi-Viewpoints. Rund 10 Minuten durch den Wald, 10.000 KIP Eintritt. Taschenlampe mitbringen.
+
+**Tham Kang & Thang Pha Kaew** (geführt) — Größere Höhlensysteme, für die sich ein lokaler Guide lohnt, auch wegen Hintergrundwissen zur Vietnamkriegs-Geschichte einer der Höhlen. Buchbar direkt in Muang Ngoi.
+
+### 🎨 Kunst & Design
+
+**Dorfarchitektur ohne Inszenierung** — Anders als in Luang Prabang gibt es hier keine kuratierten Museen — dafür lebendige, traditionelle Holzbauweise auf Stelzen, ganz ohne Tourismus-Fassade.
+
+### 🍜 Essen
+
+**Riverside-Restaurants am Hauptweg** — Die meisten Guesthouses haben ein angeschlossenes Restaurant mit Blick auf den Fluss — Standard-Laos-Küche (Larb, gebratener Reis, Nudelsuppen) plus einfache westliche Gerichte.
+
+**Frisch gefangener Flussfisch** — Da hier noch aktiv gefischt wird, landet der Fisch oft direkt vom Nam Ou auf dem Teller — gegrillt oder in Bananenblatt gedämpft. Einfach am Guesthouse nachfragen.
+
+### 💡 Geheimtipps
+
+**Kajak & Schlauchboot auf dem Nam Ou** — Ruhiger und weniger kommerziell als in Vang Vieng — einfach beim Guesthouse leihen, keine feste Route nötig.
+
+**Muang Ngoi Viewpoint** — Kurzer Aufstieg direkt vom Dorf aus (Trailhead bei Wat Okad Savaram) — deutlich weniger Aufwand als Pha Daeng in Nong Khiaw, ähnlich schöner Blick.
+
+### 🗺️ Praktisches Muang Ngoi Neua
+
+- **Hinkommen ab Nong Khiaw:** Boote 2× täglich, ca. 10:30 und 14:30 Uhr, ~1 Std., ~25.000 KIP. Kein Landweg vorhanden.
+- **Kein Strom rund um die Uhr** — viele Guesthouses laufen nur stundenweise per Generator (oft abends) — Powerbank mitbringen.
+- **WLAN so gut wie nicht vorhanden** — bewusst als "Digital Detox"-Stopp einplanen.
+- **Bargeld mitbringen** — kein ATM im Ort, nächster in Nong Khiaw.
+- **Weiter:** gleicher Bootsfahrplan zurück, oder weiter Richtung Norden (Muang Khua) falls noch mehr Zeit für Nordlaos übrig ist.
+
+### 🗺️ KI-Prompts vor Ort
+```
+"Muang Ngoi Neua things to do 2026"
+"Muang Ngoi Ban Na trekking guide"
+"Muang Ngoi Nong Khiaw boat schedule price"
+```
+
+---
+
+## 🇱🇦 THAKHEK-LOOP (KONG LOR CAVE) — Alternative statt dem Norden
+
+> **Geografisch entgegengesetzt** zu Vang Vieng/Luang Prabang/Nong Khiaw — liegt in Zentrallaos. Nur sinnvoll als **Ersatz** für die Nordroute, nicht als Ergänzung: der Loop allein braucht laut praktisch allen Reiseberichten **mindestens 4 Tage**, 5 ist ideal. Mit Anreise ab Vientiane (kein Zug, nur Bus, ~5–6h) frisst das euer ganzes 7-Tage-Fenster.
+
+Für dich interessant, wenn euch nach Ankunft klar wird, dass ihr lieber Vollgas-Adventure als Kulturprogramm wollt: ein 4–5-tägiger Motorrad-Loop (~450–500 km) ab und bis Thakhek durch spektakuläre Karstlandschaft, vorbei an Dutzenden Höhlen und Schwimmlöchern. Highlight: **Kong Lor Cave**, eine 7 km lange Flusshöhle, die man im Dunkeln mit dem Boot durchfährt.
+
+### 🏛️ Grobe Route (4 Tage)
+
+**Tag 1: Thakhek → Thalang** — Route 12 Richtung Osten. Unterwegs: Tha Falang Schwimmloch (kristallklares Wasser), Tham Nong Pa Fa ("Buddha-Höhle"), Tham Nang Aen (beleuchtete Schauhöhle mit Ruderboot-Fahrt durch den unterirdischen Fluss), Pha Katai Viewpoint ("Golden Rabbit").
+
+**Tag 2: Thalang → Kong Lor Village** — Weiter über Sandstein-Buddha-Felsskulpturen, die "Dragon Cave" (Mangkone-Höhle), eine kühle Quellenlagune zum Abkühlen, bis zum kleinen Dorf Kong Lor.
+
+**Tag 3: Kong Lor Cave** ⭐⭐⭐ — Das Highlight: 7 km lange Flusshöhle, komplett mit dem Longtail-Boot durchfahren, nur mit Stirnlampen beleuchtet. Kompletter Ausflug dauert 2–3 Stunden. Am Ausgang öffnet sich die Höhle in ein grünes Tal.
+
+**Tag 4: Nahin → zurück nach Thakhek** — Rückweg mit weiteren Karst-Aussichtspunkten unterwegs. Wer 5 Tage Zeit hat, baut hier noch einen Zwischenstopp ein.
+
+### 🎨 Kunst & Design
+
+**Karstlandschaft als Naturskulptur** — Deutlich weniger erschlossen und touristisch inszeniert als Vang Vieng — schroffer, wilder, ursprünglicher. Die schiere Menge an Höhlen macht die Region zu einer Art unterirdischer Naturgalerie.
+
+### 🍜 Essen
+
+**Kleine Garküchen entlang der Route** — Der Loop führt durch abgelegene Dörfer mit sehr einfachen, aber authentischen Garküchen. Kein großes Angebot, aber echtes Landleben-Laos.
+
+**Thakhek selbst: Mekong-Restaurants** — Vor und nach dem Loop lohnt sich die Uferpromenade in Thakhek mit Blick auf Thailand auf der anderen Mekong-Seite.
+
+### 💡 Geheimtipps
+
+**Nicht die schnellste Variante fahren** — Reiseberichte sind sich einig: Wer sich Zeit für Seitenwege, Dörfer und spontane Stopps nimmt, hat deutlich mehr davon. Lieber die vollen 4–5 Tage einplanen statt zu hetzen.
+
+### 🗺️ Praktisches Thakhek-Loop
+
+- **Anreise ab Vientiane:** Kein Zug — nur Bus, ca. 5–6 Std. ab dem Southern Bus Terminal.
+- **Motorrad mieten** in Thakhek direkt bei mehreren Anbietern im Zentrum, Semi-Automatik empfohlen wegen einiger unbefestigter Abschnitte.
+- **Fahrerfahrung nötig** — teils schlechte Straßenabschnitte, Schotter, Regenzeit-Pfützen im August. Nur empfehlenswert, wenn mindestens eine Person im Team schon Motorrad-Erfahrung hat.
+- **Helm, Regenjacke, wasserdichte Taschen** — August ist Regenzeit.
+- **Übernachtungen unterwegs:** Einfache Guesthouses in Thalang, Kong Lor Village und Nahin — spontan vor Ort finden ist Standard.
+- **Danach weiter nach Vietnam:** Von Thakhek selbst keine guten Flugverbindungen — zurück nach Vientiane (Bus) und von dort fliegen. Hauptgrund, warum diese Option das Zeitfenster so stark beansprucht.
+
+### 🗺️ KI-Prompts vor Ort
+```
+"Thakhek loop itinerary 2026"
+"Kong Lor cave guide tips"
+"Thakhek motorbike rental price"
+```
+
+---
+
+## 🇱🇦 4000 ISLANDS (SI PHAN DON) — Alternative im Süden
+
+> **Geografisch das Gegenteil** von Vang Vieng/Luang Prabang — Mekong-Inseln an der Grenze zu Kambodscha. Wegen der Entfernung eine **Entweder-oder-Entscheidung** gegenüber dem Norden, kein Kombi in 7 Tagen.
+
+DER Ort in Laos zum reinen Nichtstun: Hängematte, Mekong-Schwimmen, Fahrrad durch Dörfer, seltene Irrawaddy-Flussdelfine beobachten. Weniger Kultur/Sightseeing, dafür maximale Entspannung + Fluss.
+
+**Überraschend gut angebunden:** Von Vientiane fliegt Lao Airlines mehrmals täglich in ~1 Std. nach Pakse (Tor zu Si Phan Don), und ab Pakse gibt's Direktflüge weiter nach Vietnam (u. a. Ho Chi Minh City in ~1h40) — das hat sich 2026 mit neuen Routen verbessert und macht diese Option logistisch machbarer als sie aussieht. Kostet aber trotzdem gut 2 volle Reisetage allein für Flüge/Busse in den Süden und zurück bzw. weiter.
+
+### 🏛️ Sehenswürdigkeiten
+
+**Don Det** ⭐ — Die Hauptinsel für Backpacker — günstige Guesthouses ab ~10 $/Nacht, Hängemattencafés, "Sonnenaufgangs-" und "Sonnenuntergangs-Seite". Kein Auto, keine Hektik.
+
+**Don Khon** — Über eine alte französische Eisenbahnbrücke mit Don Det verbunden. Ruhiger, mit sichtbarem französischem Kolonialerbe und den schönsten Wasserfällen der Region.
+
+**Khone Phapheng Falls** ⭐⭐ — Der breiteste Wasserfall der Welt — 13 km tosende Stromschnellen des gesamten Mekong. Meist als Tagesausflug per Fahrrad oder Tuk-Tuk.
+
+**Irrawaddy-Flussdelfine** ⭐ — Einer der letzten Orte weltweit für die seltenen, vom Aussterben bedrohten Irrawaddy-Flussdelfine. Geführte Bootstour Richtung kambodschanische Grenze, morgens oder spätnachmittags am besten.
+
+### 🎨 Kunst & Design
+
+**Französisches Kolonialerbe auf Don Khon** — Überreste der einzigen Eisenbahnlinie, die Frankreich je in Laos baute (Ende 19. Jhdt.) — alte Lokomotive, Brückenpfeiler, Kolonialvillen.
+
+**Traditionelle Stelzenhäuser & Fischerdörfer** — Gelebte, traditionelle Bauweise auf Stelzen, angepasst an die jährlichen Mekong-Überschwemmungen. Radtour durch die Dörfer zeigt Alltagsleben ganz ohne Inszenierung.
+
+### 🍜 Essen
+
+**Riverside-Restaurants auf Stelzen** — Praktisch jedes Guesthouse hat ein eigenes Restaurant direkt über dem Wasser, viele mit Fisch direkt aus dem Mekong. Günstiger als Vang Vieng oder Luang Prabang.
+
+**Sunset-Bars auf der Westseite** — Mehrere einfache Bars/Guesthouse-Terrassen auf Don Det speziell auf den Sonnenuntergang ausgerichtet — Hängematten, Bier Lao.
+
+### 💡 Geheimtipps
+
+**Fahrrad statt Tuk-Tuk** — Beide Inseln sind flach und klein genug, um sie komplett per Fahrrad zu erkunden — inklusive Eisenbahnbrücke, Wasserfälle auf Don Khon und Delfin-Aussichtspunkte.
+
+**Bewusst nichts planen** — Viele Reisende berichten, dass "ein Tag komplett nichts tun" hier tatsächlich der Höhepunkt war, nicht eine bestimmte Attraktion.
+
+### 🗺️ Praktisches 4000 Islands
+
+- **Anreise ab Vientiane:** Lao Airlines fliegt mehrmals täglich (~13× wöchentlich) in ca. 1 Std. nach Pakse. Ab Pakse Tuk-Tuk/Minivan zu den Bootsanlegern Richtung Don Det/Don Khon (~1,5–2 Std.).
+- **Alternative Bus ab Vientiane:** deutlich günstiger, aber ~10–12 Std. — bei nur 7 Tagen Gesamtzeit eher nicht empfehlenswert.
+- **Weiter nach Vietnam ab Pakse:** Direktflüge Richtung Ho Chi Minh City existieren (~1h40) — deutlich schneller als über Vientiane zurückzufliegen. Nach Hanoi dauert es mit Umstieg länger (~4–7 Std.).
+- **Bargeld mitbringen** — kaum ATMs auf den Inseln, in Pakse vorher abheben.
+- **Regenzeit im August:** Mekong führt Hochwasser, manche Uferwege können überflutet sein — vor Ort erkundigen.
+
+### 🗺️ KI-Prompts vor Ort
+```
+"Si Phan Don 4000 islands guide 2026"
+"Don Det Don Khon things to do"
+"Irrawaddy dolphin tour Si Phan Don"
+"Pakse to Vietnam flight options"
 ```
 
 ---

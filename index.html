@@ -683,6 +683,9 @@
     <a href="#vang-vieng">Vang Vieng</a>
     <a href="#luang-prabang">Luang Prabang</a>
     <a href="#nong-khiaw">Nong Khiaw (optional)</a>
+    <a href="#muang-ngoi">Muang Ngoi (optional)</a>
+    <a href="#thakhek">Thakhek Loop (Alternative)</a>
+    <a href="#si-phan-don">4000 Islands (Alternative)</a>
     <a href="#da-nang">🇻🇳 Da Nang</a>
     <a href="#hoi-an">Hội An</a>
     <a href="#bangkok-geburtstag">🎂 Bangkok</a>
@@ -850,6 +853,24 @@ const CITIES = [
     dates: 'Optional — falls Zeit ist',
     lat: 20.5667, lng: 102.9833, zoom: 13,
     gradient: 'linear-gradient(150deg,#2c5f2d 0%,#5b8c5a 55%,#97bc62 100%)',
+  },
+  {
+    id: 'muang-ngoi', name: 'Muang Ngoi Neua', flag: '🇱🇦',
+    dates: 'Optional — nur per Boot ab Nong Khiaw',
+    lat: 20.6167, lng: 102.9333, zoom: 13,
+    gradient: 'linear-gradient(150deg,#1f5c4d 0%,#3f8f6f 55%,#8fc9a0 100%)',
+  },
+  {
+    id: 'thakhek', name: 'Thakhek Loop', flag: '🇱🇦',
+    dates: 'Alternative statt Norden — 4–5 Tage Motorrad-Loop',
+    lat: 17.4028, lng: 104.8016, zoom: 12,
+    gradient: 'linear-gradient(150deg,#4a3b1f 0%,#8a6d3a 55%,#c9a86c 100%)',
+  },
+  {
+    id: 'si-phan-don', name: '4000 Islands (Si Phan Don)', flag: '🇱🇦',
+    dates: 'Alternative im Süden — reine Entspannung',
+    lat: 13.9088, lng: 105.9169, zoom: 12,
+    gradient: 'linear-gradient(150deg,#0d5c6b 0%,#2a94a3 55%,#7ecdd6 100%)',
   },
   {
     id: 'da-nang', name: 'Da Nang', flag: '🇻🇳',
@@ -1525,20 +1546,24 @@ const CC = {
     intro: `
       <p>📅 <strong>Einstiegspunkt ab 16. August</strong> — nichts gebucht, Dauer flexibel, Empfehlung 1–2 Tage.</p>
       <p>Vientiane wirkt eher wie eine entspannte Kleinstadt als eine Hauptstadt — überschaubar, ohne Hektik, mit buddhistischen Tempeln, französischem Kolonialerbe und Mekong-Atmosphäre. Günstigstes Pflaster auf der ganzen Reise.</p>
-      <p>🧭 <strong>Mögliche Stopps in Laos — Zeitfenster 16.–22. August (7 Tage):</strong> Nichts davon ist gebucht, auch der Rückflug ab Luang Prabang nicht — das war bisher nur die naheliegendste Annahme, weil von dort die Verbindungen weiter nach Vietnam am einfachsten sind. Fix ist eigentlich nur die Geografie: Die Zugstrecke aus Thailand endet hier in Vientiane, da kommt ihr an. Wo ihr Laos wieder verlasst, ist komplett offen — Luang Prabang bietet sich an, aber auch Vientiane hat einen Flughafen. Kurze Einordnung:</p>
+      <p>🧭 <strong>Mögliche Stopps in Laos — Zeitfenster 16.–22. August (7 Tage):</strong> Nichts davon ist gebucht, auch der Rückflug ab Luang Prabang nicht — das war bisher nur die naheliegendste Annahme, weil von dort die Verbindungen weiter nach Vietnam am einfachsten sind. Fix ist eigentlich nur die Geografie: Die Zugstrecke aus Thailand endet hier in Vientiane, da kommt ihr an. Wo ihr Laos wieder verlasst, ist komplett offen.</p>
+      <p><strong>Bewusst mehr Optionen aufgelistet als in 7 Tage passen</strong> — die Idee ist nicht, alles abzuklappern, sondern dass ihr vor Ort seht, was euch zieht, und spontan entscheidet. Gefällt's euch irgendwo besonders gut, bleibt einfach länger und lasst was anderes weg. Sortiert nach dem, was dich interessiert:</p>
       <div class="timeline-wrap" style="margin-bottom:14px">
         <table class="tl-table">
-          <thead><tr><th>Ort</th><th>Charakter</th><th>Empfehlung</th></tr></thead>
+          <thead><tr><th>Ort</th><th>Fluss/Schwimmen</th><th>Wandern</th><th>Kultur</th><th>Entspannung</th></tr></thead>
           <tbody>
-            <tr><td>🇱🇦 Vientiane</td><td>Entspannte "Kleinstadt-Hauptstadt", COPE + Buddha Park die Highlights</td><td>Einstiegspunkt · 1–2 Tage</td></tr>
-            <tr><td>🇱🇦 Vang Vieng</td><td>Aktivort: Lagunen, Höhlen, Kajak, Motorrad</td><td>Optional · 2–3 Tage</td></tr>
-            <tr><td>🇱🇦 Luang Prabang</td><td>Kulturell am dichtesten: Almosenzeremonie, Kuang Si, Tempel</td><td>wahrscheinlichster Ausstieg · 2–3 Tage</td></tr>
-            <tr><td>🇱🇦 Nong Khiaw</td><td>Ruhigster Zusatz-Stopp, Karstlandschaft am Fluss</td><td>Nur falls Zeit übrig · 1–2 Tage</td></tr>
+            <tr><td>🇱🇦 Vientiane</td><td>–</td><td>–</td><td>⭐⭐⭐</td><td>⭐</td></tr>
+            <tr><td>🇱🇦 Vang Vieng</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td>–</td><td>⭐</td></tr>
+            <tr><td>🇱🇦 Luang Prabang</td><td>⭐⭐ (Kuang Si)</td><td>⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td></tr>
+            <tr><td>🇱🇦 Nong Khiaw</td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐</td><td>⭐⭐</td></tr>
+            <tr><td>🇱🇦 Muang Ngoi Neua</td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐ (Dorfleben)</td><td>⭐⭐⭐</td></tr>
+            <tr><td>🇱🇦 Thakhek-Loop <em>(Alternative)</em></td><td>⭐⭐⭐ (Kong Lor)</td><td>–</td><td>–</td><td>–</td></tr>
+            <tr><td>🇱🇦 4000 Islands <em>(Alternative)</em></td><td>⭐⭐⭐</td><td>–</td><td>⭐</td><td>⭐⭐⭐</td></tr>
           </tbody>
         </table>
       </div>
-      <p>Grober Rechenweg: 7 Tage minus 1–2 An-/Abreisetage lässt realistisch ~5–6 Tage zum Verteilen. Merkt ihr vor Ort, dass euch eine Stadt mehr zieht — einfach umschichten.</p>
-      <p>⚠️ <strong class="warn">Nicht alles reinquetschen wollen:</strong> Höchstens <strong>einen</strong> Zusatz-Stopp (Nong Khiaw o.ä.) einplanen — sonst bleibt überall nur ~1 Tag übrig und ihr seid die ganze Zeit unterwegs statt anzukommen.</p>
+      <p>Vientiane, Vang Vieng und Luang Prabang liegen alle an der Zugstrecke und lassen sich gut kombinieren. Nong Khiaw und Muang Ngoi Neua hängen dran (nur per Bus/Boot ab Luang Prabang), sind aber eine Ecke ruhiger und wandern-lastiger. Der Thakhek-Loop und die 4000 Islands liegen geografisch im Süden, also komplett gegenläufig — die wären eher ein Ersatz für den Norden als eine Ergänzung dazu (Details und Zeitaufwand direkt in den jeweiligen Abschnitten).</p>
+      <p>Grober Rechenweg für die Nord-Route: 7 Tage minus 1–2 An-/Abreisetage lässt realistisch ~5–6 Tage zum Verteilen auf so viele Orte, wie euch reizen. Merkt ihr vor Ort, dass euch eine Stadt mehr zieht — einfach umschichten, das ist ausdrücklich der Plan.</p>
     `,
     pins: [
       { lat: 17.9802, lng: 102.6359, name: 'Pha That Luang ⭐⭐',         desc: '45 m goldene Stupa · abends im Sonnenuntergang' },
@@ -2110,6 +2135,25 @@ const CC = {
   </div>
 </div>`,
 
+      'Geheimtipps': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">"100 Waterfalls"-Trek als Geheimtipp ⭐⭐</div>
+    <div class="poi-desc">Wird oft nur am Rande erwähnt, gilt aber unter erfahrenen Laos-Reisenden als einer der schönsten Treks im Land — durch Dschungel, über und durch dutzende kleine Flussüberquerungen und Kaskaden. Ein- oder mehrtägig organisierbar (z. B. Tiger Trail in Luang Prabang), lohnt sich aber nur mit etwas Kondition und Zeit.</div>
+    <span class="poi-meta">1–2 Tage · organisierte Tour · wenig bekannt</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Kräuter-Dampfbad &amp; Massage "Sabai Sabai"</div>
+    <div class="poi-desc">Nach dem Pha-Daeng-Aufstieg oder einem Tag Kajak genau richtig: traditionelles laotisches Kräuter-Dampfbad, danach Öl- oder Fußmassage. Sehr günstig im Vergleich zu Thailand, entspannter Ausklang eines "Durchatmen"-Tages.</div>
+    <span class="poi-meta">Günstig · guter Ausgleich nach Aktivität</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Sonnenuntergang von der Brücke statt vom Viewpoint</div>
+    <div class="poi-desc">Während alle zum Sonnenuntergang auf Pha Daeng oder Sleeping Woman hochsteigen, bleiben viele Einheimische einfach auf der Brücke im Zentrum — kostenlos, kein Aufstieg, fast der gleiche Blick auf die Karstsilhouetten im Abendlicht. Guter Plan B an Tagen, an denen die Beine vom Trekking schon müde sind.</div>
+    <span class="poi-meta">Gratis · kein Aufstieg nötig · Zentrum</span>
+  </div>
+</div>`,
+
       'Praktisches': `
 <ul class="tip-list">
   <li><strong>Hinkommen ab Luang Prabang:</strong> Tuk-Tuk zur "Sokprasert Bus Station" (~11 km, ~25 min, ~50.000 KIP/Person), dann Minivan LP → Nong Khiaw (3 tägliche Abfahrten: 9:00/11:00/13:00 Uhr, gleiche Zeiten für die Rückfahrt). Strecke 133 km, Fahrzeit 3,5–4 Std., ~120.000 KIP/Person. Unterwegs kurzer Tankstellen-Stopp (~10 min, WC vorhanden). Günstiger, aber langsamer/weniger planbar: öffentlicher Bus ab Busbahnhof LP für ~50.000–70.000 KIP.</li>
@@ -2122,6 +2166,283 @@ const CC = {
       'KI-Prompts': `"Nong Khiaw hidden gems things to do"
 "Nong Khiaw viewpoint hike guide"
 "Nong Khiaw to Muang Ngoi boat schedule"`,
+    },
+  },
+
+  'muang-ngoi': {
+    image:    'https://commons.wikimedia.org/wiki/Special:FilePath/Nam_Ou_and_Muang_Ngoi_Neua.jpg?width=1280',
+    imageAlt: 'Der Nam Ou Fluss bei Muang Ngoi Neua, Laos',
+    intro: `
+      <p>🧭 <strong>Optionaler Zusatz-Stopp</strong> — nur per Boot ab Nong Khiaw erreichbar (~1 Std., 2 tägliche Abfahrten). Keine Straße, kein Auto, kaum Strom — der ruhigste Ort auf der ganzen Reise.</p>
+      <p>🏞️ Winziges Dorf am Nam Ou, umgeben von Karstbergen. Für dich interessant, wenn du neben Wandern und Fluss auch <strong>echte Dorfkultur</strong> statt Museum willst — Tageswanderungen zu ethnischen Minderheitendörfern sind hier der Clou, teils mit Übernachtung bei Familien.</p>
+      <p>⚠️ <strong class="warn">Zeitkosten einrechnen:</strong> Die Bootsfahrt hin und zurück plus der ruhige Rhythmus vor Ort bedeuten praktisch mindestens 2 Nächte, damit sich die Anreise lohnt — eher etwas für "wenn's euch in Nong Khiaw richtig gut gefällt" als ein Tagesausflug.</p>
+    `,
+    pins: [
+      { lat: 20.6167, lng: 102.9333, name: 'Muang Ngoi Zentrum',       desc: 'Nur per Boot erreichbar · eine Hauptstraße, keine Autos' },
+      { lat: 20.6210, lng: 102.9410, name: 'Ban Na Dorf ⭐⭐',          desc: 'Tageswanderung · ethnische Minderheit · Übernachtung möglich' },
+      { lat: 20.6155, lng: 102.9300, name: 'Tham Kang Höhle',           desc: 'Flusshöhle auf dem Weg nach Ban Na' },
+      { lat: 20.6140, lng: 102.9285, name: 'Pha Noi Höhle',             desc: '10 Min. Waldweg · ~10.000 KIP · Taschenlampe nötig' },
+    ],
+    panels: {
+      'Sehenswürdigkeiten': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Nam Ou Fluss &amp; Dorfleben ⭐⭐⭐</div>
+    <div class="poi-desc">Muang Ngoi ist autofrei und praktisch straßenlos — nur ein Fußweg zieht sich durchs Dorf, drumherum Karstnadeln und der Nam Ou. Kein Programm nötig: am Fluss sitzen, Fischerbooten zuschauen, Kinder beim Spielen beobachten. WLAN ist selten, Strom oft nur stundenweise per Generator — genau das macht den Ort so besonders ruhig.</div>
+    <span class="poi-meta">Gratis · keine Autos · minimaler Strom/WLAN</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Tageswanderung nach Ban Na ⭐⭐</div>
+    <div class="poi-desc">Der Klassiker: ca. 2 km zu Fuß, vorbei an der Flusshöhle Tham Kang, durch Reisfelder zum Dorf Ban Na und weiter zu den Nachbardörfern Ban Houaisene und Ban Huei Boe. Bewohnt von ethnischen Minderheiten mit eigenen Bräuchen und Sprache. Übernachtung im Dorf lässt sich meist über deine Unterkunft in Muang Ngoi vorab organisieren — für ein wirklich authentisches Kultur-Erlebnis statt Museum.</div>
+    <span class="poi-meta">~2 km · zu Fuß · Übernachtung im Dorf organisierbar</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Pha Noi Höhle</div>
+    <div class="poi-desc">Für alle mit einer Stunde übrig: Weg beginnt hinter dem Wat Okad Savaram, direkt beim Trailhead des Muang-Ngoi-Viewpoints. Rund 10 Minuten durch den Wald, 10.000 KIP Eintritt, mehrere Eingänge in den Hang hinein. Taschenlampe mitbringen — auch spontan ohne Guide machbar.</div>
+    <span class="poi-meta">~10.000 KIP · ~10 Min. Waldweg · Taschenlampe!</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Tham Kang &amp; Thang Pha Kaew (geführt)</div>
+    <div class="poi-desc">Größere Höhlensysteme in der Umgebung, für die sich ein lokaler Guide lohnt — sowohl wegen der Orientierung als auch wegen Hintergrundwissen zur geologischen und historischen Bedeutung (auch hier diente eine der Höhlen im Vietnamkrieg als Schutzraum). Buchbar direkt in Muang Ngoi.</div>
+    <span class="poi-meta">Geführt · lokale Anbieter im Dorf</span>
+  </div>
+</div>`,
+
+      'Kunst & Design': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Dorfarchitektur ohne Inszenierung</div>
+    <div class="poi-desc">Anders als in Luang Prabang gibt es hier keine kuratierten Museen — dafür lebendige, traditionelle Holzbauweise auf Stelzen, wie sie in Nordlaos seit Generationen praktiziert wird, ganz ohne Tourismus-Fassade. Wer sich für Handwerk und Materialkultur interessiert, sieht hier die "unbearbeitete" Version dessen, was anderswo im Museum erklärt wird.</div>
+    <span class="poi-meta">Gratis · einfach durchs Dorf laufen</span>
+  </div>
+</div>`,
+
+      'Essen & Streetfood': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Riverside-Restaurants am Hauptweg</div>
+    <div class="poi-desc">Die meisten Guesthouses haben ein angeschlossenes Restaurant mit Blick auf den Fluss — Standard-Laos-Küche (Larb, gebratener Reis, Nudelsuppen) plus einfache westliche Gerichte für Backpacker. Nichts Spektakuläres, aber die Aussicht macht's wett.</div>
+    <span class="poi-meta">Günstig · meist an die Unterkunft angeschlossen</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Frisch gefangener Flussfisch</div>
+    <div class="poi-desc">Da hier noch aktiv gefischt wird, landet der Fisch oft direkt vom Nam Ou auf dem Teller — gegrillt oder in Bananenblatt gedämpft. Einfach am Guesthouse nachfragen, was der Tagesfang war.</div>
+    <span class="poi-meta">Tagesfang · am Guesthouse nachfragen</span>
+  </div>
+</div>`,
+
+      'Geheimtipps': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Kajak &amp; Schlauchboot auf dem Nam Ou</div>
+    <div class="poi-desc">Ruhiger und weniger kommerziell als in Vang Vieng — einfach beim Guesthouse einen Kajak oder Schlauch leihen und selbst den Fluss erkunden, keine feste Route nötig. Ideal, um das "Fluss baden" mit Landschaft statt Partyatmosphäre zu verbinden.</div>
+    <span class="poi-meta">Günstig · beim Guesthouse leihen</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Muang Ngoi Viewpoint</div>
+    <div class="poi-desc">Kurzer Aufstieg direkt vom Dorf aus (Trailhead bei Wat Okad Savaram) — deutlich weniger Aufwand als Pha Daeng in Nong Khiaw, aber ähnlich schöner Blick auf Fluss und Karst. Guter Plan, wenn die Beine vom Vortag noch müde sind.</div>
+    <span class="poi-meta">Kurzer Aufstieg · Trailhead bei Wat Okad Savaram</span>
+  </div>
+</div>`,
+
+      'Praktisches': `
+<ul class="tip-list">
+  <li><strong>Hinkommen ab Nong Khiaw:</strong> Boote fahren 2× täglich, ca. 10:30 und 14:30 Uhr, Fahrzeit gut 1 Std., ~25.000 KIP. Kein Landweg vorhanden.</li>
+  <li><strong>Kein Strom rund um die Uhr:</strong> Viele Guesthouses laufen nur stundenweise per Generator (oft abends) — Powerbank mitbringen.</li>
+  <li><strong>WLAN so gut wie nicht vorhanden</strong> — bewusst als "Digital Detox"-Stopp einplanen, nicht als Arbeitsort.</li>
+  <li><strong>Bargeld mitbringen</strong> — kein ATM im Ort, nächster in Nong Khiaw.</li>
+  <li><strong>Zurück:</strong> gleicher Bootsfahrplan in umgekehrter Richtung, oder weiter Richtung Norden (Muang Khua) falls ihr noch mehr Zeit habt und tiefer nach Nordlaos wollt.</li>
+</ul>`,
+
+      'KI-Prompts': `"Muang Ngoi Neua things to do 2026"
+"Muang Ngoi Ban Na trekking guide"
+"Muang Ngoi Nong Khiaw boat schedule price"`,
+    },
+  },
+
+  thakhek: {
+    image:    'https://commons.wikimedia.org/wiki/Special:FilePath/Kong_Lor_Caves_of_Laos_(5421509259).jpg?width=1280',
+    imageAlt: 'Kong Lor Höhle bei Thakhek, Laos',
+    intro: `
+      <p>🧭 <strong>Alternative statt dem Norden</strong> — falls euch pures Adventure mehr reizt als Kultur/Wasserfälle. Liegt in Zentrallaos, geografisch <strong>entgegengesetzt</strong> zu Vang Vieng/Luang Prabang/Nong Khiaw.</p>
+      <p>🏍️ <strong>4–5-tägiger Motorrad-Loop</strong> (~450–500 km) ab und bis Thakhek, durch spektakuläre Karstlandschaft, vorbei an Dutzenden Höhlen und Schwimmlöchern. Highlight: <strong>Kong Lor Cave</strong> — eine 7 km lange Flusshöhle, die man im Dunkeln mit dem Boot durchfährt.</p>
+      <p>⚠️ <strong class="warn">Realistischer Zeitcheck:</strong> Der Loop allein braucht laut praktisch allen Reiseberichten mindestens 4 Tage. Mit An-/Abreise ab Vientiane (kein Zug, nur Bus, ~6h) frisst das euer ganzes 7-Tage-Fenster für Laos — würde heißen: Vang Vieng, Luang Prabang und Nong Khiaw komplett streichen. Nur eine Option, falls euch nach Ankunft klar wird, dass ihr lieber Vollgas-Adventure als Kulturprogramm wollt.</p>
+    `,
+    pins: [
+      { lat: 17.4028, lng: 104.8016, name: 'Thakhek Zentrum',           desc: 'Start-/Endpunkt des Loops · Mekong-Städtchen' },
+      { lat: 17.5389, lng: 104.9503, name: 'Tham Nang Aen ⭐',           desc: 'Beleuchtete Höhle · Ruderboot-Fahrt hindurch' },
+      { lat: 17.7333, lng: 105.6667, name: 'Kong Lor Cave ⭐⭐⭐',        desc: '7 km Flusshöhle · Bootsfahrt im Dunkeln · 2–3 Std.' },
+      { lat: 17.6000, lng: 105.2000, name: 'Tha Falang Schwimmloch',    desc: 'Kristallklares Wasser · Tag 1 der Schleife' },
+    ],
+    panels: {
+      'Sehenswürdigkeiten': `
+<div class="poi-list">
+  <div class="acc-lbl">🗓️ Grobe Route (4 Tage)</div>
+  <div class="poi">
+    <div class="poi-name">Tag 1: Thakhek → Thalang</div>
+    <div class="poi-desc">Route 12 Richtung Osten. Unterwegs: Tha Falang Schwimmloch (kristallklares Wasser, guter erster Stopp), Tham Nong Pa Fa ("Buddha-Höhle"), Tham Nang Aen (beleuchtete Schauhöhle mit Ruderboot-Fahrt durch den unterirdischen Fluss), Pha Katai Viewpoint ("Golden Rabbit").</div>
+    <span class="poi-meta">Route 12 Richtung Osten · mehrere Höhlen &amp; Schwimmlöcher</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Tag 2: Thalang → Kong Lor Village</div>
+    <div class="poi-desc">Weiter über Sandstein-Buddha-Felsskulpturen, die "Dragon Cave" (Mangkone-Höhle), eine kühle Quellenlagune zum Abkühlen, bis zum kleinen Dorf Kong Lor — Ausgangspunkt für die Höhle am nächsten Tag.</div>
+    <span class="poi-meta">Weitere Höhlen &amp; eine Lagune zum Schwimmen</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Tag 3: Kong Lor Cave ⭐⭐⭐</div>
+    <div class="poi-desc">Das eigentliche Highlight des ganzen Loops — 7 km lange Flusshöhle durch einen Karstberg, komplett mit dem Longtail-Boot durchfahren, nur mit Stirnlampen beleuchtet. Kompletter Ausflug (Bootsfahrt + Erkunden) dauert 2–3 Stunden. Am Ausgang öffnet sich die Höhle in ein grünes Tal — ein Moment, den praktisch jeder Reisebericht als unvergesslich beschreibt.</div>
+    <span class="poi-meta">2–3 Std. · Boot durch komplette Dunkelheit · Highlight des Loops</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Tag 4: Nahin → zurück nach Thakhek</div>
+    <div class="poi-desc">Rückweg mit weiteren Karst-Aussichtspunkten unterwegs, bevor es zurück zum Ausgangspunkt geht. Wer 5 Tage Zeit hat, baut hier noch einen Zwischenstopp oder Seitenweg ein.</div>
+    <span class="poi-meta">Rückweg · Aussichtspunkte unterwegs</span>
+  </div>
+</div>`,
+
+      'Kunst & Design': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Karstlandschaft als Naturskulptur</div>
+    <div class="poi-desc">Anders als in Vang Vieng ist die Karstlandschaft rund um Thakhek deutlich weniger erschlossen und touristisch inszeniert — schroffer, wilder, ursprünglicher. Die schiere Menge an Höhlen (mehr als irgendwo sonst in Laos) macht die gesamte Region zu einer Art unterirdischer Naturgalerie, die man nur mit Stirnlampe zu Gesicht bekommt. Kein kuratiertes Museum, aber für Fotografie und Naturästhetik einzigartig.</div>
+    <span class="poi-meta">Gratis · über die ganze Route verteilt</span>
+  </div>
+</div>`,
+
+      'Essen & Streetfood': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Kleine Garküchen entlang der Route</div>
+    <div class="poi-desc">Der Loop führt durch abgelegene Dörfer mit sehr einfachen, aber authentischen Garküchen — meist Reis, Nudelsuppe oder gegrilltes Fleisch. Kein großes Angebot, aber echtes Landleben-Laos abseits der Touristenorte.</div>
+    <span class="poi-meta">Sehr günstig · einfache Dorfküchen</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Thakhek selbst: Mekong-Restaurants</div>
+    <div class="poi-desc">Vor und nach dem Loop lohnt sich die Uferpromenade in Thakhek mit Blick auf Thailand auf der anderen Mekong-Seite — entspannter Ausklang nach den Motorradtagen.</div>
+    <span class="poi-meta">Mekong-Uferpromenade · Thakhek Zentrum</span>
+  </div>
+</div>`,
+
+      'Geheimtipps': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Nicht die schnellste Variante fahren</div>
+    <div class="poi-desc">Reiseberichte sind sich einig: Wer sich Zeit für Seitenwege, Dörfer und spontane Stopps nimmt, hat deutlich mehr davon als wer den Loop in 3 Tagen durchzieht. Wenn ihr euch für diese Option entscheidet, lieber die vollen 4–5 Tage einplanen statt zu hetzen.</div>
+    <span class="poi-meta">5 Tage &gt; 4 Tage &gt; 3 Tage — je mehr Zeit desto besser</span>
+  </div>
+</div>`,
+
+      'Praktisches': `
+<ul class="tip-list">
+  <li><strong>Anreise ab Vientiane:</strong> Kein Zug nach Thakhek — nur Bus, ca. 5–6 Std. ab dem Southern Bus Terminal.</li>
+  <li><strong>Motorrad mieten</strong> in Thakhek direkt bei mehreren Anbietern im Zentrum, Automatik- oder Halbautomatik-Roller ausreichend für die meiste Strecke (Semi-Automatik empfohlen für ein paar unbefestigte Abschnitte).</li>
+  <li><strong>Fahrerfahrung nötig</strong> — die Strecke hat teils schlechte Straßenabschnitte, Schotter und Regenzeit-Pfützen im August. Nur empfehlenswert, wenn mindestens eine Person im Team schon Motorrad-Erfahrung hat.</li>
+  <li><strong>Helm, Regenjacke, wasserdichte Taschen</strong> — August ist Regenzeit, Schauer unterwegs sind wahrscheinlich.</li>
+  <li><strong>Übernachtungen unterwegs:</strong> Einfache Guesthouses in Thalang, Kong Lor Village und Nahin — nichts muss vorgebucht werden, vor Ort spontan finden ist Standard.</li>
+  <li><strong>Danach weiter nach Vietnam:</strong> Von Thakhek selbst keine guten Flugverbindungen — ihr müsstet zurück nach Vientiane (Bus) und von dort fliegen. Das ist der Hauptgrund, warum diese Option das Zeitfenster so stark beansprucht.</li>
+</ul>`,
+
+      'KI-Prompts': `"Thakhek loop itinerary 2026"
+"Kong Lor cave guide tips"
+"Thakhek motorbike rental price"`,
+    },
+  },
+
+  'si-phan-don': {
+    image:    'https://commons.wikimedia.org/wiki/Special:FilePath/Khone_Phapheng_Falls,_Si_Phan_Don,_Laos,_widest_waterfall_in_the_world.jpg?width=1280',
+    imageAlt: 'Khone Phapheng Wasserfall, Si Phan Don, Laos',
+    intro: `
+      <p>🧭 <strong>Alternative im Süden</strong> — Mekong-Inseln an der Grenze zu Kambodscha, DER Ort in Laos zum reinen Nichtstun. Geografisch das Gegenteil von Vang Vieng/Luang Prabang.</p>
+      <p>🏝️ Hängematte, Mekong-Schwimmen, Fahrrad durch Dörfer, seltene Irrawaddy-Flussdelfine beobachten. Weniger Kultur/Sightseeing, dafür maximale Entspannung + Fluss.</p>
+      <p>✈️ <strong>Überraschend gut angebunden:</strong> Von Vientiane fliegt Lao Airlines mehrmals täglich in ~1h nach Pakse (Tor zu Si Phan Don), und ab Pakse gibt's Direktflüge weiter nach Vietnam (u.a. Ho Chi Minh City in ~1h40) — das war lange nicht der Fall, hat sich aber 2026 mit neuen Routen verbessert. Macht diese Option logistisch machbarer als sie aussieht, kostet aber trotzdem 2 volle Reisetage allein für die Flüge/Busse hin und zurück in den Süden.</p>
+      <p>⚠️ <strong class="warn">Fork, kein Kombi:</strong> Wegen der Entfernung ist das eine Entweder-oder-Entscheidung gegenüber dem Norden (Vang Vieng/Luang Prabang/Nong Khiaw) — beides zusammen passt nicht in 7 Tage.</p>
+    `,
+    pins: [
+      { lat: 13.9088, lng: 105.9169, name: 'Don Det',                   desc: 'Haupt-Backpacker-Insel · günstige Guesthouses' },
+      { lat: 13.8794, lng: 105.9294, name: 'Don Khon',                  desc: 'Ruhiger, französisches Kolonialerbe, Wasserfälle' },
+      { lat: 13.8333, lng: 105.9500, name: 'Khone Phapheng Falls ⭐⭐',  desc: 'Breitester Wasserfall der Welt · 13 km Stromschnellen' },
+      { lat: 13.8500, lng: 105.9400, name: 'Delfin-Beobachtungspunkt ⭐', desc: 'Irrawaddy-Flussdelfine · früh morgens/spät nachm.' },
+    ],
+    panels: {
+      'Sehenswürdigkeiten': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Don Det ⭐</div>
+    <div class="poi-desc">Die Hauptinsel für Backpacker — günstige Guesthouses, Hängemattencafés, entspannte "Sonnenaufgangs-" und "Sonnenuntergangs-Seite" (je nach Tageszeit umziehen viele die Terrasse). Kein Auto, keine Hektik. Zentrum für alles Organisatorische (Fahrradverleih, Bootstouren).</div>
+    <span class="poi-meta">Backpacker-Zentrum · Guesthouses ab ~10 $/Nacht</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Don Khon</div>
+    <div class="poi-desc">Über eine alte französische Eisenbahnbrücke mit Don Det verbunden (zu Fuß oder Rad erreichbar). Ruhiger, etwas gehobener als Don Det, mit sichtbarem französischem Kolonialerbe (alte Lokschuppen, Villen) und den schönsten Wasserfällen der Region.</div>
+    <span class="poi-meta">Fußweg/Rad ab Don Det · ruhiger, etwas teurer</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Khone Phapheng Falls ⭐⭐</div>
+    <div class="poi-desc">Der breiteste Wasserfall der Welt — keine hohe Kaskade, sondern 13 km tosende Stromschnellen des gesamten Mekong. Beeindruckende Naturgewalt, gut zugänglich mit Aussichtsplattformen. Meist als Tagesausflug ab Don Det/Don Khon per Fahrrad oder Tuk-Tuk kombiniert.</div>
+    <span class="poi-meta">Kleiner Eintritt · Tagesausflug ab Don Det/Khon</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Irrawaddy-Flussdelfine ⭐</div>
+    <div class="poi-desc">Si Phan Don ist einer der letzten Orte weltweit, an denen man die seltenen, vom Aussterben bedrohten Irrawaddy-Flussdelfine beobachten kann. Geführte Bootstour Richtung kambodschanische Grenze, am besten früh morgens oder spätnachmittags wenn die Tiere aktiver sind. Keine Garantie, aber gute Chancen in der Regenzeit (mehr Wasser).</div>
+    <span class="poi-meta">Geführte Bootstour · morgens/abends beste Chance</span>
+  </div>
+</div>`,
+
+      'Kunst & Design': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Französisches Kolonialerbe auf Don Khon</div>
+    <div class="poi-desc">Überreste der einzigen Eisenbahnlinie, die Frankreich je in Laos baute (Ende 19. Jhdt., um die Stromschnellen zu umgehen) — alte Lokomotive, Brückenpfeiler, Kolonialvillen. Ein ungewöhnliches, kaum bekanntes Stück Industriegeschichte mitten auf einer Mekong-Insel.</div>
+    <span class="poi-meta">Gratis · Don Khon · alte Bahnbrücke &amp; Lokschuppen</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Traditionelle Stelzenhäuser &amp; Fischerdörfer</div>
+    <div class="poi-desc">Wie in Muang Ngoi gibt es hier keine Museen — dafür gelebte, traditionelle Bauweise auf Stelzen, angepasst an die jährlichen Mekong-Überschwemmungen. Radtour durch die Dörfer zeigt Fischernetze, Reisspeicher und Alltagsleben ganz ohne touristische Inszenierung.</div>
+    <span class="poi-meta">Gratis · per Rad erkunden</span>
+  </div>
+</div>`,
+
+      'Essen & Streetfood': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Riverside-Restaurants auf Stelzen</div>
+    <div class="poi-desc">Praktisch jedes Guesthouse hat ein eigenes Restaurant direkt über dem Wasser — Standard-Lao-Küche (Larb, Fried Rice, Nudelsuppen), viele auch mit Fisch direkt aus dem Mekong. Preisniveau niedriger als in Vang Vieng oder Luang Prabang.</div>
+    <span class="poi-meta">Günstig · Fisch aus dem Mekong · über dem Wasser</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Sunset-Bars auf der Westseite</div>
+    <div class="poi-desc">Mehrere einfache Bars/Guesthouse-Terrassen auf Don Det sind speziell auf den Sonnenuntergang über dem Mekong ausgerichtet — Hängematten, Bier Lao, entspannte Live-Musik manchmal. Klassischer Abendabschluss auf den Inseln.</div>
+    <span class="poi-meta">Abends · Westseite Don Det · Hängematten</span>
+  </div>
+</div>`,
+
+      'Geheimtipps': `
+<div class="poi-list">
+  <div class="poi">
+    <div class="poi-name">Fahrrad statt Tuk-Tuk</div>
+    <div class="poi-desc">Beide Inseln sind flach und klein genug, um sie komplett per Fahrrad zu erkunden (Verleih überall, sehr günstig) — inklusive der Fahrt zur alten Eisenbahnbrücke, zu den Wasserfällen auf Don Khon und zu den Delfin-Aussichtspunkten. Deutlich atmosphärischer als organisierte Touren.</div>
+    <span class="poi-meta">Fahrrad überall leihbar · sehr günstig</span>
+  </div>
+  <div class="poi">
+    <div class="poi-name">Bewusst nichts planen</div>
+    <div class="poi-desc">Der eigentliche Sinn von Si Phan Don ist, nach den dichteren Programmen im Norden (falls ihr die zuerst macht) oder direkt am Anfang mal komplett runterzufahren — viele Reisende berichten, dass "ein Tag komplett nichts tun" hier tatsächlich der Höhepunkt war, nicht eine bestimmte Attraktion.</div>
+    <span class="poi-meta">Kein Programm · Hängematte · Fluss</span>
+  </div>
+</div>`,
+
+      'Praktisches': `
+<ul class="tip-list">
+  <li><strong>Anreise ab Vientiane:</strong> Lao Airlines fliegt mehrmals täglich (~13× wöchentlich) in ca. 1 Std. nach Pakse. Ab Pakse Tuk-Tuk/Minivan zu den Bootsanlegern Richtung Don Det/Don Khon (~1,5–2 Std.).</li>
+  <li><strong>Alternative Bus ab Vientiane:</strong> deutlich günstiger, aber ~10–12 Std. — bei nur 7 Tagen Gesamtzeit eher nicht empfehlenswert.</li>
+  <li><strong>Weiter nach Vietnam ab Pakse:</strong> Direktflüge Richtung Ho Chi Minh City existieren (~1h40 laut aktuellen Verbindungen) — deutlich schneller als über Vientiane zurückzufliegen. Nach Hanoi dauert es mit Umstieg länger (~4–7 Std. je nach Verbindung).</li>
+  <li><strong>Bargeld mitbringen</strong> — kaum ATMs auf den Inseln, in Pakse vorher abheben.</li>
+  <li><strong>Regenzeit im August:</strong> Mekong führt Hochwasser, manche Uferwege können überflutet sein — vor Ort erkundigen, welche Bereiche zugänglich sind.</li>
+</ul>`,
+
+      'KI-Prompts': `"Si Phan Don 4000 islands guide 2026"
+"Don Det Don Khon things to do"
+"Irrawaddy dolphin tour Si Phan Don"
+"Pakse to Vietnam flight options"`,
     },
   },
 
