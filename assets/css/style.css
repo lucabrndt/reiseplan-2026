@@ -159,11 +159,16 @@ img { display: block; max-width: 100%; }
   .nav-hamburger { display: flex; }
   .nav-links {
     display: none;
-    position: fixed;
-    top: var(--nav-h);
+    /* Absolut statt fixed: #main-nav erzeugt durch backdrop-filter einen eigenen
+       Bezugsrahmen, an dem sich fixed ausrichtet. Mit top/bottom fiel das Menue
+       dadurch auf Leistenhoehe zusammen. Absolut bezieht sich eindeutig auf die
+       Leiste — top:100% setzt es direkt darunter, die Hoehe fuellt den Rest. */
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
-    bottom: 0;
+    height: calc(100vh - var(--nav-h));
+    height: calc(100dvh - var(--nav-h)); /* dvh: ohne die Browserleiste am Handy */
     background: var(--surface);
     flex-direction: column;
     align-items: stretch;
@@ -172,7 +177,6 @@ img { display: block; max-width: 100%; }
     overflow-y: auto;
     z-index: 999;
     border-top: 1px solid var(--border);
-    height: auto;
     justify-content: flex-start;
   }
   .nav-links.open { display: flex; }
