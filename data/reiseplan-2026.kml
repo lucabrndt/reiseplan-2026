@@ -1,0 +1,3157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Reiseplan 2026 – Alle Orte</name>
+  <description>Alle Orte aus dem Reiseplan, mit von Google Maps verifizierten Koordinaten. Farbe = Land, Symbol = Kategorie (Kreis: Sehenswürdigkeit, Quadrat: Essen, Raute: Natur/Aktivität, Stern: Markt/Sonstiges).</description>
+  <Style id="icon-1528-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1528-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1528-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1528-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1528-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1528-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1528-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1528-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1528-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1528-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1569-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1569-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1569-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1569-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1569-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1528-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1528-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1528-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1528-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1528-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1517-7B2CBF-normal">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1517-7B2CBF-highlight">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1517-7B2CBF">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1517-7B2CBF-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1517-7B2CBF-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1517-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1517-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1517-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1517-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1517-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1517-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1517-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1517-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1517-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1517-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1534-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1534-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1534-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1534-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1534-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1534-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1534-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1534-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1534-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1534-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1534-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1534-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1534-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1534-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1534-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1534-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1534-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1534-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1534-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1534-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1535-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1535-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1535-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1535-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1535-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1535-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1535-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1535-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1535-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1535-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1535-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1535-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1535-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1535-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1535-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1535-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1535-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1535-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1535-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1535-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1535-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1535-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1535-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1535-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1535-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1546-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1546-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1546-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1546-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1546-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1546-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1546-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1546-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1546-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1546-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1546-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1546-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1546-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1546-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1546-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1546-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1546-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1546-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1546-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1546-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1546-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1546-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1546-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1546-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1546-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1577-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1577-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1577-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1577-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1577-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1577-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1577-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1577-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1577-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1577-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1577-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1577-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1577-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1577-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1577-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1577-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1577-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1577-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1577-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1577-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1577-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1577-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1577-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1577-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1577-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1598-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1598-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1598-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1598-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1598-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1598-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1598-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1598-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1598-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1598-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1598-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1598-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1598-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1598-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1598-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1598-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1598-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1598-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1598-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1598-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1602-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1602-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1602-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1602-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1602-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1602-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1602-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1602-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1602-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1602-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1636-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1636-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1636-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1636-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1636-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1636-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1636-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1636-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1636-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1636-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1636-7B2CBF-normal">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1636-7B2CBF-highlight">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1636-7B2CBF">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1636-7B2CBF-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1636-7B2CBF-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1636-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1636-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1636-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1636-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1636-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1636-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1636-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1636-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1636-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1636-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1636-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1636-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1636-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1636-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1636-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1668-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1668-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1668-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1668-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1668-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1671-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1671-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1671-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1671-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1671-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1671-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1671-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1671-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1671-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1671-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1671-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1671-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1671-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1671-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1671-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1685-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1685-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1685-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1685-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1685-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1685-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1685-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1685-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1685-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1685-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1685-7B2CBF-normal">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1685-7B2CBF-highlight">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1685-7B2CBF">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1685-7B2CBF-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1685-7B2CBF-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1685-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1685-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1685-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1685-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1685-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1685-F7941D-normal">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1685-F7941D-highlight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1685-F7941D">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1685-F7941D-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1685-F7941D-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1685-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1685-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1685-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1685-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1685-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1706-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1706-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1706-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1706-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1706-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1706-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1706-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1706-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1706-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1706-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1706-7B2CBF-normal">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1706-7B2CBF-highlight">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1706-7B2CBF">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1706-7B2CBF-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1706-7B2CBF-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1706-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1706-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1706-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1706-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1706-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1720-2E4C9E-normal">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1720-2E4C9E-highlight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1720-2E4C9E">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1720-2E4C9E-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1720-2E4C9E-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1720-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1720-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1720-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1720-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1720-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1720-7B2CBF-normal">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1720-7B2CBF-highlight">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1720-7B2CBF">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1720-7B2CBF-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1720-7B2CBF-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1720-E30613-normal">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1720-E30613-highlight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1720-E30613">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1720-E30613-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1720-E30613-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1720-FFC300-normal">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1720-FFC300-highlight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1720-FFC300">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1720-FFC300-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1720-FFC300-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1731-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1731-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1731-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1731-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1731-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1759-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1759-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1759-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1759-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1759-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="icon-1760-2E8B57-normal">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="icon-1760-2E8B57-highlight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>1</scale>
+    </LabelStyle>
+  </Style>
+  <StyleMap id="icon-1760-2E8B57">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#icon-1760-2E8B57-normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#icon-1760-2E8B57-highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Folder>
+    <name>Schweiz</name>
+    <Placemark>
+      <name>Grossmünster ⭐</name>
+      <description>Das Wahrzeichen Zürichs mit charakteristischen Doppeltürmen. Gebaut im 12. Jhdt., später Ausgangspunkt der Schweizer Reformation unter Zwingli. Von der anderen Limmatseite hat man den schönsten Blick drauf. Innen kostenlos — Turmbesteigung lohnt sich für den Blick. | Zwinglipl. 7, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#icon-1671-E30613</styleUrl>
+      <Point><coordinates>8.544054,47.3700931,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Fraumünster ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Kirche_Fraum%C3%BCster_Zuerich.jpg/330px-Kirche_Fraum%C3%BCster_Zuerich.jpg" width="330"><br>Direkt gegenüber dem Grossmünster. Das Innere beherbergt fünf Kirchenfenster von  Marc Chagall  (1970) und ein Rosettenfenster von  Augusto Giacometti  — leuchtende Blau- und Rottöne in einem romanischen Bau. Eines der bemerkenswertesten Kunstwerke der Schweiz. | Münsterhof 2, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich]]></description>
+      <styleUrl>#icon-1671-E30613</styleUrl>
+      <Point><coordinates>8.5408331,47.3697849,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Peterskirche</name>
+      <description>Die älteste Pfarrkirche Zürichs. Bekannt für das größte Kirchturm-Zifferblatt Europas (8,64 m Durchmesser). Sehr ruhig. | St. Peterhofstatt 1, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#icon-1671-E30613</styleUrl>
+      <Point><coordinates>8.5407181,47.3711462,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lindenhof</name>
+      <description>Kleiner Aussichtshügel mitten in der Altstadt, wo die Zürcher Schach spielen und Einheimische entspannen. Blick über Limmat und Niederdorf. Fast keine Touristen. | Lindenhof, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#icon-1535-E30613</styleUrl>
+      <Point><coordinates>8.5413182,47.3721811,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ETH Polyterrasse</name>
+      <description>Kostenlose Panorama-Aussicht vom ETH-Campus auf die ganze Stadt, den Zürichsee und bei klarem Wetter die Alpen. Mit der historischen Polybahn (Standseilbahn) rauf. | Polyterrasse ETH, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#icon-1535-E30613</styleUrl>
+      <Point><coordinates>8.5463439,47.3768403,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Museum für Gestaltung ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Museum_f%C3%BCr_Gestaltung._Z%C3%BCrich.jpg/330px-Museum_f%C3%BCr_Gestaltung._Z%C3%BCrich.jpg" width="330"><br>Das  Schweizer Design- und Grafikmuseum, weltbekannt. Dauersammlung zu Schweizer Gestaltungsgeschichte + wechselnde Ausstellungen zu zeitgenössischem Design, Typografie, Plakatkunst.  Adresse:  Ausstellungsstrasse 60, Kreis 5.  Mo geschlossen  — also Dienstag gehen! | Ausstellungsstrasse 60, 8005 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich]]></description>
+      <styleUrl>#icon-1636-E30613</styleUrl>
+      <Point><coordinates>8.5358278,47.3827672,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Freitag Tower ⭐</name>
+      <description>Ikonisches Flagship-Store aus gestapelten gebrauchten Schiffscontainern. Das Unternehmen macht Taschen aus alten LKW-Planen — sehr bekanntes Schweizer Designlabel. Oben auf dem Turm tolle Aussicht über Zürich-West. Direkt in Kreis 5 neben dem Viadukt. | Geroldstrasse 21, 8005 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#icon-1535-E30613</styleUrl>
+      <Point><coordinates>8.5193857,47.3856597,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Flussbad Oberer Letten ⭐</name>
+      <description>Im August schwimmen die Zürcher mitten in der Stadt im Limmat. Dich im Fluss treiben lassen, von Sprungbrettern springen oder gegen die Strömung schwimmen. Liegewiese, Bars. Im August perfekt. | Lettensteg 10, 8037 Zürich, Switzerland | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#icon-1720-E30613</styleUrl>
+      <Point><coordinates>8.5345306,47.3856866,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wochenmarkt Bürkliplatz ⭐</name>
+      <description>Di + Fr 6–11 Uhr. Du bist am  Dienstag  da! Frischer Zürichsee-Fisch, Käse, Gemüse, Blumen, lokale Spezialitäten. Sehr atmosphärischer Morgenmarkt direkt am See. | Fraumünsterstrasse, 8001 Zürich, Switzerland | Kategorie: Markt / Shopping / Sonstiges | Stadt: Zürich</description>
+      <styleUrl>#icon-1685-E30613</styleUrl>
+      <Point><coordinates>8.5407526,47.3693507,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Uetliberg ⭐</name>
+      <description>Zürichs Hausberg, 25 Min mit der S10 vom HB. Oben auf 871 m: Panoramablick auf Stadt, Zürichsee und Alpen. Planetenweg-Wanderung entlang des Grats möglich (~2h). | Uetliberg, 8143 Stallikon, Switzerland | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#icon-1535-E30613</styleUrl>
+      <Point><coordinates>8.49205,47.3495,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Altstadt / Niederdorf</name>
+      <description>Das historische Herz Zürichs auf beiden Seiten der Limmat. Kopfsteinpflaster, bunte Fassaden, kleine Gassen, Cafés auf Holzstühlen vor der Tür. Einfach durchschlendern. | Niederdorf, 8001 Zürich, Schweiz | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#icon-1546-E30613</styleUrl>
+      <Point><coordinates>8.544643,47.374899,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Zürichsee</name>
+      <description>Spazieren, Sitzen, Schauen. Schiffsfahrten auf dem See ebenfalls möglich. | Zürich, Schweiz | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#icon-1720-E30613</styleUrl>
+      <Point><coordinates>8.541694,47.376887,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Botanischer Garten</name>
+      <description>7.000 Pflanzenarten aus aller Welt, darunter tropische Glashäuser. Schön für eine ruhige Stunde. | Zollikerstrasse 107, 8008 Zürich, Switzerland | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#icon-1720-E30613</styleUrl>
+      <Point><coordinates>8.561606,47.358005,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sukkulenten-Sammlung</name>
+      <description>Eine der größten der Welt in mehreren Glashäusern. Riesige Kakteen, Aloen, kuriose Gewächse. | Mythenquai 88, 8002 Zürich, Switzerland| Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#icon-1720-E30613</styleUrl>
+      <Point><coordinates>8.535094,47.356099,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kreis 4 &amp; 5 / Langstrasse</name>
+      <description>Zürichs Kreativviertel. Ehemalige Arbeiterviertel mit Rotlichtgeschichte, jetzt voll mit Ateliers von ZHdK-Absolventen, Galerien, Upcycling-Stores, Designboutiquen. Einfach durchlaufen. | Langstrasse, Zürich, Schweiz| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#icon-1546-E30613</styleUrl>
+      <Point><coordinates>8.52757,47.379411,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Markthalle im Viadukt (Kreis 5)</name>
+      <description>Alter Eisenbahnviadukt umgebaut zu einer Foodhalle mit angeschlossenen Designshops. Die Bögen des Viadukts beherbergen lokale Händler, Cafés und Spezialitätenläden. Tolles industrielles Flair. | Viaduktstrasse, 8005 Zürich, Schweiz | Kategorie: Markt / Shopping / Sonstiges | Stadt: Zürich</description>
+      <styleUrl>#icon-1685-E30613</styleUrl>
+      <Point><coordinates>8.526571,47.387908,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bratwurst vom Sternen Grill ⭐</name>
+      <description>Zürcher Kult seit Jahrzehnten. Am Bellevueplatz. Die weiße Kalbsbratwurst  ohne  Senf essen — das ist die lokale Regel. | Theaterstrasse 22, 8001 Zürich, Schweiz | Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#icon-1577-E30613</styleUrl>
+      <Point><coordinates>8.545594,47.367322,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Luxemburgerli bei Sprüngli (Bahnhofstrasse)</name>
+      <description>Mini-Macarons von Sprüngli. Teuer aber legendär. Gut als kleiner Snack zwischendurch. | Bahnhofstrasse 21, 8001 Zürich, Schweiz | Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#icon-1534-E30613</styleUrl>
+      <Point><coordinates>8.539164,47.369515,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Acapulco Bar</name>
+      <description>Di–Fr 17–20 Uhr gratis Apérobuffet mit Häppchen. | Neugasse 56, 8005 Zürich, Schweiz| Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#icon-1517-E30613</styleUrl>
+      <Point><coordinates>8.529547,47.382833,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>La Tanza</name>
+      <description>Sa ab 18 Uhr gratis Tomaten-Pasta (solange Vorrat reicht). | Bleicherweg 10, 8002 Zürich, Schweiz| Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#icon-1577-E30613</styleUrl>
+      <Point><coordinates>8.536783,47.368437,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>sBier Brauerei (Kilchberg)</name>
+      <description>Sa Vormittag gratis Bierverkostung. | Flühgasse 8, 8008 Zürich, Schweiz| Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#icon-1517-E30613</styleUrl>
+      <Point><coordinates>8.563919,47.348962,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Türkei</name>
+    <Placemark>
+      <name>Ayasofya (Hagia Sophia) ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/330px-Hagia_Sophia_%28228968325%29.jpeg" width="330"><br>Eines der bedeutendsten Bauwerke der Menschheit. Gebaut 537 n.Chr. unter Kaiser Justinian I. als christliche Kathedrale, später Moschee, dann Museum, seit 2020 wieder Moschee. Als Moschee  gratis  zugänglich. Für die Galerie mit den byzantinischen Mosaiken und Wandmalereien (6.–10. Jhdt.): ~25€ — 1.500 Jahre Geschichte in einem Raum.  Früh morgens  (vor 8:30 Uhr) gehen! | Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul]]></description>
+      <styleUrl>#icon-1671-F7941D</styleUrl>
+      <Point><coordinates>28.980175,41.008583,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sultanahmet Meydanı ⭐</name>
+      <description>Der Platz vor der Hagia Sophia ist ein offenes Freilichtmuseum: der ägyptische Obelisk von Thutmosis III. (1450 v.Chr.), die Schlangensäule aus Delphi (479 v.Chr.), der Konstantinus-Obelisk. Alles Jahrtausende alt, alle auf einem Platz. | Binbirdirek, Sultan Ahmet Parkı No:2, 34122 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#icon-1546-F7941D</styleUrl>
+      <Point><coordinates>28.9757051,41.0063286,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blaue Moschee ⭐</name>
+      <description>Direkt gegenüber der Ayasofya. Gebaut 1616. Innen über 20.000 handbemalte İznik-Kacheln in Blau- und Grüntönen — daher der Name. Als Moschee gratis rein, außerhalb der Gebetszeiten. Schultern + Knie bedecken, Schuhe ausziehen. | Cankurtaran, At Meydanı Cd No:7, 34122 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#icon-1671-F7941D</styleUrl>
+      <Point><coordinates>28.9768138,41.0054096,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Yerebatan Zisterne ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cisterna_Bas%C3%ADlica%2C_Estambul%2C_Turqu%C3%ADa%2C_2024-09-28%2C_DD_58-60_HDR.jpg/330px-Cisterna_Bas%C3%ADlica%2C_Estambul%2C_Turqu%C3%ADa%2C_2024-09-28%2C_DD_58-60_HDR.jpg" width="330"><br>Unterirdisches byzantinisches Wasserreservoir aus dem 6. Jhdt., von Kaiser Justinian erbaut. 336 Marmorsäulen, dramatische Beleuchtung, Reflexionen auf dem Wasser. Im hinteren Teil: zwei umgedrehte Medusa-Köpfe als Säulensockel — niemand weiß warum. Magische Atmosphäre, nur wenige Minuten von der Ayasofya entfernt. | Alemdar, Yerebatan Cd. 1/3, 34110 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul]]></description>
+      <styleUrl>#icon-1598-F7941D</styleUrl>
+      <Point><coordinates>28.977878,41.008384,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Galatabrücke</name>
+      <description>Gratis rüberlaufen. Fischer hängen ihre Ruten über die Seiten, darunter Fischrestaurants in den Brückenbögen. Blick auf Minarette und Bosporus. Abends besonders schön. | Kemankeş Karamustafa Paşa, Galata Köprüsü, 34425 Beyoğlu/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#icon-1528-F7941D</styleUrl>
+      <Point><coordinates>28.9732201,41.0200155,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Galata Kulesi</name>
+      <description>Ikonischer Mittelalterturm in Karaköy, nahe deinem Hostel. Das Viertel drumherum mit Gassen, Streetart und kleinen Cafés ist sehr interessant — das allein lohnt sich. Innen Aussicht, teuer für Touristen. | Bereketzade, 34421 Beyoğlu/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#icon-1535-F7941D</styleUrl>
+      <Point><coordinates>28.9741286,41.025569,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Balat + Fener ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Balat_houses.jpg/330px-Balat_houses.jpg" width="330"><br>Zwei nebeneinanderliegende alte Stadtviertel auf der Westseite des Goldenen Horns. Ehemaliges griechisch-jüdisches Viertel mit bunten, leicht verfallenen Häusern, engen Kopfsteinpflastergassen, winzigen Cafés und echtem Alltagsleben. Kaum Touristen, sehr authentisch, sehr fotogen. | Balat, 34087 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul]]></description>
+      <styleUrl>#icon-1546-F7941D</styleUrl>
+      <Point><coordinates>28.9484978,41.0292106,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>İstiklal Caddesi</name>
+      <description>Lange Fußgängerzone mit Shops, Straßenmusikern und lokalem Leben. Abends und nachts besonders lebendig. | İstiklal Cd., Beyoğlu/İstanbul, Türkiye | Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#icon-1546-F7941D</styleUrl>
+      <Point><coordinates>28.9779527,41.0337874,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Archeo Hostel (Tophane)</name>
+      <description>Dein Hostel · direkt am Bosporus | Hacımimi, Boğazkesen Cd. No:25, 34425 Beyoğlu/İstanbul, Türkiye | Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#icon-1602-F7941D</styleUrl>
+      <Point><coordinates>28.9801193,41.0279062,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Eminönü Fähranleger</name>
+      <description>Das Highlight für Budget-Reisende.  Keine Touristenfähre buchen  — die reguläre Linienfähre mit İstanbulkart nehmen (~1–2 TL, fast gratis). Du fährst mit Einheimischen auf dem Bosporus, Blick auf Moscheen, Brücken und beide Kontinente.  Linie Eminönü → Kadıköy  oder die längere Boğaz-Linie. Unvergesslich. | Hobyar, 34112 Fatih/İstanbul, Türkiye | Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#icon-1569-F7941D</styleUrl>
+      <Point><coordinates>28.974010000000003,41.017869999999995,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>İstanbul Modern</name>
+      <description>Modernes Kunstmuseum direkt in Karaköy, 5 Min vom Hostel. Zeitgenössische türkische Kunst in einem Industriegebäude am Bosporus. | Karaköy, Müeyyetzade, Beyoğlu/İstanbul, Türkiye| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#icon-1636-F7941D</styleUrl>
+      <Point><coordinates>28.976962,41.023883,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Karaköy — dein Hostel-Viertel!</name>
+      <description>Streetart, Designshops, Cafés, Fischrestaurants. Direkt am Bosporus. Abends sehr lebendig. Archeo Hostel liegt mittendrin — perfekte Ausgangslage. | Karaköy, Müeyyetzade, Beyoğlu/İstanbul, Türkiye| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#icon-1546-F7941D</styleUrl>
+      <Point><coordinates>28.976962,41.023883,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cihangir</name>
+      <description>Hipster-Viertel direkt hinter Taksim. Arty, viele unabhängige Buchläden, kleine Galerien, Cafés. Zum Durchschlendern. | Cihangir, 34433 Beyoğlu/İstanbul, Türkiye| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#icon-1546-F7941D</styleUrl>
+      <Point><coordinates>28.985611,41.033516,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Großer Basar (Kapalı Çarşı)</name>
+      <description>Einer der ältesten und größten überdachten Basare der Welt, 4.000 Läden. Gratis reinschauen, nichts kaufen müssen. Feilschen gehört dazu — aber nicht bei Essen. Eher als Sehenswürdigkeit denn als Einkaufsort. | Beyazıt, 34126 Fatih/İstanbul, Türkiye| Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#icon-1685-F7941D</styleUrl>
+      <Point><coordinates>28.968068,41.010685,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Midye Dolma ⭐⭐</name>
+      <description>Mit gewürztem Reis und Pinienkernen gefüllte Muscheln, von Straßenständen mit Zitrone. Kult in Istanbul. Direkt in Karaköy:  Tarihi Karaköy Midyecisi  (seit 1921). Du isst sie stehend, eine nach der anderen. | Kemankeş Karamustafa Paşa, Rıhtım Cd. No:11 Z.kat, 34421 Beyoğlu/İstanbul, Türkiye| Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#icon-1577-F7941D</styleUrl>
+      <Point><coordinates>28.976059,41.021937,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Balık Dürüm / Balık Ekmek ⭐</name>
+      <description>Gegrilltes Fischsandwich. An der Galatabrücke und in Karaköy. Bester:  Balık Dürüm Mehmet Usta  in Karaköy — deboned, mit Granatapfelkernen und Spezialgewürzen. | Hacımimi, Necatibey Cd. 71B, 34425 Beyoğlu/İstanbul, Türkiye | Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#icon-1577-F7941D</styleUrl>
+      <Point><coordinates>28.978142,41.024994,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Karaköy Güllüoğlu Baklava ⭐⭐</name>
+      <description>Legendäre Baklava-Bäckerei, gilt als beste in Istanbul. Direkt in Karaköy, paar Minuten vom Hostel. Pistazien-Baklava probieren. | Karaköy, Müeyyetzade, Beyoğlu/İstanbul, Türkiye| Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#icon-1534-F7941D</styleUrl>
+      <Point><coordinates>28.976962,41.023883,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Islak Burger ⭐</name>
+      <description>Dampfburger, typisch für die Nacht nach dem Ausgehen.  Kızılkayalar  in Taksim. Sehr lokal und günstig. | Taksim Meydanı, Kocatepe, 34435 Beyoğlu/İstanbul, Türkiye | Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#icon-1577-F7941D</styleUrl>
+      <Point><coordinates>28.985092,41.037002,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Börek</name>
+      <description>Blätterteig mit Käse, Spinat oder Hackfleisch. Beim  Balat Börekcisi  im Balat-Viertel besonders gut. | Balat, Vodina Cd. No:190, 34087 Fatih/İstanbul, Türkiye| Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#icon-1577-F7941D</styleUrl>
+      <Point><coordinates>28.946369,41.032781,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Thailand</name>
+    <Placemark>
+      <name>Wat Arun ⭐</name>
+      <description>Wohl der fotogenischste Tempel Bangkoks, direkt am Chao Phraya Fluss. Der charakteristische Prang (Turm) ist vollständig mit farbigem Porzellan-Mosaik bedeckt — Scherben aus alten chinesischen Handelsschiffen wurden in den Putz eingearbeitet. Besonders schön zum Sonnenuntergang von der anderen Flussseite fotografiert. Mit der kleinen Fähre (~4 Baht) überqueren und auf der Pier Tha Tien warten. | 158 Thanon Wang Doem, Khwaeng Wat Arun, Khet Bangkok Yai, Krung Thep Maha Nakhon 10600, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>100.488444,13.7438652,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Saket (Golden Mount) ⭐</name>
+      <description>Weniger touristisch als der Grand Palace und dafür umso schöner. Der Tempel liegt auf einem künstlichen Hügel — 344 Stufen führen in Spiralen hinauf zu einem goldenen Stupa. Von oben hat man einen wunderbaren 360°-Panoramablick über Bangkoks Dächer, Tempel und den Fluss. Sehr entspannte Atmosphäre, kaum Massentourismus. | 344 Thanon Chakkraphatdi Phong, Khwaeng Ban Bat, Khet Pom Prap Sattru Phai, Krung Thep Maha Nakhon 10100, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>100.5066745,13.7527691,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Charoen Krung Art District ⭐⭐</name>
+      <description>Bangkoks neuestes und derzeit heißestes Kunstquartier rund um Charoen Krung Soi 32. Alte Lagerhäuser, Shophouses und Kolonialgebäude beherbergen Galerien, Design-Studios, Concept Stores und Cafés. Von Thai-Locals 2025/26 als der spannendste neue Spot in Bangkok empfohlen — kein Touristenort, sehr authentisch. Besonders schön zwischen 16 und 18 Uhr, wenn das Licht stimmt. Als Kunst/Design-Mensch ist das ein absolutes Muss. | 48 Charoen Krung 30, Khwaeng Bang Rak, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1546-2E4C9E</styleUrl>
+      <Point><coordinates>100.5145846,13.7283667,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Klong Bang Luang ⭐⭐</name>
+      <description>Ein verstecktes Künstlerdorf an einem alten Kanal im Westen Bangkoks — absoluter Geheimtipp und kein Touristenort. Historische Holzhäuser entlang des Wassers, kleine Galerien, Kunsthandwerk-Workshops, ein traditionelles Puppentheater (Khon-Masken), Cafés in alten Gebäuden. Hier kaufen und arbeiten echte lokale Künstler. Die Atmosphäre ist außergewöhnlich ruhig und unberührt. Per Grab oder Boot erreichbar. | Soi Phet Kasem 20, Khwaeng Pak Khlong Phasi Charoen, Khet Phasi Charoen, Krung Thep Maha Nakhon 10160, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1720-2E4C9E</styleUrl>
+      <Point><coordinates>100.4635193,13.730852,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>BACC (Siam)</name>
+      <description>Kostenloses modernes Kunstmuseum direkt am Siam-Platz, mit rotierenden Ausstellungen zeitgenössischer thailändischer und internationaler Kunst über mehrere Stockwerke. Klimatisiert — ideal für einen verregneten Nachmittag. Die spiralförmige Innenarchitektur ist selbst sehenswert. Die Außentreppe ist auch ohne Ausstellung ein schöner Aussichtspunkt über den Siam-Knotenpunkt. | 939 Rama I Rd, Khwaeng Wang Mai, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1636-2E4C9E</styleUrl>
+      <Point><coordinates>100.5302166,13.746737,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jim Thompson House</name>
+      <description>Die Villa des amerikanischen Seidendesigners Jim Thompson, der in den 1950ern die Thai-Seidenindustrie international bekannt machte und 1967 spurlos in Malaysia verschwand. Sechs traditionelle Thai-Teakhäuser wurden zu einem außergewöhnlichen Museum vereint, umgeben von tropischem Garten. Wertvolle asiatische Kunstobjekte, Wandmalereien, antike Keramik. Als Design-Interessierter sehr sehenswert — der Mann hatte exzellenten Geschmack. | 6 Soi Kasem San 2, Khwaeng Wang Mai, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1636-2E4C9E</styleUrl>
+      <Point><coordinates>100.5281613,13.7493569,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chinatown / Yaowarat</name>
+      <description>Bangkoks Chinatown rund um die Yaowarat Road ist tagsüber geschäftig und interessant, aber abends verwandelt es sich komplett: Streetfood-Stände füllen die Gehwege, Garküchen kochen bis tief in die Nacht, goldene Tempel und Leuchtreklamen tauchen alles in warmes Licht. Unbedingt ab ~19 Uhr besuchen, wenn der Markt aufblüht. | Yaowarat Rd, Krung Thep Maha Nakhon, Thailand | Kategorie: Essen &amp; Trinken | Stadt: Bangkok</description>
+      <styleUrl>#icon-1546-2E4C9E</styleUrl>
+      <Point><coordinates>100.5129349,13.7373794,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jodd Fairs Dan Neramit ⭐</name>
+      <description>Der neueste und derzeit hippste Ableger der Jodd-Fairs-Reihe — auf dem alten Dan Neramit Vergnügungspark-Gelände. Vintage-Ästhetik durch die nostalgische Location, coole Foodstände, internationale Street Cuisine, junges lokales Publikum. Deutlich weniger Touristen als die innerstädtischen Märkte. Abends hingehen. BTS Hä Yaek Lat Phrao, Ausgang 3. | Phahon Yothin Road, Khwaeng Chom Phon, Khet Chatuchak, Krung Thep Maha Nakhon 10900, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Bangkok</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>100.5643002,13.8202271,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Or Tor Kor Market</name>
+      <description>Premium-Frischmarkt direkt neben dem Chatuchak Weekend Market — wo Bangkoks Profiköche und Foodie-Szene einkauft. Hochwertigstes Obst (Mangosteen, Rambutan, Durian), seltene Kräuter, fertige Curries, frische Meeresfrüchte in Spitzenqualität. Für Lebensmittel-Interessierte und Foodie-Traveller spannender als Chatuchak selbst. Sauber, klimatisiert, kein Feilschen. | 101 Thanon Yan Phahon Yothin, Khwaeng Chatuchak, Khet Chatuchak, Krung Thep Maha Nakhon 10900, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Bangkok</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>100.5475328,13.7971283,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Palace + Wat Phra Kaew</name>
+      <description>Du kennst es — der bekannteste Komplex Bangkoks mit dem berühmten Smaragd-Buddha (Wat Phra Kaew) und dem ehemaligen Königspalast. Erwähnt der Vollständigkeit halber. Falls du jemanden begleitest, der es noch nicht gesehen hat, ist der Komplex trotzdem immer beeindruckend. Korrekte Kleidung erforderlich (Schultern und Knie bedeckt — Leihkleidung an der Tür gegen Pfand). | Na Phra Lan Rd, Khwaeng Phra Borom Maha Ratchawang, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>100.4927041,13.7516435,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chao Phraya Sky Park</name>
+      <description>Neues Stadtprojekt: Ein schwebendes Grünband auf einer stillgelegten Eisenbahnbrücke über den Chao Phraya Fluss. Einzigartiger Blickwinkel auf den Fluss und die anliegenden Tempel von oben. Sehr lokal — kaum Touristen bisher. Schöner Ort zum Flanieren bei Sonnenuntergang. | PFQX+J95 สวนลอยฟ้าเจ้าพระยา สะพานพระปกเกล้า แขวงวังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#icon-1535-2E4C9E</styleUrl>
+      <Point><coordinates>100.498487,13.739016,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jay Fai ⭐</name>
+      <description>Bangkoks berühmteste Garküche mit Michelin-Stern — Khun Jay Fai kocht seit Jahrzehnten selbst mit riesigen Woks, Schutzbrille und Wollmütze. Legendäre Meeresfrüchte-Omelette und Krab Curry mit Glasnudeln. Um einen Tisch zu bekommen, muss man sich am frühen Morgen persönlich in eine Warteliste eintragen (keine Online-Reservierung). Teuer für Bangkok (~1.000 Baht pro Person), aber einmalig. | 327 ถ. มหาไชย แขวงสำราญราษฎร์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย| Kategorie: Essen &amp; Trinken | Stadt: Bangkok</description>
+      <styleUrl>#icon-1577-2E4C9E</styleUrl>
+      <Point><coordinates>100.504819,13.752591,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Klong Lat Mayom Floating Market</name>
+      <description>Einer der wenigen echten lokalen Schwimmmärkte, kein Touristenmarkt. Thais kaufen hier am Wochenendmorgen Gemüse, Kräuter, frisch zubereitetes Essen und Haushaltsartikel von kleinen Booten. Die Atmosphäre ist völlig anders als beim touristischen Damnoen Saduak — authentisch, entspannt, preiswert. Frühzeitig hingehen (ab 7 Uhr). | 30/1 หมู่ที่ 15 ถนน บางระมาด แขวงบางระมาด เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย| Kategorie: Markt / Shopping / Sonstiges | Stadt: Bangkok</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>100.415788,13.761665,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Kaew Ku ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sala_Keoku.JPG/330px-Sala_Keoku.JPG" width="330"><br>Das absolute Highlight von Nong Khai und ein kompletter Geheimtipp. Ein bizarrer Skulpturenpark 4 km vom Zentrum, erschaffen ab 1978 vom Mystiker und Künstler  Luang Pu Bunleua Sulilat  — derselbe, der zuvor in Laos den Buddha Park bei Vientiane gebaut hatte und nach dem Pathet-Lao-Putsch ins Exil floh. Über 200 monumentale Betonfiguren füllen das Gelände: 15 Meter hohe Dämonen, siebenköpfige Nagas, Hindu-Götter, kosmische Räder, surreale Figurengruppen ohne Vergleich. Die Figuren mischen buddhistisches und hinduistisches Gedankengut auf eine völlig eigenwillige, persönliche Weise. Im zweiten Stock des Kuppelgebäudes liegt der einbalsamierte Leichnam des Gründers im Glassarg — Thais und Laoten betreten diesen Raum nie (strikte Trennung zwischen Lebenden und Toten in der lokalen Tradition). Als Kunst/Design-Mensch: absolut geniales, surreales Kunstwerk von einzigartiger Originalität. Outsider Art im monumentalen Maßstab. Früh morgens bist du fast allein. | Wat That, Mueang Nong Khai District, Nong Khai 43000, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Nong Khai]]></description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>102.7814193,17.8870414,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Pho Chai</name>
+      <description>Der wichtigste Tempel in Nong Khai. Beherbergt den "Luang Pho Phra Sai", eine goldene Buddha-Statue mit fesselnder Geschichte: Ursprünglich sollte sie von Vientiane nach Bangkok transportiert werden, versank jedoch beim Überqueren des Mekong und wurde erst Jahre später bei Niedrigwasser geborgen. Die farbigen Wandfresken im Inneren erzählen diese Geschichte in Bildern. Sehr ruhig und wenig Touristen. | Nai Mueang, Mueang Nong Khai District, Nong Khai 43000, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Nong Khai</description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>102.7573398,17.8849023,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mekong Promenade</name>
+      <description>Wenige Gehminuten vom Bahnhof entfernt. Früh morgens ist die Promenade besonders schön: Jogger, Fischer, Mönche auf dem Weg zur Runde, Blick auf Laos auf der anderen Seite des breiten Mekong. Sehr friedlich und echt lokal — keine Touristeninfrastruktur, nur das echte Nong Khai. | Mekong Riverside Walkway, Nong Khai, Thailand | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khai</description>
+      <styleUrl>#icon-1720-2E4C9E</styleUrl>
+      <Point><coordinates>102.7402,17.8783,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tha Sadet Market</name>
+      <description>Lokaler Grenzmarkt direkt am Mekong-Ufer. Waren aus Laos, Vietnam und China — Textilien, Haushaltswaren, Gewürze, Snacks, frisches Obst und Gemüse. Öffnet ab 7 Uhr, wenn die ersten Händler mit Booten ankommen. Sehr atmosphärisch, günstig, und kein Touristenmarkt. Ein kleines Fenster in das Leben der gesamten Mekong-Region an einem einzigen Ort. | Nai Mueang, Mueang Nong Khai District, Nong Khai 43000, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khai</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>102.7473491,17.8855331,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Freundschaftsbrücke</name>
+      <description>1. Thai-Laos Freundschaftsbrücke · Grenzübergang | Thanaleng, Ban Dongphosy, Hadxayfong District, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khai</description>
+      <styleUrl>#icon-1528-2E4C9E</styleUrl>
+      <Point><coordinates>102.7150977,17.8799674,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phra That Nong Khai ("Versunkene Pagode")</name>
+      <description>Bei Niedrigwasser (September–November) taucht mitten im Mekong eine alte Pagode auf, die einst ins Wasser gefallen ist — ein einzigartiges Phänomen. Von der Promenade aus sichtbar. Im August (Regenzeit, Hochwasser) ist sie wahrscheinlich noch überflutet und nicht zu sehen, aber die Geschichte ist trotzdem faszinierend. | หนองคาย ประเทศไทย| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Nong Khai</description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>102.766802,17.899783,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Naem Nuang ⭐</name>
+      <description>Vietnamesische Reispapier-Rolls — Kult-Adresse ist  Daeng Naem Nuang  am Tha Sadet Markt. Frisch gerollte Reispapier-Blätter mit gegrilltem Schweinefleisch, frischen Kräutern, Gurke und einer süß-sauren Dipsauce. Starker vietnamesischer Einfluss durch die Grenzlage — viele Vietnamesen haben sich in Nong Khai niedergelassen und ihre Küche mitgebracht. | 526-527 ถนนริมโขง ตำบลในเมือง อำเภอ เมืองหนองคาย หนองคาย 43000 ประเทศไทย| Kategorie: Essen &amp; Trinken | Stadt: Nong Khai</description>
+      <styleUrl>#icon-1577-2E4C9E</styleUrl>
+      <Point><coordinates>102.745669,17.884687,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sa-Ard 100 Pi Market (Wochenendmarkt)</name>
+      <description>Kleiner authentischer Wochenendmarkt mit Isan-Essen und lokalen Waren, falls du am Samstag oder Sonntag in Nong Khai bist. Wenig bekannt, sehr lokal, keine Touristen. ⚠️ Exakter Standort nicht unabhängig verifizierbar – Koordinate der Tha-Sadet-Uferzone verwendet. | Nai Mueang, Mueang Nong Khai District, Nong Khai 43000, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khai</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>102.7473491,17.8855331,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phimai Historical Park ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Phimai_%28III%29.jpg/330px-Phimai_%28III%29.jpg" width="330"><br>Die Hauptattraktion von Korat und einer der beeindruckendsten Orte Nordost-Thailands. 60 km nördlich von Korat (1h Bus ab Korat Bus Terminal 2, ~40 Baht). Khmer-Tempelkomplex aus dem  11. Jahrhundert  — ein Jahrhundert älter als Angkor Wat und möglicherweise das Vorbild oder ein Vorgängertyp für Angkor! Über eine antike Königsstraße direkt mit Angkor Thom in Kambodscha verbunden. Sandstein-Prangs mit fein ausgearbeiteten Türstürzen und hinduistischen Reliefs. Sehr ruhig — kaum Touristen verglichen mit Angkor. Schöner grüner Park drumherum ideal für ein Picknick. | 6FCW+F29, Tambon Nai Mueang, Amphoe Phimai, Nakhon Ratchasima 30110, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat]]></description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>102.494151,15.220018,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Thao Suranari Monument ⭐</name>
+      <description>Das wichtigste Stadtdenkmal. Helden-Statue der Stadtheldin "Mutter Mo" (Thao Suranari), die 1826 lokale Frauen und Einwohner zu einem überraschenden Sieg gegen ein laotisches Heer führte das die Stadt besetzte. Sehr bedeutend für das lokale Identitätsgefühl — Einheimische bringen täglich Blumenopfer und Räucherwerk. Manchmal spielen Musikgruppen traditionelle Lieder davor. Im Zentrum der Altstadt. | Nakhon Ratchasima, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#icon-1598-2E4C9E</styleUrl>
+      <Point><coordinates>102.1006,14.9739,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Sala Loi ⭐</name>
+      <description>Einzigartiger moderner buddhistischer Tempel in Form eines Schiffs oder Bootes, scheinbar auf einem Teich schwimmend. Sehr ungewöhnliche Architektur für einen buddhistischen Tempel — das Schiff symbolisiert die Führung der Gläubigen durch das Leben. Die Innengestaltung mit Wandmalereien ist farbenfroh und aufwendig. | Nakhon Ratchasima, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>102.1028,14.9744,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Save One Night Market ⭐⭐</name>
+      <description>Riesiger lokaler Nachtmarkt — das gesellschaftliche Zentrum von Korat abends. Essen, Trinken, Kleidung, Accessoires, Nagelstudios, Massage, alles was Thais im täglichen Alltag kaufen und brauchen. Null Touristen — echtes Korat. Preise sehr günstig. Abends hingehen für Atmosphäre und günstiges Abendessen. | Nakhon Ratchasima, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Korat</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>102.1178,14.9648,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Terminal 21 Korat</name>
+      <description>Der Food Court im Untergeschoss von Terminal 21 Korat ist bekannt für sehr gutes, günstiges Essen in einer sauberen Umgebung. Klimatisiert, viele Optionen. Beliebter Mittagstreff der Einheimischen. Für eine günstige Mahlzeit zwischendurch ideal. | Nakhon Ratchasima, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Korat</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>102.1,14.9759,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Ban Rai *(30–40 km außerhalb)*</name>
+      <description>Riesiger moderner Tempel mit einer 27 Meter hohen Elefantenstatue, die von innen begehbar ist. Im Inneren des Elefanten: mehrstöckige Räume mit spektakulären, farbenfrohen Wandmalereien die buddhistische Kosmologie darstellen. Sehr bekannt bei Thai-Pilgern aus ganz Thailand. Lohnt sich wenn ihr einen Tagesausflug machen wollt. | 8P2P+3VV ไร่ ตำบล กุดพิมาน อำเภอด่านขุนทด นครราชสีมา 30210 ประเทศไทย| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#icon-1706-2E4C9E</styleUrl>
+      <Point><coordinates>101.737168,15.300236,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Dan Kwian Pottery Village</name>
+      <description>15 km von Korat auf dem Weg nach Phimai — guter Stopp auf der Hinfahrt. Traditionelles Töpferdorf, berühmt für seinen rostfarbenen Ton (hoher Eisengehalt) der beim Brennen diese charakteristische Terrakotta-Farbe bekommt. Große Vasen, dekorative Stücke, Gartenobjekte. Echter Handwerksbetrieb, gratis reinschauen, Stücke direkt vom Hersteller kaufen. | ตำบล ด่านเกวียน อำเภอโชคชัย นครราชสีมา ประเทศไทย| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>102.19408,14.847735,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Khao Yai National Park ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Haew_Suwat_Waterfall_Khao-Yai02.jpg/330px-Haew_Suwat_Waterfall_Khao-Yai02.jpg" width="330"><br>UNESCO-Welterbe, ~1,5h von Korat. Einer der besten Nationalparks in Thailand: tropischer Monsunwald, wilde Elefanten (Begegnungen auf der Straße!), Gibbons, über 300 Vogelarten, begehbare Wasserfälle (Haew Narok, Haew Suwat — aus dem Film "The Beach" bekannt). Früh morgens für Elefantensichtung auf der Hauptstraße durch den Park. Eintritt ~400 Baht. Guter Tagesausflug wenn ihr mehr Zeit habt. | Nakhon Ratchasima, Thailand | Kategorie: Natur &amp; Aktivität | Stadt: Korat]]></description>
+      <styleUrl>#icon-1720-2E4C9E</styleUrl>
+      <Point><coordinates>101.530441,14.310923,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>100 Pee Muang Ya Market</name>
+      <description>Lokaler Abendmarkt nahe dem Bahnhof mit Street-Food aus der Isan-Küche. Kleiner als Save One Night Market, aber authentischer und näher am Zentrum. Gegrilltes Hühnchen, Som Tam, Klebreis, verschiedene Curries. | 243 ตรอกเสาธง ตำบลในเมือง อำเภอเมืองนครราชสีมา นครราชสีมา 30000 ประเทศไทย| Kategorie: Markt / Shopping / Sonstiges | Stadt: Korat</description>
+      <styleUrl>#icon-1685-2E4C9E</styleUrl>
+      <Point><coordinates>102.081059,14.978677,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Laos</name>
+    <Placemark>
+      <name>Pha That Luang ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pha_That_Luang%2C_July_2023.jpg/330px-Pha_That_Luang%2C_July_2023.jpg" width="330"><br>Das heiligste Bauwerk in ganz Laos und nationales Symbol des Landes — abgebildet auf Münzen, Staatsemblem, Flaggenhintergrund, überall. Eine goldene Stupa mit 45 m Höhe, erbaut 1566 auf früheren Fundamenten aus dem 3. Jahrhundert. Umgeben von hohen quadratischen Mauern mit Buddhafiguren in den Nischen. Von außen kostenlos, kleiner Eintritt für das Innere.  Abends im Sonnenuntergang ist das Pha That Luang unglaublich  — das Gold leuchtet intensiv orangefarben in der untergehenden Sonne. Unbedingt gegen 17–18 Uhr hingehen. | That Luang, Xaysettha 10009, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane]]></description>
+      <styleUrl>#icon-1706-2E8B57</styleUrl>
+      <Point><coordinates>102.6364667,17.9766165,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Patuxai Monument ⭐</name>
+      <description>Laos' eigener Arc de Triomphe, erbaut 1958–1968 aus Zementlieferungen, die die USA ursprünglich für den Bau des Flughafens gegeben hatten — die laotische Regierung verwendete sie lieber für dieses Monument. Die Tafel am Eingang nennt es ironisch "das Betonmonster, das Geld verschlingt". Trotzdem lohnt sich der Aufstieg: Von der Dachterrasse hat man den besten Überblick über die breite Lan Xang Avenue und Vientiane. Auf den Treppen gibt es kleine lokale Handwerksläden. | Ave Lane Xang, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#icon-1598-2E8B57</styleUrl>
+      <Point><coordinates>102.6187343,17.9705363,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Si Saket ⭐</name>
+      <description>Der älteste noch erhaltene Tempel Vientianes, gebaut 1818 unter König Anouvong. Als die siamesischen Truppen 1828 Vientiane zerstörten, blieb Wat Si Saket als einziger Tempel unversehrt — möglicherweise weil er im siamesischen Stil gebaut war und deshalb verschont wurde. Berühmt für die Tausenden kleiner Buddha-Figuren in den Wandnischen der Kreuzgänge — alle Größen, alle Materialien, über Jahrhunderte hingestellt. Sehr ruhig, sehr wenig Touristen. | Ave Lane Xang, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#icon-1706-2E8B57</styleUrl>
+      <Point><coordinates>102.6114082,17.9631086,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>COPE Visitor Center ⭐⭐</name>
+      <description>Eines der wichtigsten und bewegendsten Museen Südostasiens —  kostenlos  und absolut empfehlenswert. Laos ist das  meistbombardierte Land der Welt pro Kopf  (Vietnam-Krieg, 1964–1973): Die USA warfen 270 Millionen Clusterbomben ab — mehr Bomben als in ganz Europa im Zweiten Weltkrieg zusammen.  80 Millionen davon explodierten nicht  und liegen bis heute im Boden. Jährlich werden Menschen verstümmelt oder getötet — hauptsächlich Kinder, die die Bomblets für Spielzeug halten. COPE stellt Prothesen her und zeigt die Geschichte durch Fotos, Videos, Karten und persönliche Interviews mit Überlebenden. Sehr wichtige und nüchterne Perspektive auf die bis heute andauernden Folgen des Vietnamkriegs. Niemand der das gesehen hat, sieht Laos danach gleich. | Boulevard Khou Vieng, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#icon-1636-2E8B57</styleUrl>
+      <Point><coordinates>102.620372,17.95775,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mekong Riverside</name>
+      <description>Abends entlang des Mekong schlendern und den Sonnenuntergang über dem Fluss genießen — Blick auf Thailand auf der anderen Seite. Lokale Bars und Restaurants direkt am Ufer, entspannte Atmosphäre. Im August hat der Mekong Hochwasser, der Fluss wirkt breiter und mächtiger als in der Trockenzeit. | Vientiane, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vientiane</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.6021948,17.9633969,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ban Anou Night Market ⭐</name>
+      <description>Lokaler Streetfood-Markt am Abend — kein Touristenmarkt, Einheimische essen hier. Grillstände mit Hühnchen, Schweinebauch, Fisch, dazu Larb, Papayasalat, Suppen. Günstigste und authentischste Abendessen-Option in Vientiane. | Rue Phai Nam, Vientiane, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Vientiane</description>
+      <styleUrl>#icon-1685-2E8B57</styleUrl>
+      <Point><coordinates>102.6058386,17.9693475,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Buddha Park / Xieng Khuan ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Buddha_Park.jpg/330px-Buddha_Park.jpg" width="330"><br>25 km außerhalb der Stadt, erreichbar mit Bus Linie 14 (ab Talat Sao, ~10.000 KIP) oder Tuk-Tuk (~$5–8 für Hin- und Rückfahrt). Ein riesiger Freiluftpark mit surrealen Hindu/Buddhist-Statuen auf einer Wiese direkt am Mekong. Gigantischer liegender Buddha (40 m!), Götter, Dämonen, kosmische Szenen — alles freiluft, ohne Erklärung, in der Landschaft verteilt. Derselbe Künstler-Mystiker Luang Pu Bunleua Sulilat hatte zuvor das Sala Kaew Ku in Nong Khai gebaut! Die beiden Parks gehören zusammen und ergänzen sich faszinierend. | Deua, Thanon Tha, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane]]></description>
+      <styleUrl>#icon-1706-2E8B57</styleUrl>
+      <Point><coordinates>102.7648218,17.9123504,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mönch-Chats am Sangha College</name>
+      <description>Am ersten Sonntag im Monat treffen sich Mönche des Sangha Colleges mit Touristen, um Englisch zu üben und Fragen über ihr Leben, ihren Glauben und ihren Alltag im Kloster zu beantworten. Völlig ungezwungen, offene Atmosphäre, echte Gespräche. Einzigartiges kulturelles Erlebnis. Gratis. Vorab prüfen ob die Veranstaltung im August stattfindet. | ວິທະຍາໄລສົງ, ຖະໜົນເຈົ້າອານຸ, ວຽງຈັນ, ປະເທດລາວ| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#icon-1668-2E8B57</styleUrl>
+      <Point><coordinates>102.603413,17.965929,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Lagoon 1</name>
+      <description>Die bekannteste und am meisten besuchte Lagune — türkisblaues Wasser (in der Trockenzeit intensiver, im August möglicherweise bräunlicher), Sprungplattformen in verschiedenen Höhen (~5 m), Seilschaukel. Direkt daneben liegt  Tham Phu Kham Höhle  (120 m Aufstieg, liegender Buddha tief in der Höhle, Stalaktiten, Wände glitzern im Taschenlampen-Licht) — immer kombinieren. Früh morgens oder spätnachmittags gehen, mittags sehr voll. ⚠️ Zufahrtsstraße hat viele Schlaglöcher — vorsichtig fahren. Auf dem Ticket steht der Hinweis, Wertsachen selbst im Auge zu behalten. Direkt am Eingang:  Eyung Pizza &amp; Coffee  — nette Atmosphäre, Pizza nachmittags aber oft ausverkauft (dann Chicken Wings). | W9GW+G5G, Naka, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.3954544,18.9263038,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Lagoon 3 ⭐⭐</name>
+      <description>Die bekannteste und am meisten besuchte Lagune — türkisblaues Wasser (in der Trockenzeit intensiver, im August möglicherweise bräunlicher), Sprungplattformen in verschiedenen Höhen (~5 m), Seilschaukel. Direkt daneben liegt  Tham Phu Kham Höhle  (120 m Aufstieg, liegender Buddha tief in der Höhle, Stalaktiten, Wände glitzern im Taschenlampen-Licht) — immer kombinieren. Früh morgens oder spätnachmittags gehen, mittags sehr voll. ⚠️ Zufahrtsstraße hat viele Schlaglöcher — vorsichtig fahren. Auf dem Ticket steht der Hinweis, Wertsachen selbst im Auge zu behalten. Direkt am Eingang:  Eyung Pizza &amp; Coffee  — nette Atmosphäre, Pizza nachmittags aber oft ausverkauft (dann Chicken Wings). | Ban Naxay Vangvieng district, Ban Nampè, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.3368676,18.9423637,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Lagoon 4</name>
+      <description>Die bekannteste und am meisten besuchte Lagune — türkisblaues Wasser (in der Trockenzeit intensiver, im August möglicherweise bräunlicher), Sprungplattformen in verschiedenen Höhen (~5 m), Seilschaukel. Direkt daneben liegt  Tham Phu Kham Höhle  (120 m Aufstieg, liegender Buddha tief in der Höhle, Stalaktiten, Wände glitzern im Taschenlampen-Licht) — immer kombinieren. Früh morgens oder spätnachmittags gehen, mittags sehr voll. ⚠️ Zufahrtsstraße hat viele Schlaglöcher — vorsichtig fahren. Auf dem Ticket steht der Hinweis, Wertsachen selbst im Auge zu behalten. Direkt am Eingang:  Eyung Pizza &amp; Coffee  — nette Atmosphäre, Pizza nachmittags aber oft ausverkauft (dann Chicken Wings). | 2CWF+3Q, Phoxay, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.4243784,19.0451405,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Chang Cave</name>
+      <description>Die einfachste und zugänglichste Höhle in Vang Vieng — nur 2 km vom Zentrum. Gut beleuchtet, breite Gänge mit beeindruckenden Stalaktiten und Stalagmiten in allen Größen. Der Weg führt durch die Höhle hindurch und oben hinaus: Von der Terrasse hat man einen schönen Blick über das Nam-Song-Tal. Kleine Lagune unten zum Schwimmen. Ideal als erster Einstieg vor den weiter entfernten Lagunen. | WC6R+2VP, Vang Vieng, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.4422184,18.9100816,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Phu Kham</name>
+      <description>Liegender goldener Buddha tief in einer Felshöhle, umgeben von Stalaktiten. Die Wände glitzern im Taschenlampen-Licht. Aufstieg zur Höhle ~120 m. Direkt neben Blue Lagoon 1 — immer zusammen besuchen. Taschenlampe mitbringen oder am Eingang leihen. | W9GW+M5H, Naka, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.3955,18.9267,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nam Xay Viewpoint ⭐</name>
+      <description>Der beliebteste Aufstieg in Vang Vieng. Geöffnet 5:00–17:30 Uhr, Eintritt ~20.000 KIP/Person, Startpunkt 7,6 km vom Zentrum (~20 min Roller, gleiche Straße wie Blue Lagoon 1). Steiler Climb von ~30–40 Minuten über Stufen und Felspfade (~350–390 m), für untrainierte Personen wirklich anstrengend. Oben: 360°-Blick über die gesamte Karstlandschaft, Reisfelder, den Nam Song Fluss und das Stadtgebiet. Kleiner Getränkeladen am Parkplatz — trotzdem eigenes Wasser mitbringen. Früh morgens gehen — vor 8 Uhr bist du fast allein, gegen 9 Uhr kommen die ersten Gruppen. | W9FP+CQQ, Naka, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1535-2E8B57</styleUrl>
+      <Point><coordinates>102.3869781,18.9235992,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Vang Vieng Zentrum</name>
+      <description>Motorrad mieten · Markt · Baguette-Stände | Vang Vieng, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1546-2E8B57</styleUrl>
+      <Point><coordinates>102.44379,18.95009,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lisha (The Grand) Riverside Hotel</name>
+      <description>Von Reisenden empfohlen: VIP-Zimmer für 2 Personen ~1.400 Baht/Nacht inkl. Frühstücksbuffet (über trip.com/Agoda/Booking buchbar). Eigenes Bad mit Wanne, TV, Kühlschrank, Pool, direkt am Fluss. Zimmer etwas in die Jahre gekommen, aber die Flussaussicht auf die Karstberge ist sehr schön — abends Heißluftballons/Paramotoren über dem Fluss sichtbar. ⚠️ Privates Hotelzimmer, kein Hostel — ~18 €/Person/Nacht. Für reine Hostel-Budgets: Dorm-Betten in Vang Vieng ab ~3–6 $ (~3–5 €)/Nacht. | ວັງວຽງ 85620, ປະເທດລາວ| Kategorie: Markt / Shopping / Sonstiges | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1602-2E8B57</styleUrl>
+      <Point><coordinates>102.4441,18.917803,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Nam (Wasserhöhle)</name>
+      <description>Das ungewöhnlichste Höhlenerlebnis: Man zieht sich an einem Seil auf einem aufgeblasenen Schlauch durch eine dunkle Höhle mit unterirdischem Fluss. Im Dunkeln, mit Stirnlampe, Wasser um einen herum.  Achtung: Nur in der Trockenzeit (Nov–Apr) zugänglich  — im August ist zu viel Wasser im Fluss und die Höhle ist gesperrt. Trotzdem erwähnt, falls die Bedingungen im August ausnahmsweise passen. | WCWM+QP, ວັງວຽງ, ປະເທດລາວ| Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.434136,18.947091,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Sang Dreieck (4 Höhlen)</name>
+      <description>14 km vom Zentrum: Vier Höhlen nah beieinander als Halbtagesausflug kombinierbar.  Tham Sang  (Elefantenhöhle — ein Stalaktit hat Elefantenform, heilig),  Tham Hoi ,  Tham Loup  und  Tham Nam  (Wasserhöhle, im August gesperrt). Ideal wenn man mehrere Höhlen effizient verbinden will. Am Eingang ("Tham None &amp; Angel Cave") hängt eine Übersichtskarte der Gegend mit  Nam Taen Waterfall , Kajak-Strecken (5/10 km) und einer Trekking-Route (~15 km) — lohnt sich, vor Ort einen Blick draufzuwerfen. | WC5R+XXG Unnamed Road ວັງວຽງ, ลาว | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.442449,18.909943,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mr. Mo Restaurant ⭐⭐</name>
+      <description>Von Einheimischen empfohlener Geheimtipp, kein Touristenladen. Nudelsuppe, Laab (Fleischsalat) und Khao Moo Krob (knuspriger Reis mit Schweinefleisch) — alles hausgemacht. Reisende, die ihn erst am letzten Tag entdeckt haben, waren sich einig: unbedingt vorher hin. | ວັງວຽງ, ປະເທດລາວ| Kategorie: Essen &amp; Trinken | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1577-2E8B57</styleUrl>
+      <Point><coordinates>102.44379,18.95009,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phu Mai Café</name>
+      <description>Weiterer Café-Name, der bei Reisenden als fester Stopp in Vang Vieng auftauchte, ohne dass mehr Details überliefert sind — einfach mal nachschauen, ob's auf dem Weg liegt. | ວັງວຽງ, ປະເທດລາວ| Kategorie: Essen &amp; Trinken | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1534-2E8B57</styleUrl>
+      <Point><coordinates>102.44379,18.95009,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kajak ab der Namsong Blue Bridge ⭐</name>
+      <description>Auch ohne organisierte Tour spontan machbar: Startpunkt an der blauen Brücke (Sapan Fah/Namsong Blue Bridge), ~150.000 KIP/Person, Strecke ca. 10 km. Spätestens bis 17 Uhr dort ankommen — danach sind je nach Andrang keine Boote mehr verfügbar. Unsichere Paddler bekommen Unterstützung, ein Guide begleitet im eigenen Boot. Strömung streckenweise wechselhaft. | WCWM+QP, ວັງວຽງ, ປະເທດລາວ| Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#icon-1731-2E8B57</styleUrl>
+      <Point><coordinates>102.435384,18.946817,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Almosenzeremonie ⭐⭐⭐</name>
+      <description>Das ikonischste Erlebnis in Luang Prabang. Jeden Morgen ab ca.  5:30 Uhr  ziehen Hunderte Mönche in leuchtenden Safranroben schweigend durch die Altstadtstraßen und nehmen von knienden Einheimischen Klebreis entgegen. Jahrhunderte alte Tradition — kein Touristenevent, sondern echte religiöse Praxis die täglich stattfindet. | Sisavangvong Road, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1668-2E8B57</styleUrl>
+      <Point><coordinates>102.1355,19.891,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Xieng Thong ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Temple_Wat_Xieng_Thong_-_Luang_Prabang_-_Laos.jpg/330px-Temple_Wat_Xieng_Thong_-_Luang_Prabang_-_Laos.jpg" width="330"><br>Der bedeutendste und schönste Tempel Luang Prabangs, erbaut 1560 unter König Setthathirath. Charakteristisch: die mehrfach abgestuften, geschwungenen Dächer die fast den Boden berühren — "wie eine Glucke die ihre Küken schützt", sagt die lokale Überlieferung. Außenwände mit farbigen Glasmosaiken (Lebensbaum), Innenräume mit vergoldeten Wandmalereien. Abends weniger Besucher, schöneres Licht. Beliebter Fotospot: das goldverzierte Fenster im Eingangsbereich. Rauchverbot im gesamten Tempelbereich. Liegt ca. 1,6 km vom Nachtmarkt, ~5 min mit dem Roller. | V4WV+WC8, Khem Khong, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang]]></description>
+      <styleUrl>#icon-1706-2E8B57</styleUrl>
+      <Point><coordinates>102.1435649,19.897292,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mount Phousi ⭐</name>
+      <description>Hügel mitten in der Altstadt, 328 Stufen hinauf (von der Sakkaline-Seite oder der That Chomsi-Seite). Oben: goldener Stupa Chomsi und 360°-Blick über Mekong, Nam Khan, Dschungel und die Altstadt im Abendlicht. Sonnenuntergang ist der beste Zeitpunkt — viele Locals kommen dann ebenfalls, wird von mehreren Reisenden als absolutes Tages-Highlight in LP beschrieben. Lass dir ~20–30 min für den Aufstieg. | Ban Pakham, Sisavangvong Road, Luang Prabang, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1535-2E8B57</styleUrl>
+      <Point><coordinates>102.1370062,19.890322,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Royal Palace Museum</name>
+      <description>Ehemaliger Königspalast der laotischen Monarchie, bis zur kommunistischen Übernahme 1975 bewohnt. Französisch-laotische Architektur aus dem frühen 20. Jahrhundert. Ausgestellt: Staatsgeschenke aus aller Welt (u.a. ein Stück Mondgestein von Nixon), historische Karten und Fotos, und der heilige goldene  Phra Bang Buddha  — die ikonische Figur nach der die Stadt benannt ist. Kleiderordnung streng. | 27 Ounheun Rd, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1636-2E8B57</styleUrl>
+      <Point><coordinates>102.1355556,19.8922222,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TAEC ⭐⭐</name>
+      <description>Kleines, aber sehr sorgfältig kuratiertes Museum für Laos' ethnische Minderheiten — über 100 Volksgruppen leben in Laos, die meisten kaum dokumentiert. Traditionelle Kostüme (Hmong, Akha, Tai Lü), Ritualarbeiten, Schmuck, Haushaltsgeräte. Jeder Gegenstand mit ausführlicher Geschichte und Kontext erklärt — kein statisches Völkerkundemuseum sondern lebendige Dokumentation. Ethischer Shop mit hochwertigen Handwerksartikeln direkt von Gemeinschaften. Als Design/Kunst-Interessierter das beste Museum in LP. | Behind Dara Market, Ban Khamyong, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1636-2E8B57</styleUrl>
+      <Point><coordinates>102.1352282,19.8885353,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuang Si Wasserfälle ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/The_river_of_Kuang_si_waterfalls.jpg/330px-The_river_of_Kuang_si_waterfalls.jpg" width="330"><br>Das absolute Naturhighlight und eines der schönsten Naturwunder Südostasiens. 30 km südlich von Luang Prabang, mehrstufiger Wasserfall durch Dschungel in türkisfarbene Kalksteinterrassen (Travertin). Schwimmen in den Becken möglich! Auf dem Gelände befindet sich auch eine  Bärenschutzstation (Free the Bears)  mit Sonnenbären — lohnt sich. August: Mehr Wasser (mächtiger!), aber die Farbe kann bräunlich sein statt türkis. Trotzdem beeindruckend.  Früh morgens  (8–9 Uhr) — mittags bis zu 200+ Besucher gleichzeitig. ⚠️ Genug Zeitpuffer einplanen: Ein Reisepaar musste den Ausflug wegen einer Reifenpanne kurzfristig canceln — bei 30 km einfacher Strecke lieber nicht auf den letzten Nachmittag legen. | Kuang Si Waterfall, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang]]></description>
+      <styleUrl>#icon-1759-2E8B57</styleUrl>
+      <Point><coordinates>101.9931839,19.749573,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pak Ou Höhlen</name>
+      <description>2-stündige Bootsfahrt mekongaufwärts durch das breite Mekong-Tal mit Dschungelufern — die Fahrt selbst ist schon das Erlebnis. Zwei Höhlen an einer Felswand: Tham Ting (unten, Tageslicht) und Tham Phum (oben, mit Taschenlampe). Über 6.000 Buddha-Figuren aller Größen und Materialien, die lokale Pilger über viele Jahrhunderte hingestellt haben. Spirituelle Stimmung, kaum erklärt, man muss selbst spüren. | 26X6+CGG, Pak Ou, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.2113255,20.0485582,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nachtmarkt + Morgenmarkt ⭐</name>
+      <description>Jeden Abend verwandelt sich die Hauptstraße Sisavangvong in einen langen Kunsthandwerksmarkt: Hmong-Textilien mit komplexen Stickmustern, Batik, Silberschmuck, geflochtene Körbe, Laotenseiden. Qualität variiert stark — hochwertiges neben Massenware. Schlendern kostet nichts, Kaufentscheidungen nie unter Druck treffen. Direkt daneben die Streetfood-Gasse. | Ban Pakham, Sisavangvong Road, Luang Prabang, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1685-2E8B57</styleUrl>
+      <Point><coordinates>102.1340698,19.8892734,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sokview Residence ⭐⭐</name>
+      <description>Neu eröffnete Unterkunft direkt am Mekong. Deluxe River View Zimmer ~1.600 Baht/Nacht (trip.com/Agoda/Booking), komplett neu ausgestattet (Bad mit Wanne, Waschmaschine, Kühlschrank, Sofa/Netflix, Balkon zum Sonnenuntergang). Kostenlose Leihfahrräder, 2,5 km / ~6 min zum Nachtmarkt. Besitzer kümmert sich persönlich und gibt gute Vor-Ort-Tipps. ⚠️ Privates Hotelzimmer, kein Hostel — ~21 €/Person/Nacht. Für reine Hostel-Budgets: Dorm-Betten in Luang Prabang ab ~3 $ (~3 €)/Nacht. | V4G9+XJ3, ຫຼວງພະບາງ, ປະເທດລາວ| Kategorie: Markt / Shopping / Sonstiges | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1602-2E8B57</styleUrl>
+      <Point><coordinates>102.118699,19.876673,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ock Pop Tok Living Crafts Centre</name>
+      <description>Traditionelle Weberei direkt am Mekong. Man kann zuschauen wie traditionelle Seidentextilien auf Handwebstühlen gewebt werden — komplexe Muster aus Hmong- und Lao-Traditionen. Kurse buchbar (halber Tag oder ganzer Tag). Gratis reinschauen und zuschauen. Shop mit hochwertigen ethisch produzierten Textilien. Für Design-Interessierte sehr inspirierend — die Musterkomplexität ist beeindruckend. | Ban Saylom, ຫຼວງພະບາງ, Laos| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1636-2E8B57</styleUrl>
+      <Point><coordinates>102.120715,19.87857,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ban Chan Pottery Village ⭐</name>
+      <description>Kleines Töpferdorf auf der anderen Mekong-Seite, per kleinem Fischerboot erreichbar (~5.000 KIP für die Überfahrt — das Boot und die Flussüberquerung sind Teil des Erlebnisses). Traditionelle handgetöpferte Keramik in typisch laotischen Formen: Krüge, Schalen, Vasen. Echter Handwerksbetrieb ohne touristische Inszenierung — die Töpfer arbeiten einfach weiter. Gratis Besuch, günstige Souvenirs direkt vom Hersteller. | V4H6+X5C, Unnamed Road, ຫຼວງພະບາງ, Laos| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1685-2E8B57</styleUrl>
+      <Point><coordinates>102.1104,19.879942,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tad Sae Wasserfall ⭐</name>
+      <description>Weniger bekannte, aber wunderschöne Alternative zu Kuang Si. Nur per Longtail-Boot über den Nam Khan erreichbar (~15.000 KIP pro Richtung — die Bootsfahrt durch den engen Fluss ist Teil des Erlebnisses!). Jadegrüne Travertin-Pools, wenige Besucher.  Im August tatsächlich Hochsaison für Tad Sae  — da mehr Wasser aus dem Regen. Aber bei sehr starkem Regen kann er gesperrt sein (Wasserstand zu hoch). Vorab beim Hostel nachfragen. | R6VC+G2C, En, Laos| Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1759-2E8B57</styleUrl>
+      <Point><coordinates>102.220007,19.843809,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bamboo Garden Restaurant ⭐</name>
+      <description>TripAdvisor "Travellers' Choice"-Award, gutes Lao/Thai-Essen (Reis, Larb, Suppe, gebratenes Gemüse), WiFi vorhanden. Solide, mehrfach bestätigte Empfehlung von Reisenden. | 50, 02 Wisunalat Road, ຫຼວງພະບາງ 06000, Laos| Kategorie: Essen &amp; Trinken | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1577-2E8B57</styleUrl>
+      <Point><coordinates>102.13871,19.88648,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Formula B ⭐</name>
+      <description>Vintage-Café in einem hübschen Kolonialgebäude, Milchshakes/Frappés, Deko mit alten Schallplatten und Buddha-Statuen. Besonderes Ambiente, gut für eine Pause in der Altstadt. | ຖະໜົນສີສະຫວ່າງວົງ, ຫຼວງພະບາງ, ປະເທດລາວ| Kategorie: Essen &amp; Trinken | Stadt: Luang Prabang</description>
+      <styleUrl>#icon-1534-2E8B57</styleUrl>
+      <Point><coordinates>102.138287,19.892835,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nong Khiaw Zentrum</name>
+      <description>Brücke über den Nam Ou · Karstpanorama | Nong Khiaw, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1546-2E8B57</styleUrl>
+      <Point><coordinates>102.6115749,20.5710354,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kamphan Guesthouse</name>
+      <description>Mittleres Preissegment, Zimmer mit Flussblick &amp; Klimaanlage ~250.000 KIP für 2 Personen (Agoda/Booking). Eigenes Bad, guter Besitzer (betreibt nebenbei einen kleinen Laden), sehr gute Lage direkt am Fluss. Mit ~5 €/Person/Nacht schon nah an Hostel-Niveau, aber privates Zimmer statt Dorm. | 1C, Nong Khiaw, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1602-2E8B57</styleUrl>
+      <Point><coordinates>102.6149302,20.5713365,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pha Daeng Peak ⭐⭐</name>
+      <description>Der bekannteste Aussichtspunkt, 360°-Blick über die Stadt und die umliegenden Berge. Eingang gut ausgeschildert ca. 500 m östlich der Brücke. Aufstieg 1–1,5 Std., ~20.000 KIP Eintritt. Perfekter Sonnenaufgangs- oder Sonnenuntergangs-Spot. | Nong Khiaw, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1535-2E8B57</styleUrl>
+      <Point><coordinates>102.6255511,20.5707695,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pha Tok Höhlen</name>
+      <description>Höhle hoch in einer Kalksteinklippe, diente Dorfbewohnern und Pathet-Lao-Kämpfern im Vietnamkrieg als Schutzraum, mit Infoschildern zu den ehemaligen Kommandoposten. Weg führt durch Reisfelder, ca. 2 km außerhalb. ~20.000 KIP Eintritt, Taschenlampe vor Ort leihbar. Rückweg oft mit kleinem Longtail-Boot möglich (~50.000 KIP für 2 Personen). | 1C, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.629529,20.553183,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sleeping Woman Viewpoint</name>
+      <description>Zweiter Aussichtspunkt auf der Nordseite des Flusses, ca. 1 Std. Aufstieg. Weniger überlaufen als Pha Daeng. | HJG5+MM, ຫນອງຂຽວ, ປະເທດລາວ| Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1535-2E8B57</styleUrl>
+      <Point><coordinates>102.609195,20.576711,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>"100 Waterfalls"-Trek ⭐⭐</name>
+      <description>Wird oft nur am Rande erwähnt, gilt aber unter erfahrenen Laos-Reisenden als einer der schönsten Treks im Land — durch Dschungel, über und durch dutzende kleine Flussüberquerungen und Kaskaden. Ein- oder mehrtägig organisierbar (z. B. Tiger Trail in Luang Prabang), lohnt sich aber nur mit etwas Kondition und Zeit. | GHGQ+Q2, Done Khoun, Laos| Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1759-2E8B57</styleUrl>
+      <Point><coordinates>102.585567,20.526349,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mandala Ou Resort</name>
+      <description>Falls ihr's etwas komfortabler wollt (echter Splurge, kein Budget-Tipp): einziges Hotel im Ort mit Pool, hoch über dem Fluss gelegen, Bungalows mit Öko-Keramikheizung, kostenloses Fahrrad für Gäste. Das Mehrfache eines Hostel-Betts. | HJF4+74X, ຫນອງຂຽວ, ປະເທດລາວ| Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1602-2E8B57</styleUrl>
+      <Point><coordinates>102.605354,20.573236,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>CT Restaurant</name>
+      <description>Direkt an der Brücke, schöner Flussblick von der Terrasse, guter Lao-Kaffee, kostenloses WLAN. | ຫນອງຂຽວ, ປະເທດລາວ| Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1577-2E8B57</styleUrl>
+      <Point><coordinates>102.611575,20.571035,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Vongmany Restaurant</name>
+      <description>Gutes Lao-Essen, probiert das lokale Gericht  Jeow Mak Len  (pfannengebratene Tomaten mit Kräutern, dazu gedünstetes Gemüse zum Dippen) — bei Einheimischen sehr beliebt. | Nong Khiaw Village, Nongkhiaw, HJ98+RPF, Luang Prabang 06000, Λάος| Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1577-2E8B57</styleUrl>
+      <Point><coordinates>102.616794,20.569551,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Delilah's</name>
+      <description>Alles hausgemacht (Brot, Eis, Suppen, Salate), Lao-Western-Fusion mit kreativem Twist. | ຫນອງຂຽວ, ປະເທດລາວ| Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1577-2E8B57</styleUrl>
+      <Point><coordinates>102.614574,20.571733,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chennai</name>
+      <description>Gutes indisches Restaurant, Thali für zwei Personen für ~30.000 KIP, gute Shakes. | HJ98+RX2, ຫນອງຂຽວ, ປະເທດລາວ| Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1577-2E8B57</styleUrl>
+      <Point><coordinates>102.617388,20.569514,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kräuter-Dampfbad &amp; Massage "Sabai Sabai"</name>
+      <description>Nach dem Pha-Daeng-Aufstieg oder einem Tag Kajak genau richtig: traditionelles laotisches Kräuter-Dampfbad, danach Öl- oder Fußmassage. Sehr günstig im Vergleich zu Thailand, entspannter Ausklang eines "Durchatmen"-Tages. | HJ98+GV7, ຫນອງຂຽວ, ປະເທດລາວ| Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1731-2E8B57</styleUrl>
+      <Point><coordinates>102.617179,20.568781,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sonnenuntergang von der Brücke statt vom Viewpoint</name>
+      <description>Während alle zum Sonnenuntergang auf Pha Daeng oder Sleeping Woman hochsteigen, bleiben viele Einheimische einfach auf der Brücke im Zentrum — kostenlos, kein Aufstieg, fast der gleiche Blick auf die Karstsilhouetten im Abendlicht. Guter Plan B an Tagen, an denen die Beine vom Trekking schon müde sind. | V4RM+G82, Khem Khong, Luang Prabang, Laos| Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#icon-1535-2E8B57</styleUrl>
+      <Point><coordinates>102.61598,20.57111,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Muang Ngoi Zentrum</name>
+      <description>Nur per Boot erreichbar · eine Hauptstraße, keine Autos | Muang Ngoy, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#icon-1546-2E8B57</styleUrl>
+      <Point><coordinates>102.6754547,20.7089805,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ban Na Dorf ⭐⭐</name>
+      <description>Der Klassiker: ca. 2 km zu Fuß, vorbei an der Flusshöhle Tham Kang, durch Reisfelder zum Dorf Ban Na und weiter zu den Nachbardörfern Ban Houaisene und Ban Huei Boe. Bewohnt von ethnischen Minderheiten mit eigenen Bräuchen und Sprache. Übernachtung im Dorf lässt sich meist über deine Unterkunft in Muang Ngoi vorab organisieren — für ein wirklich authentisches Kultur-Erlebnis statt Museum. | Ban Na, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#icon-1731-2E8B57</styleUrl>
+      <Point><coordinates>102.7112532,20.6962608,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Kang Höhle</name>
+      <description>Größere Höhlensysteme in der Umgebung, für die sich ein lokaler Guide lohnt — sowohl wegen der Orientierung als auch wegen Hintergrundwissen zur geologischen und historischen Bedeutung (auch hier diente eine der Höhlen im Vietnamkrieg als Schutzraum). Buchbar direkt in Muang Ngoi. | PM2V+758, Luang Prabang, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.6929386,20.7006562,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pha Noi Höhle</name>
+      <description>Für alle mit einer Stunde übrig: Weg beginnt hinter dem Wat Okad Savaram, direkt beim Trailhead des Muang-Ngoi-Viewpoints. Rund 10 Minuten durch den Wald, 10.000 KIP Eintritt, mehrere Eingänge in den Hang hinein. Taschenlampe mitbringen — auch spontan ohne Guide machbar. | PM8G+62G, Muang Ngoy, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>102.6750821,20.7155586,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Muang Ngoi Viewpoint</name>
+      <description>Kurzer Aufstieg direkt vom Dorf aus (Trailhead bei Wat Okad Savaram) — deutlich weniger Aufwand als Pha Daeng in Nong Khiaw, aber ähnlich schöner Blick auf Fluss und Karst. Guter Plan, wenn die Beine vom Vortag noch müde sind. | PM8H+257, Unnamed Road, Muang Ngoy, Laos| Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#icon-1535-2E8B57</styleUrl>
+      <Point><coordinates>102.677922,20.71505,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Thakhek Zentrum</name>
+      <description>Start-/Endpunkt des Loops · Mekong-Städtchen | Thakhek, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#icon-1546-2E8B57</styleUrl>
+      <Point><coordinates>104.8337879,17.4030206,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Nang Aen ⭐</name>
+      <description>Beleuchtete Höhle · Ruderboot-Fahrt hindurch | CWVX+GCJ, Xiangliab, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Thakhek Loop</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>104.9485302,17.4438455,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kong Lor Cave ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tham_Kong_Lo_%282%29.JPG/330px-Tham_Kong_Lo_%282%29.JPG" width="330"><br>Das eigentliche Highlight des ganzen Loops — 7 km lange Flusshöhle durch einen Karstberg, komplett mit dem Longtail-Boot durchfahren, nur mit Stirnlampen beleuchtet. Kompletter Ausflug (Bootsfahrt + Erkunden) dauert 2–3 Stunden. Am Ausgang öffnet sich die Höhle in ein grünes Tal — ein Moment, den praktisch jeder Reisebericht als unvergesslich beschreibt. | Tham Kong Lo, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Thakhek Loop]]></description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>104.7615237,17.9569162,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tha Falang Schwimmloch</name>
+      <description>Kristallklares Wasser · Tag 1 der Schleife | Xiangliab, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Thakhek Loop</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>104.912938,17.4684725,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tag 1: Thakhek → Thalang</name>
+      <description>Route 12 Richtung Osten. Unterwegs: Tha Falang Schwimmloch (kristallklares Wasser, guter erster Stopp), Tham Nong Pa Fa ("Buddha-Höhle"), Tham Nang Aen (beleuchtete Schauhöhle mit Ruderboot-Fahrt durch den unterirdischen Fluss), Pha Katai Viewpoint ("Golden Rabbit"). | 1E, Laos| Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#icon-1731-2E8B57</styleUrl>
+      <Point><coordinates>105.052508,17.842501,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tag 2: Thalang → Kong Lor Village</name>
+      <description>Weiter über Sandstein-Buddha-Felsskulpturen, die "Dragon Cave" (Mangkone-Höhle), eine kühle Quellenlagune zum Abkühlen, bis zum kleinen Dorf Kong Lor — Ausgangspunkt für die Höhle am nächsten Tag. | Tham Kong Lo, Laos| Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#icon-1731-2E8B57</styleUrl>
+      <Point><coordinates>104.761524,17.956916,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tag 4: Nahin → zurück nach Thakhek</name>
+      <description>Rückweg mit weiteren Karst-Aussichtspunkten unterwegs, bevor es zurück zum Ausgangspunkt geht. Wer 5 Tage Zeit hat, baut hier noch einen Zwischenstopp oder Seitenweg ein. | Ban Nahin, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#icon-1731-2E8B57</styleUrl>
+      <Point><coordinates>104.213025,18.243041,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Don Det</name>
+      <description>Die Hauptinsel für Backpacker — günstige Guesthouses, Hängemattencafés, entspannte "Sonnenaufgangs-" und "Sonnenuntergangs-Seite" (je nach Tageszeit umziehen viele die Terrasse). Kein Auto, keine Hektik. Zentrum für alles Organisatorische (Fahrradverleih, Bootstouren). | Don Det, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: 4000 Islands (Si Phan Don)</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>105.9200531,13.975873,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Don Khon</name>
+      <description>Überreste der einzigen Eisenbahnlinie, die Frankreich je in Laos baute (Ende 19. Jhdt., um die Stromschnellen zu umgehen) — alte Lokomotive, Brückenpfeiler, Kolonialvillen. Ein ungewöhnliches, kaum bekanntes Stück Industriegeschichte mitten auf einer Mekong-Insel. | Don Khon, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: 4000 Islands (Si Phan Don)</description>
+      <styleUrl>#icon-1720-2E8B57</styleUrl>
+      <Point><coordinates>105.9259271,13.9529721,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Khone Phapheng Falls ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Khone_Phapheng_Falls%2C_Si_Phan_Don%2C_Laos%2C_widest_waterfall_in_the_world.jpg/330px-Khone_Phapheng_Falls%2C_Si_Phan_Don%2C_Laos%2C_widest_waterfall_in_the_world.jpg" width="330"><br>Der breiteste Wasserfall der Welt — keine hohe Kaskade, sondern 13 km tosende Stromschnellen des gesamten Mekong. Beeindruckende Naturgewalt, gut zugänglich mit Aussichtsplattformen. Meist als Tagesausflug ab Don Det/Don Khon per Fahrrad oder Tuk-Tuk kombiniert. | Khon Phapheng Falls, Laos | Kategorie: Natur &amp; Aktivität | Stadt: 4000 Islands (Si Phan Don)]]></description>
+      <styleUrl>#icon-1759-2E8B57</styleUrl>
+      <Point><coordinates>105.9865704,13.9601065,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Delfin-Beobachtungspunkt ⭐</name>
+      <description>Si Phan Don ist einer der letzten Orte weltweit, an denen man die seltenen, vom Aussterben bedrohten Irrawaddy-Flussdelfine beobachten kann. Geführte Bootstour Richtung kambodschanische Grenze, am besten früh morgens oder spätnachmittags wenn die Tiere aktiver sind. Keine Garantie, aber gute Chancen in der Regenzeit (mehr Wasser). | Dolphin Pool, nahe Laos-Kambodscha-Grenze | Kategorie: Natur &amp; Aktivität | Stadt: 4000 Islands (Si Phan Don)</description>
+      <styleUrl>#icon-1760-2E8B57</styleUrl>
+      <Point><coordinates>105.94,13.85,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Vietnam</name>
+    <Placemark>
+      <name>Marble Mountains ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Ngu_hanh_son_toan_canh.jpg/330px-Ngu_hanh_son_toan_canh.jpg" width="330"><br>Fünf Kalksteinhügel 9 km südlich der Stadt, benannt nach den 5 Elementen (Wasser, Feuer, Erde, Holz, Metall). In den Felsen versteckt: buddhistische Tempel, Pagoden, Höhlen mit natürlichem Lichteinfall durch Deckenöffnungen, und Granaten-Einschlagslöcher aus dem Vietnamkrieg — Geschichte sichtbar in den Felsen. Der Aufstieg ist kurz, oben hat man Blick aufs Meer. Atemberaubend fotografierbar. Mit Motorrad oder Grab hinfahren (9 km). | 81 Huyền Trân Công Chúa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang]]></description>
+      <styleUrl>#icon-1706-FFC300</styleUrl>
+      <Point><coordinates>108.2631605,16.0037104,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Dragon Bridge ⭐</name>
+      <description>Ikonische Brücke über den Han Fluss in Form eines riesigen, sich windenden Drachen — nachts bunt beleuchtet.  Freitag, Samstag und Sonntag um 21 Uhr:  Der Drache spuckt Feuer und Wasser — spektakuläre Gratis-Show von der Uferpromenade aus. Wenn du am Wochenende in Da Nang bist: absolut nicht verpassen. Tagsüber trotzdem imposant. | Cầu Rồng, An Hải, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#icon-1528-FFC300</styleUrl>
+      <Point><coordinates>108.2276926,16.0611042,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lady Buddha Son Trà ⭐</name>
+      <description>67 m hohe weiße Buddha-Statue auf dem Hügel der Son Trà Halbinsel — von praktisch überall in Da Nang sichtbar. Die  Motorradfahrt dorthin durch den Dschungel  ist mindestens genauso gut wie das Ziel: kurvige Straße, Affenherden (Macaques am Straßenrand), spektakuläre Meeresblicke. Der Weg ist das Erlebnis. Gratis. | Vườn Lâm Tỳ Ni, Hoàng Sa, Sơn Trà, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#icon-1535-FFC300</styleUrl>
+      <Point><coordinates>108.2769531,16.0996678,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Museum of Cham Sculpture ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ecole_Francaise_dExtreme_Orient_Section_des_Antiquites_Chames_en_Tourane..jpg/330px-Ecole_Francaise_dExtreme_Orient_Section_des_Antiquites_Chames_en_Tourane..jpg" width="330"><br>Für Kunstinteressierte sehr empfehlenswert — die weltgrößte Sammlung von Cham-Artefakten. Die Cham-Zivilisation herrschte in Zentralvietnam vom 4.–13. Jahrhundert und baute eine hochentwickelte hinduistische Kultur mit exquisiter Steinbildhauerei. Über 300 Skulpturen, Reliefs und Altäre, darunter tanzende Shiva-Figuren und Apsaras. Fast keine Touristen — du hast das Museum oft für dich allein. Einzigartig in der Welt. | 02 Đ. 2 Tháng 9, Hải Châu, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang]]></description>
+      <styleUrl>#icon-1636-FFC300</styleUrl>
+      <Point><coordinates>108.2232677,16.0603007,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Han Market</name>
+      <description>Lokaler Markt im Stadtzentrum, keine Touristeninszenierung. Erdgeschoss: frische Produkte, Meeresfrüchte, Fisch direkt aus dem Meer. Obergeschoss: Textilien, Souvenirs, Kleidung. Typisch authentische vietnamesische Markt-Atmosphäre. Früh morgens am lebhaftesten. | 119 Trần Phú, Hải Châu, Đà Nẵng, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Da Nang</description>
+      <styleUrl>#icon-1685-FFC300</styleUrl>
+      <Point><coordinates>108.224069,16.0680836,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mỹ Khê Beach</name>
+      <description>10 km weißer Sandstrand · ideal im August | My Khe Beach, Đà Nẵng, Vietnam | Kategorie: Natur &amp; Aktivität | Stadt: Da Nang</description>
+      <styleUrl>#icon-1720-FFC300</styleUrl>
+      <Point><coordinates>108.2469346,16.0616944,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Han River Promenade</name>
+      <description>Abends entlang des Han Flusses spazieren — viele Bars und Restaurants, Blick auf die beleuchtete Dragon Bridge. Locals machen früh morgens Tai Chi und Aerobics am Flussufer — schönes lokales Bild wenn du früh aufstehst. | 7-44 Bạch Đằng, Hải Châu, Đà Nẵng 550000, Việt Nam| Kategorie: Natur &amp; Aktivität | Stadt: Da Nang</description>
+      <styleUrl>#icon-1720-FFC300</styleUrl>
+      <Point><coordinates>108.224747,16.073382,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mỹ Sơn Sanctuary als Architektur</name>
+      <description>Hindu-Tempelkomplex der Cham-Zivilisation im Dschungel, 70 km westlich von Da Nang. UNESCO-Weltkulturerbe, oft "Vietnams kleines Angkor Wat" genannt. Über 70 Turmbauten aus dem 4.–13. Jahrhundert, einige noch erstaunlich gut erhalten, andere bewusst von Vegetation überwachsen. Die Kulisse — Tempel in einem Talkessel umgeben von Dschungelhügeln — ist einzigartig. Als Gruppenausflug buchbar oder mit Motorrad selbst hinfahren. | Thánh địa Mỹ Sơn, Duy Xuyên, Quảng Nam, Việt Nam| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#icon-1706-FFC300</styleUrl>
+      <Point><coordinates>108.119315,15.768782,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hai Van Pass ⭐</name>
+      <description>Vietnams berühmteste Bergstraße — bekannt aus der Top Gear Vietnam Special Folge (Jeremy Clarkson, Richard Hammond, James May fuhren sie mit Motorrädern). Kurvenreiche Passstraße mit dramatischen Küstenblicken, Wolkenschwaden im Gebirge, Blick auf Hue im Norden und Da Nang im Süden. Am besten mit Motorrad (~2h Richtung Hue und zurück oder als Durchfahrt nach Hue). Eine der schönsten Fahrten Vietnams. | Đèo Hải Vân, Chân Mây - Lăng Cô, Tp. Huế, Huế, Việt Nam | Kategorie: Natur &amp; Aktivität | Stadt: Da Nang</description>
+      <styleUrl>#icon-1535-FFC300</styleUrl>
+      <Point><coordinates>108.133333,16.2,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Japanische Brücke ⭐</name>
+      <description>Das Symbol von Hội An. Von japanischen Händlern im 17. Jahrhundert erbaut um die japanische und chinesische Handelssiedlung zu verbinden. Kleine überdachte Holzbrücke über einen Kanal mit einem Tempel in der Mitte. Klein aber wunderschön restauriert — die Holzschnitzereien und der Miniatur-Schrein im Inneren sind bemerkenswert. Im Eintrittsticket inbegriffen. | Nguyễn Thị Minh Khai, Hội An, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An</description>
+      <styleUrl>#icon-1528-FFC300</styleUrl>
+      <Point><coordinates>108.3260704,15.8770873,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phúc Kiến Halle ⭐⭐</name>
+      <description>Chinesische Versammlungshalle aus dem 17. Jahrhundert, gebaut von Händlern aus der Provinz Fujian. Intensiv rot und gold, komplexe vergoldete Drachen und Phönixe, dicker Räucherweihrauch, aufwendig bemalte Deckenkonstruktionen. Einer der eindrucksvollsten Räume im ganzen Viertel — viel opulenter als die anderen Versammlungshallen. Im Eintrittsticket inbegriffen. | 46 Trần Phú, Hội An, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An</description>
+      <styleUrl>#icon-1598-FFC300</styleUrl>
+      <Point><coordinates>108.3306281,15.8774847,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tấn Ký Altes Haus</name>
+      <description>200 Jahre altes Handelshaus mit Architektur, die japanische, chinesische und vietnamesische Einflüsse kombiniert — Spiegelbild der Handelsnatur der Stadt. Holzkonstruktion mit typischen Querträgern, offener Innenhof für Lüftung, Fenster mit chinesischen Schriftzeichen. Noch von der siebten Generation der Originalfamilie bewohnt — echte Geschichte, nicht Museum. Im Eintrittsticket inbegriffen. | 101 Nguyễn Thái Học, Hội An, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An</description>
+      <styleUrl>#icon-1598-FFC300</styleUrl>
+      <Point><coordinates>108.3277659,15.8764821,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>An Bang Beach ⭐</name>
+      <description>3 km vom Altstadtzentrum (Fahrrad oder Motorrad), ruhiger und weniger touristisch als die Strände bei Da Nang. Lokal geprägte Strandcafés mit Liegestühlen, günstiger Kaffee, Kokoswasser direkt aus der Nuss. Breiterer Strand mit weniger Hochhaus-Kulisse. Auch hier im August warmes Wasser zum Schwimmen. | Đ. Hai Bà Trưng, Hội An, Vietnam | Kategorie: Natur &amp; Aktivität | Stadt: Hội An</description>
+      <styleUrl>#icon-1720-FFC300</styleUrl>
+      <Point><coordinates>108.3406489,15.9136072,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bánh Mì Phượng ⭐</name>
+      <description>Anthony Bourdain nannte dieses Bánh Mì 2005 "das beste der Welt" in seiner TV-Sendung No Reservations. Bis heute immer Schlange, Preis etwas touristisch. Trotzdem gut: frisches Baguette, Paté, gegrilltes Schweinefleisch, Gemüse, Koriander, Chili. Alternative für mehr Authentizität:  Madam Khánh — The Queen of Bánh Mì  in der Neareby Gasse — mehr Volumen, ehrlichere Preise, genauso gut. | 2b Đ. Phan Chu Trinh, Hội An, Vietnam | Kategorie: Essen &amp; Trinken | Stadt: Hội An</description>
+      <styleUrl>#icon-1577-FFC300</styleUrl>
+      <Point><coordinates>108.3320488,15.878499,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Reaching Out ⭐</name>
+      <description>Sehr empfehlenswert. Social Enterprise das Menschen mit Hör- und anderen Behinderungen beschäftigt. Hochwertige, handgefertigte Produkte — feines Teegeschirr, Textilien, Lackwaren — in einer ruhigen, aufgeräumten Atmosphäre. Die Mitarbeiter sind hörbehindert und kommunizieren via Schreibtafeln. Das Café dabei ist angenehm ruhig. Ein Einkauf hier bedeutet direkte lokale Wertschöpfung. | 131 Trần Phú, Hội An, Vietnam | Kategorie: Essen &amp; Trinken | Stadt: Hội An</description>
+      <styleUrl>#icon-1577-FFC300</styleUrl>
+      <Point><coordinates>108.3272791,15.8770577,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Die Altstadt (Phố Cổ) ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/10549-Hoi-An_%2837621348460%29.jpg/330px-10549-Hoi-An_%2837621348460%29.jpg" width="330"><br>Kompaktes UNESCO-Viertel mit Häusern aus dem 15.–19. Jahrhundert, aus der Zeit als Hội An einer der wichtigsten Handelshäfen Südostasiens war. Japanische, chinesische, vietnamesische und europäische Architekturelemente auf engstem Raum — das Ergebnis jahrhundertelangen Handels mit der ganzen Welt.  Früh morgens vor 7 Uhr  oder  abends nach 18 Uhr  gehen — tagsüber Touristenmassen. Die Altstadt gehört erst bei Dämmerung wirklich sich selbst. | Chùa Cầu, Nguyễn Thị Minh Khai, Hội An, Đà Nẵng 564010, Việt Nam| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An]]></description>
+      <styleUrl>#icon-1546-FFC300</styleUrl>
+      <Point><coordinates>108.32607,15.877087,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>White Rose Dumplings (Bánh Bao Vạc) ⭐</name>
+      <description>Zarte, weiße, fast durchscheinende Reismehl-Teigtaschen mit Garnelen-Füllung, geformt wie weiße Rosen — optisch außergewöhnlich schön. Nur in Hội An zu finden, und das Rezept wird streng gehütet. Besuche das  White Rose Restaurant  (die Familie hat das Originalrezept und gibt es nicht weiter — alle anderen White Rose Dumplings in der Stadt kommen von ihnen). Mit knusprigen Schalotten darüber. | 533 Đ. Hai Bà Trưng, Hội An, Đà Nẵng, Việt Nam| Kategorie: Essen &amp; Trinken | Stadt: Hội An</description>
+      <styleUrl>#icon-1577-FFC300</styleUrl>
+      <Point><coordinates>108.324993,15.882903,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Frühmorgens einkaufen am Hội An Markt</name>
+      <description>Der Hội An Central Market öffnet früh morgens (ab 6 Uhr) — bevor die ersten Touristen ankommen, kaufen Einheimische hier frischen Fisch, Gemüse, Kräuter. Sehr lebendige Atmosphäre, echte lokale Versorgung. Gratis reinschauen, am besten zwischen 6 und 8 Uhr. | 49 Nguyễn Phúc Tần, Phường, Hội An, Đà Nẵng 50000, Việt Nam| Kategorie: Markt / Shopping / Sonstiges | Stadt: Hội An</description>
+      <styleUrl>#icon-1685-FFC300</styleUrl>
+      <Point><coordinates>108.326172,15.875027,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>War Remnants Museum ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/War_Remnants_Museum%2C_HCMC%2C_front.JPG/330px-War_Remnants_Museum%2C_HCMC%2C_front.JPG" width="330"><br>Das wichtigste Museum in Saigon und eines der eindrücklichsten in ganz Vietnam. Dokumentiert den Vietnamkrieg (1955–1975) aus konsequent vietnamesischer Perspektive. Fotografien von renommierten US-Kriegsfotographen (darunter Nick Ut, dessen "Napalm Girl" Foto hier hängt), die Folgen von Agent Orange (bis in die dritte Generation sichtbar), US-Militärfahrzeuge und -geräte im Außenbereich, Karten mit Bombardierungsmustern. Sehr bewegend und teils schockierend — wichtige Perspektive auf einen Krieg der meistens nur aus westlicher Sicht erzählt wird. 2024/25 stark modernisiert mit neuen interaktiven Ausstellungen. | Phường 6, Quận 3, Hồ Chí Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City]]></description>
+      <styleUrl>#icon-1636-FFC300</styleUrl>
+      <Point><coordinates>106.6920916,10.7795106,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Reunification Palace ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/20190923_Independence_Palace-10.jpg/330px-20190923_Independence_Palace-10.jpg" width="330"><br>Ehemaliger Präsidentenpalast Südvietnams, faszinierend aus zwei Gründen: Erstens ist die  Architektur aus den 1960ern  fabelhaft — futuristischer Modernismus mit offenen Terrassen, Hubschrauberlandeplatz auf dem Dach, Bunker im Untergeschoss. Zweitens endete hier symbolisch der Vietnamkrieg: Am  30. April 1975  fuhren nordvietnamesische Panzer durch das Tor, ein Soldat hisste die Fahne auf dem Dach, und das Regime Südvietnams kapitulierte. Der Palast steht seitdem unverändert wie eine Zeitkapsel. | Ben Thanh, Ho Chi Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City]]></description>
+      <styleUrl>#icon-1598-FFC300</styleUrl>
+      <Point><coordinates>106.6953021,10.7769942,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jade Emperor Pagoda ⭐</name>
+      <description>Atmosphärischer taoistisch-buddhistischer Tempel aus dem Jahr 1909. Dichter Weihrauchrauch, komplex geschnitzte Holzfiguren, religiöse Devotion von echten Gläubigen. Sehr authentisch — kein Museum, sondern aktive Religionsstätte. Barack Obama besuchte ihn 2016. Im Innenhof ein kleiner Teich mit Schildkröten (Symbol der Langlebigkeit). Gratis. | 73 Mai Thị Lựu, Tân Định, Hồ Chí Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1706-FFC300</styleUrl>
+      <Point><coordinates>106.6981791,10.7919963,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ben Thành Market ⭐</name>
+      <description>Das Wahrzeichen des Stadtzentrums, riesig und labyrinthisch. Beste Käufe hier:  vietnamesischer Kaffee  (gemahlener Robusta in Blechdosen — Souvenirs und Eigenverbrauch), Gewürze, handgefertigte Lackwarenschalen (Lacquerware), Seidenschals. Hartes Feilschen überall nötig. Abends außen herum gibt's Streetfood-Stände. | Ben Thanh, Ho Chi Minh, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1685-FFC300</styleUrl>
+      <Point><coordinates>106.6980208,10.7725168,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Saigon Square</name>
+      <description>Air-conditionierte Einkaufszentren mit riesiger Auswahl an Mode, Taschen, Accessoires, Schuhen. Preise verhandelbar — bei 50–70% des Anfangspreises einsteigen, auf 30–40% drücken. Gute Mischung aus legaler lokaler Ware und Markenimitaten — eigenes Urteil nötig. Im Zentrum, District 1, leicht erreichbar. | 77-89 Nam Kỳ Khởi Nghĩa, Bến Thành, Hồ Chí Minh, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1685-FFC300</styleUrl>
+      <Point><coordinates>106.7002091,10.7727039,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cholon Chinatown</name>
+      <description>Bình Tây Market · Großhandel · Atmosphäre | 57A Tháp Mười, Bình Tây, Hồ Chí Minh, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1546-FFC300</styleUrl>
+      <Point><coordinates>106.6510455,10.7493638,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Saigon Riverfront Park ⭐⭐</name>
+      <description>Der beste versteckte Ort um die Saigon-Skyline zu sehen. Thu Thiem Halbinsel auf der anderen Flussseite — Plastikstühle am Flussufer, Locals trinken Kokoswasser und schauen auf die beleuchtete Skyline und die Landmark 81 (Vietnams höchstes Gebäude). Fast keine Touristen, Getränke 25.000–50.000 VND. Am besten nach Sonnenuntergang wenn alles beleuchtet ist. Ein absolut lokales Erlebnis. | Bach Dang Riverside, Hồ Chí Minh, Vietnam | Kategorie: Natur &amp; Aktivität | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1720-FFC300</styleUrl>
+      <Point><coordinates>106.7036,10.7803,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>42 Nguyễn Huệ ⭐⭐</name>
+      <description>Einzigartiges Konzept: Ein jahrzehntealtes kommunistisches Apartmenthaus mit offenem Treppenhaus-Atrium wurde von unten bis oben in ein kuratiertes Shopping-Erlebnis verwandelt. Jede Etage: kleine Galerien, Concept-Stores, Independent Labels, Vintage-Shops, Cafés. Das Atrium selbst ist fotografisch außergewöhnlich — spiralförmig, mit Wäscheleinen und Pflanzen der verbliebenen Bewohner dazwischen. Sehr kreativ und atmosphärisch. | 42 Nguyễn Huệ, Sài Gòn, Hồ Chí Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1546-FFC300</styleUrl>
+      <Point><coordinates>106.7036362,10.7741486,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Saigon Central Post Office ⭐</name>
+      <description>Prachtbau aus der französischen Kolonialzeit (1886–1891), entworfen von Gustave Eiffel (desselbe wie der Eiffelturm). Riesige Bogenhalle, Vintage-Glasfenster an den Seiten, Wandkarten aus der Kolonialzeit. Drinnen noch als Postamt in Betrieb. Gratis reinschauen. Direkt neben der Notre Dame Kathedrale. | 02 Công trường Công xã Paris, Bến Nghé, Quận 1, Hồ Chí Minh 70000, Việt Nam| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1598-FFC300</styleUrl>
+      <Point><coordinates>106.699902,10.779913,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Notre Dame Cathedral</name>
+      <description>Neugotische Kirche aus dem Jahr 1880, aus roten Backsteinen (direkt aus Frankreich importiert). Außen imposant, innen nüchtern. Steht gegenüber der Zentralpost — zusammen ein schönes Ensemble aus Kolonialarchitektur. Restaurierungsarbeiten laufen seit Jahren, Gerüste evtl. noch sichtbar. | 01 Công trường Công xã Paris, Quận 1, Hồ Chí Minh 70000, Việt Nam| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1671-FFC300</styleUrl>
+      <Point><coordinates>106.699019,10.779786,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>22 Lý Tự Trọng (Apartment Building)</name>
+      <description>Ähnliches Konzept wie 42 Nguyễn Huệ — altes Wohnhaus umfunktioniert zu Shops und Cafés. Zwei dieser Gebäude in der Nähe zu kombinieren lohnt sich für eine Runde durch Saigons Independent-Kreativszene. | 22 Lý Tự Trọng, Sài Gòn, Hồ Chí Minh, Việt Nam| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1546-FFC300</styleUrl>
+      <Point><coordinates>106.701673,10.778217,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Craft Beer-Szene</name>
+      <description>Saigon hat eine der besten Craft Beer-Szenen Asiens.  Pasteur Street Brewing  ist die bekannteste Brauerei (Passion Fruit Wheat Beer gilt als ihr bestes).  Heart of Darkness Brewery  als Alternative. Beide in District 1. Abends für Bier und Design-Atmosphäre. | Pasteur, Thành phố Hồ Chí Minh, Hồ Chí Minh, Việt Nam| Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1517-FFC300</styleUrl>
+      <Point><coordinates>106.696843,10.779629,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pham Viet Chanh Street</name>
+      <description>Schicke Ausgehstraße in Binh Thanh District, weit weg von den touristischen Gebieten rund um Ben Thành. Upscale Bars mit gutem Design, internationales Essen, Expats und Locals. Interessant für Design und Stadtästhetik — zeigt, wie das wohlhabendere Saigon aussieht und ausgeht. | Phạm Viết Chánh, Thạnh Mỹ Tây, Thành phố Hồ Chí Minh, Hồ Chí Minh, Việt Nam| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1546-FFC300</styleUrl>
+      <Point><coordinates>106.710682,10.790202,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bánh Mì Huỳnh Hoa ⭐⭐</name>
+      <description>Gilt als legendärstes Bánh Mì in ganz Saigon. Überladenes Sandwich mit fünf verschiedenen Fleischsorten — Paté, Schweinefleisch, Mortadella, geräuchertes Fleisch, Leberwurst — plus Gemüse und Saucen. Immer eine Warteschlange, aber es geht schnell. Das Brot ist besonders knusprig und frisch gebacken. | 26 Lê Thị Riêng, Bến Thành, Hồ Chí Minh, Việt Nam| Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1577-FFC300</styleUrl>
+      <Point><coordinates>106.692397,10.771523,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phở Lê (District 11) ⭐</name>
+      <description>Weithin bekanntes, sehr günstiges Pho-Restaurant. Sehr intensive, klare Rinderbrühe die stundenlang gekocht wird. Weit außerhalb der Touristenzentren in District 11 — ein Grab ist nötig aber der Unterschied zur Touristenpho ist enorm. | 413 - 415 Nguyễn Trãi, An Đông, Hồ Chí Minh, Việt Nam| Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1577-FFC300</styleUrl>
+      <Point><coordinates>106.67352,10.755296,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Egg Coffee (Cà Phê Trứng)</name>
+      <description>Kult-Kaffee auch in Saigon immer präsenter.  Storii Coffee  gilt als gute Adresse für Egg Coffee in angenehmer Atmosphäre. Auch viele andere Ca-Phê-Läden bieten es an. | Thành phố Hồ Chí Minh, Hồ Chí Minh, Việt Nam| Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1534-FFC300</styleUrl>
+      <Point><coordinates>106.629664,10.823099,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Vietnamese Local Brands ⭐⭐⭐</name>
+      <description>Das interessantere Shopping in Saigon. Lokale Designermode in District 1 und 3 — günstig, hochwertig, eigener Stil. Empfehlungen:  Waa Studios  (Đặng Thị Nhu Straße) — handwerkliche Qualität, sehr sorgfältig gemacht, natürliche Materialien.  Cocosin  — Romantic/Casual Styles, Maxi-Dresses, feminine Ästhetik. Einfach durch District 3 schlendern: viele kleine Boutiquen auf Nebenstraßen, 10–30€ pro Stück. | Đặng Thị Nhu, Bến Thành, Thành phố Hồ Chí Minh, Hồ Chí Minh, Việt Nam| Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1685-FFC300</styleUrl>
+      <Point><coordinates>106.697343,10.769418,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ho Thi Ky Market (Quận 10) ⭐</name>
+      <description>Geheimtipp! Blumenmarkt und Streetfood-Markt in einem — kaum Touristen, fast nur Locals. Früh morgens am buntesten wenn die frischen Blumen ankommen und die Foodstände aufmachen. Faszinierende Farben und Atmosphäre. Grab dorthin (~10 min von D1). | Hẻm 52 Hồ Thị Kỷ, Vườn Lài, Hồ Chí Minh 700000, Việt Nam| Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#icon-1685-FFC300</styleUrl>
+      <Point><coordinates>106.677005,10.76539,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Kambodscha</name>
+    <Placemark>
+      <name>Angkor Wat ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/330px-Angkor_Wat.jpg" width="330"><br>Das größte religiöse Bauwerk der Welt. Gebaut 1113–1150 von König Suryavarman II., ursprünglich als hinduistischer Tempel (Vishnu), heute buddhistisch. Ein 1,5 km breiter Wassergraben umgibt die gesamte Anlage. Die Bas-Reliefs entlang der Innenwände erzählen Szenen aus dem Hindu-Epos Mahabharata auf über 800 Metern Länge — die weltweit längste kontinuierliche Bas-Relief-Galerie. Die fünf Türme symbolisieren den kosmischen Berg Meru. | Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap]]></description>
+      <styleUrl>#icon-1706-7B2CBF</styleUrl>
+      <Point><coordinates>103.8669857,13.4124693,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bayon Temple ⭐⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bayon%2C_Angkor_Thom%2C_Camboya%2C_2013-08-17%2C_DD_37.JPG/330px-Bayon%2C_Angkor_Thom%2C_Camboya%2C_2013-08-17%2C_DD_37.JPG" width="330"><br>Im Zentrum von Angkor Thom (der alten Hauptstadt), nördlich von Angkor Wat. Über 200 riesige steinerne Gesichter auf 54 Türmen, jedes ausgedrückt mit einem rätselhaften, leicht lächelnden Ausdruck. Faszinierend surreal — von bestimmten Winkeln siehst du dutzende Gesichter gleichzeitig, die dich aus verschiedene Richtungen anschauen. Einer der einprägsamsten Orte in ganz Südostasien. | Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap]]></description>
+      <styleUrl>#icon-1706-7B2CBF</styleUrl>
+      <Point><coordinates>103.8589036,13.4412831,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ta Prohm ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ta_Prohm_%28III%29.jpg/330px-Ta_Prohm_%28III%29.jpg" width="330"><br>Der "Tomb Raider Tempel" (hier wurden Szenen des Films gedreht). Die Khmer-Ruinen wurden bewusst nicht vollständig restauriert — riesige Feigenbäume (Strangler Figs) zwängen sich durch Mauern, heben Steine an, umklammern Türme mit ihren Wurzeln. Die Spannung zwischen Natur und Architektur ist einzigartig.  Am besten früh morgens  vor 8 Uhr besuchen, bevor die Busgruppen ankommen. | Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap]]></description>
+      <styleUrl>#icon-1706-7B2CBF</styleUrl>
+      <Point><coordinates>103.8893041,13.4347941,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Angkor Thom</name>
+      <description>Die ehemalige Hauptstadt des Khmer-Reichs, nördlich von Angkor Wat. Enthält Bayon sowie mehrere andere Monumente (Baphuon, Phimeanakas, Terrasse des Elefantenkönigs). Die fünf Eingangstore sind imposant: breite Brücken mit riesigen Naga-Schlangen als Geländer, überwacht von einem riesigen Gesicht. Der Weg durch das Südtor ist bereits ein Erlebnis. | South Gate, Angkor Thom, Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1706-7B2CBF</styleUrl>
+      <Point><coordinates>103.8595523,13.4276031,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Banteay Srei ⭐⭐</name>
+      <description><![CDATA[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Banteay_Srei_full2.jpg/330px-Banteay_Srei_full2.jpg" width="330"><br>25 km nördlich von Siem Reap, ~45 min Fahrt (extra, nicht im Standard-Tuk-Tuk-Tagesrundgang inbegriffen — separat verhandeln). "Stadt der Frauen", gebaut aus rosafarbenem Sandstein, mit den feinsten und detailliertesten Schnitzereien des gesamten Angkor-Komplexes: Götter, mythische Szenen, Lotusblüten in exquisitem Relief. Kleiner als Angkor Wat, aber handwerklich beeindruckender. Lohnt die extra Fahrt absolut. | Banteay Srei, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap]]></description>
+      <styleUrl>#icon-1706-7B2CBF</styleUrl>
+      <Point><coordinates>103.9666115,13.6031005,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Banteay Kdei ⭐</name>
+      <description>Ruhige, weniger besuchte Tempelruine direkt neben Ta Prohm. Keine vollständige Restaurierung, ursprünglichere Atmosphäre — viele Steine liegen noch ungeordnet. Gut für Fotografie ohne Menschengedränge. Oft auf dem Weg zu/von Ta Prohm mit einschließen. | Angkor Archaeological Park, Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1706-7B2CBF</styleUrl>
+      <Point><coordinates>103.8985128,13.4299495,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Old Market (Psar Chas)</name>
+      <description>Lokaler Markt mit Seiden-Produkten, Holzschnitzereien, Lacquerware, Gewürzen und Kampot-Pfeffer. Besser als die Tourist-spezifischen Stände rund um Pub Street. Feilschen: bei 40% des Anfangspreises einsteigen, auf 50–60% einigen. | Psar Chas, Siem Reap, Cambodia | Kategorie: Markt / Shopping / Sonstiges | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1685-7B2CBF</styleUrl>
+      <Point><coordinates>103.8552,13.3611,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pub Street</name>
+      <description>Die Backpacker-Hauptstraße — touristisch, aber das gesellschaftliche Zentrum der Reisenden. Biere für $0,50 (!), Essen günstig, Musik, Massageangebote. Einmal durchlaufen schadet nicht. Die wirklich guten lokalen Restaurants liegen in den Seitenstraßen abseits der Pub Street. | Pub Street, Siem Reap, Cambodia | Kategorie: Markt / Shopping / Sonstiges | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1517-7B2CBF</styleUrl>
+      <Point><coordinates>103.8556,13.3617,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pre Rup</name>
+      <description>Tempel auf einem Hügel aus dem 10. Jahrhundert. Gut für Sonnenuntergang als Alternative zu Angkor Wat — weniger voll, ähnlich schönes Licht über den Tempelfeldern. Brick-and-Laterite Konstruktion. | CWMC+X6F Angkor Archaeological Park, ក្រុងសៀមរាប 17000, កម្ពុជា| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1706-7B2CBF</styleUrl>
+      <Point><coordinates>103.920536,13.434934,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tonle Sap Lake ⭐</name>
+      <description>Südostasiens größter Süßwassersee, 20 km von Siem Reap. Einzigartiges Phänomen: Im Regenzeit-Monsun (Juni–November) steigt der Mekong so stark an dass der Fluss die Richtung umkehrt und Wasser in den Tonle Sap drückt — der See vervierfacht seine Fläche. Schwimmende Dörfer mit Häusern, Schulen, Kirchen komplett auf dem Wasser. Halbtagsausflug: Tuk-Tuk (~$15 hin und zurück) + Bootstour ($10–15). | ចុងឃ្នាស, កម្ពុជា| Kategorie: Natur &amp; Aktivität | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1720-7B2CBF</styleUrl>
+      <Point><coordinates>103.830321,13.224073,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Landmine Museum ⭐</name>
+      <description>Kleines privates Museum über Landminen-Geschichte in Kambodscha. Gegründet vom ehemaligen Kindersoldat Aki Ra der heute Minen entschärft. Kambodscha ist eines der am stärksten mit Landminen verseuchten Länder der Welt — durch den Khmer Rouge und anschließende Konflikte. Sehr bewegend und wichtig für das Verständnis Kambodschas. ~$5 Eintritt, Geld geht direkt an die Organisation. | 67, Phumi Khna 93084, Cambodia| Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1636-7B2CBF</styleUrl>
+      <Point><coordinates>103.945908,13.539984,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Asana Old Wooden House ⭐</name>
+      <description>Verstecktes Lokal hinter Pub Street, untergebracht im letzten erhaltenen traditionellen Holzhaus des Stadtzentrums. Einzigartige Kräuter-Cocktails aus lokalen Kräutern und Früchten, sehr coole atmosphärische Einrichtung auf mehreren Holzetagen. Nicht günstig für Siem Reap-Standard, aber besonders. Abends hingehen. | Mondul 1 Village, 10 Street 07, Krong Siem Reap 17252, Cambodge| Kategorie: Essen &amp; Trinken | Stadt: Siem Reap</description>
+      <styleUrl>#icon-1517-7B2CBF</styleUrl>
+      <Point><coordinates>103.854498,13.355422,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

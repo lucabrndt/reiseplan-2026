@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Abhängigkeiten (werden per `npm install` erzeugt)
+node_modules/
+
+# Build-/Tool-Caches
+.wrangler/
+*.log
+
+# Editor
+.vscode/
+.idea/

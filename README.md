@@ -2,17 +2,32 @@
 
 Interaktiver Reiseführer für die Reise München → Zürich → Istanbul → Bangkok → Laos → Vietnam → Kambodscha → Bangkok, August–Oktober 2026.
 
-Eine einzelne HTML-Datei, kein Build-Tool, kein Server nötig. Einfach `index.html` im Browser öffnen oder über GitHub Pages hosten.
+Statische Website ohne Build-Tool und ohne Server-Backend. `index.html` im Browser öffnen genügt.
 
-## Features
+## Projektstruktur
 
-- Interaktive Leaflet.js-Karten für jede Stadt (lazy-geladen)
-- Globale Übersichtskarte mit eingezeichneter Route
-- Accordion-Panels pro Stadt (Sehenswürdigkeiten, Essen, Geheimtipps, etc.)
-- KI-Prompt-Panel mit Kopieren-Button
-- Visa-Übersicht, Budget-Tabelle, Apps-Liste, Rückflug-Info
-- Mobil-optimiert (375px aufwärts, horizontale Nav mit Scroll)
-- Kein Build-Step — alles in einer Datei, CDN-Ressourcen
+```
+.
+├── index.html                    Seitengerüst (nur Markup)
+├── assets/
+│   ├── css/style.css             Alle Styles
+│   └── js/
+│       ├── data.js               Reisedaten & Inhalte (Städte, Panels, Visa, Timeline)
+│       └── app.js                Seitenaufbau & Interaktion
+├── data/
+│   ├── reiseplan-2026.kml        182 Orte für Google My Maps (Import-Datei)
+│   └── kategorien-liste.md       Kategorie-/Icon-Zuordnung aller Orte
+├── docs/
+│   └── reiseplan-2026.md         Reiseplan als Fließtext (Langfassung)
+├── scripts/
+│   └── verify-koordinaten.py     Prüft/ergänzt Koordinaten in der KML via Google-Maps-API
+├── tools/
+│   └── maps-mcp-server/          Cloudflare-Worker (MCP-Server für die Geocoding-Abfragen)
+└── archive/                      Alte Stände, absichtlich aufbewahrt
+```
+
+`data.js` wird vor `app.js` geladen — die Reihenfolge der beiden `<script>`-Tags in
+`index.html` ist deshalb relevant.
 
 ## Lokal öffnen
 
@@ -20,70 +35,62 @@ Eine einzelne HTML-Datei, kein Build-Tool, kein Server nötig. Einfach `index.ht
 open index.html
 ```
 
-Oder mit einem lokalen Server (für korrekte CORS-Behandlung der Kartenkacheln):
+Alternativ über einen lokalen Server:
 
 ```bash
 python3 -m http.server 8080
 # → http://localhost:8080/index.html
 ```
 
-## Auf GitHub Pages hosten
+## Karten
 
-### Schritt 1 — Repository erstellen
+Die Karten sind Einbettungen einer **Google-My-Maps**-Karte: eine große Übersichtskarte
+über der Route und pro Stadt eine auf den jeweiligen Ort gezoomte Karte.
 
-1. Auf [github.com/new](https://github.com/new) ein neues Repository anlegen
-2. Name wählen, z. B. `reiseplan-2026`
-3. Auf **Public** stellen (GitHub Pages braucht Public für den kostenlosen Plan)
-4. Repository erstellen
+Die Orte selbst liegen in `data/reiseplan-2026.kml` (182 Placemarks, nach Ländern
+gruppiert, Farbe = Land, Symbol = Kategorie). Zum Aktualisieren die KML in
+[Google My Maps](https://www.google.com/mymaps) importieren — vorher die alten
+Ebenen löschen, sonst entstehen Duplikate.
 
-### Schritt 2 — Datei hochladen
+Damit Scrollen nicht versehentlich in einer Karte landet, sind die Karten erst nach
+einem Klick/Tipp bedienbar (Tippen daneben bzw. Maus wegbewegen sperrt sie wieder).
 
-**Option A — direkt im Browser:**
-
-1. Im leeren Repository auf **"Add file" → "Upload files"** klicken
-2. `index.html` hochziehen
-3. Unten auf **"Commit changes"** klicken
-
-**Option B — per Git:**
+## Koordinaten prüfen
 
 ```bash
-git init
-git add index.html README.md
-git commit -m "Reiseplan 2026"
-git remote add origin https://github.com/DEIN-USERNAME/reiseplan-2026.git
-git branch -M main
-git push --set-upstream origin main
+python3 scripts/verify-koordinaten.py
 ```
 
-### Schritt 3 — GitHub Pages aktivieren
+Ergänzt fehlende Koordinaten in der KML über den Google-Maps-MCP-Worker. Das Skript ist
+wiederholbar und bricht bei erschöpftem API-Tageskontingent sauber ab. Der genutzte
+Demo-Key hat ein Tageslimit — **nicht** auf einen abrechnungspflichtigen Key wechseln.
 
-1. Im Repository auf **Settings** klicken
-2. Im linken Menü: **Pages**
-3. Unter "Source": **"Deploy from a branch"** wählen
-4. Branch: **main**, Ordner: **/ (root)**
-5. Auf **Save** klicken
+## Externe Ressourcen
 
-Nach 1–2 Minuten ist die Seite live unter:
+Alles per CDN, kein npm und kein Build für die Website nötig:
 
-```
-https://DEIN-USERNAME.github.io/reiseplan-2026/
-```
+- **Inter** (Schriftart) — fonts.googleapis.com
+- **Google My Maps** (Karten) — google.com/maps/d/embed
+- **Bilder** — Wikimedia Commons (`loading="lazy"`)
 
-### Schritt 4 — Aktualisierungen
+Nur `tools/maps-mcp-server/` ist ein eigenständiges npm-Projekt mit eigenem Build.
 
-Einfach eine neue Version von `index.html` hochladen (Schritt 2 wiederholen). GitHub Pages deployt automatisch.
+## Auf GitHub Pages hosten
 
-## Welche Dateien werden benötigt
+1. Repository auf [github.com/new](https://github.com/new) anlegen (Public)
+2. Projekt pushen:
 
-Nur eine einzige Datei:
+   ```bash
+   git add .
+   git commit -m "Reiseplan 2026"
+   git remote add origin https://github.com/DEIN-USERNAME/reiseplan-2026.git
+   git branch -M main
+   git push --set-upstream origin main
+   ```
 
-```
-index.html    ← die komplette Website (HTML + CSS + JS + Daten)
-```
+3. **Settings → Pages → Source:** „Deploy from a branch", Branch `main`, Ordner `/ (root)`
 
-Alle externen Ressourcen werden via CDN geladen:
-- **Leaflet.js 1.9.4** (Karten) — unpkg.com
-- **OpenStreetMap-Kacheln** — tile.openstreetmap.org
-- **Hero-Bilder** — Wikimedia Commons (mit `loading="lazy"`)
+Nach 1–2 Minuten live unter `https://DEIN-USERNAME.github.io/reiseplan-2026/`.
 
-Kein npm, kein Build, keine Config-Dateien nötig.
+Wichtig: Es muss der **ganze Ordner** hochgeladen werden, nicht mehr nur `index.html` —
+die Seite lädt CSS und JS aus `assets/`.

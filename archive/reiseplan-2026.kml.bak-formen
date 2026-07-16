@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Reiseplan 2026 – Alle Orte</name>
+  <description>Alle Orte aus dem Reiseplan, mit von Google Maps verifizierten Koordinaten. Farbe = Land, Symbol = Kategorie (Kreis: Sehenswürdigkeit, Quadrat: Essen, Raute: Natur/Aktivität, Stern: Markt/Sonstiges).</description>
+  <Style id="CH-sight">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="CH-food">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="CH-nature">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="CH-market">
+    <IconStyle>
+      <color>ff1306e3</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TR-sight">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TR-food">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TR-nature">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TR-market">
+    <IconStyle>
+      <color>ff1d94f7</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TH-sight">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TH-food">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TH-nature">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="TH-market">
+    <IconStyle>
+      <color>ff9e4c2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="LA-sight">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="LA-food">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="LA-nature">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="LA-market">
+    <IconStyle>
+      <color>ff578b2e</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="VN-sight">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="VN-food">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="VN-nature">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="VN-market">
+    <IconStyle>
+      <color>ff00c3ff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="KH-sight">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="KH-food">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="KH-nature">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-diamond.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="KH-market">
+    <IconStyle>
+      <color>ffbf2c7b</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-stars.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Folder>
+    <name>Schweiz (Rot)</name>
+    <Placemark>
+      <name>Grossmünster ⭐</name>
+      <description>Wahrzeichen Zürichs · Turmbesteigung 5 CHF | Zwinglipl. 7, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.544054,47.3700931,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Fraumünster ⭐⭐</name>
+      <description>Chagall-Fenster · ~5 CHF · Mo–Sa 10–18 Uhr | Münsterhof 2, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.5408331,47.3697849,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Peterskirche</name>
+      <description>Größtes Kirchturm-Zifferblatt Europas · Gratis | St. Peterhofstatt 1, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.5407181,47.3711462,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lindenhof</name>
+      <description>Aussichtshügel · Schach · Gratis | Lindenhof, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.5413182,47.3721811,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ETH Polyterrasse</name>
+      <description>Panoramablick Stadt + Alpen · Gratis | Polyterrasse ETH, 8001 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.5463439,47.3768403,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Museum für Gestaltung ⭐⭐</name>
+      <description>12–15 CHF · Di–So (Mo geschlossen!) | Ausstellungsstrasse 60, 8005 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.5358278,47.3827672,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Freitag Tower ⭐</name>
+      <description>Flagship Store + Aussicht · Gratis | Geroldstrasse 21, 8005 Zürich, Switzerland | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.5193857,47.3856597,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Flussbad Oberer Letten ⭐</name>
+      <description>Schwimmen im Limmat · Gratis | Lettensteg 10, 8037 Zürich, Switzerland | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#CH-nature</styleUrl>
+      <Point><coordinates>8.5345306,47.3856866,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wochenmarkt Bürkliplatz ⭐</name>
+      <description>Di + Fr 6–11 Uhr · Gratis | Fraumünsterstrasse, 8001 Zürich, Switzerland | Kategorie: Markt / Shopping / Sonstiges | Stadt: Zürich</description>
+      <styleUrl>#CH-market</styleUrl>
+      <Point><coordinates>8.5407526,47.3693507,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Uetliberg ⭐</name>
+      <description>871 m Aussicht · S10 25 Min ab HB | Uetliberg, 8143 Stallikon, Switzerland | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#CH-nature</styleUrl>
+      <Point><coordinates>8.49205,47.3495,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Altstadt / Niederdorf</name>
+      <description>Das historische Herz Zürichs auf beiden Seiten der Limmat. Kopfsteinpflaster, bunte Fassaden, kleine Gassen, Cafés auf Holzstühlen vor der Tür. Einfach durchschlendern. | Niederdorf, 8001 Zürich, Schweiz | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.544643,47.374899,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Zürichsee</name>
+      <description>Spazieren, Sitzen, Schauen. Schiffsfahrten auf dem See ebenfalls möglich. | Zürich, Schweiz | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#CH-nature</styleUrl>
+      <Point><coordinates>8.541694,47.376887,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Botanischer Garten</name>
+      <description>7.000 Pflanzenarten aus aller Welt, darunter tropische Glashäuser. Schön für eine ruhige Stunde. | Zollikerstrasse 107, 8008 Zürich, Switzerland | Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#CH-nature</styleUrl>
+      <Point><coordinates>8.561606,47.358005,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sukkulenten-Sammlung</name>
+      <description>Eine der größten der Welt in mehreren Glashäusern. Riesige Kakteen, Aloen, kuriose Gewächse. | Mythenquai 88, 8002 Zürich, Switzerland| Kategorie: Natur &amp; Aktivität | Stadt: Zürich</description>
+      <styleUrl>#CH-nature</styleUrl>
+      <Point><coordinates>8.535094,47.356099,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kreis 4 &amp; 5 / Langstrasse</name>
+      <description>Zürichs Kreativviertel. Ehemalige Arbeiterviertel mit Rotlichtgeschichte, jetzt voll mit Ateliers von ZHdK-Absolventen, Galerien, Upcycling-Stores, Designboutiquen. Einfach durchlaufen. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Zürich</description>
+      <styleUrl>#CH-sight</styleUrl>
+      <Point><coordinates>8.529,47.378,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Markthalle im Viadukt (Kreis 5)</name>
+      <description>Alter Eisenbahnviadukt umgebaut zu einer Foodhalle mit angeschlossenen Designshops. Die Bögen des Viadukts beherbergen lokale Händler, Cafés und Spezialitätenläden. Tolles industrielles Flair. | Viaduktstrasse, 8005 Zürich, Schweiz | Kategorie: Markt / Shopping / Sonstiges | Stadt: Zürich</description>
+      <styleUrl>#CH-market</styleUrl>
+      <Point><coordinates>8.526571,47.387908,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bratwurst vom Sternen Grill ⭐</name>
+      <description>Zürcher Kult seit Jahrzehnten. Am Bellevueplatz. Die weiße Kalbsbratwurst ohne Senf essen — das ist die lokale Regel. | Theaterstrasse 22, 8001 Zürich, Schweiz | Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#CH-food</styleUrl>
+      <Point><coordinates>8.545594,47.367322,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Luxemburgerli bei Sprüngli (Bahnhofstrasse)</name>
+      <description>Mini-Macarons von Sprüngli. Teuer aber legendär. Gut als kleiner Snack zwischendurch. | Bahnhofstrasse 21, 8001 Zürich, Schweiz | Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#CH-food</styleUrl>
+      <Point><coordinates>8.539164,47.369515,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Acapulco Bar</name>
+      <description>Di–Fr 17–20 Uhr gratis Apérobuffet mit Häppchen. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#CH-food</styleUrl>
+      <Point><coordinates>8.53365,47.3727,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>La Tanza</name>
+      <description>Sa ab 18 Uhr gratis Tomaten-Pasta (solange Vorrat reicht). | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#CH-food</styleUrl>
+      <Point><coordinates>8.53365,47.3727,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>sBier Brauerei (Kilchberg)</name>
+      <description>Sa Vormittag gratis Bierverkostung. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Zürich</description>
+      <styleUrl>#CH-food</styleUrl>
+      <Point><coordinates>8.545,47.324,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Türkei (Orange)</name>
+    <Placemark>
+      <name>Ayasofya (Hagia Sophia) ⭐⭐</name>
+      <description>Moschee gratis · Galerie ~25€ · früh morgens! | Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.980175,41.008583,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sultanahmet Meydanı ⭐</name>
+      <description>Hipodrom mit 3.000 Jahre alten Obelisken · Gratis | Binbirdirek, Sultan Ahmet Parkı No:2, 34122 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9757051,41.0063286,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blaue Moschee ⭐</name>
+      <description>20.000 İznik-Kacheln · gratis außerhalb Gebetszeiten | Cankurtaran, At Meydanı Cd No:7, 34122 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9768138,41.0054096,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Yerebatan Zisterne ⭐⭐</name>
+      <description>Byzantinisches Wasserreservoir · ~20€ | Alemdar, Yerebatan Cd. 1/3, 34110 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.977878,41.008384,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Galatabrücke</name>
+      <description>Fischer + Fischrestaurants · Gratis | Kemankeş Karamustafa Paşa, Galata Köprüsü, 34425 Beyoğlu/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9732201,41.0200155,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Galata Kulesi</name>
+      <description>Mittelalterturm Karaköy · außen gratis | Bereketzade, 34421 Beyoğlu/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9741286,41.025569,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Balat + Fener ⭐⭐</name>
+      <description>Buntes altes Viertel · kaum Touristen · Gratis | Balat, 34087 Fatih/İstanbul, Türkiye | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9484978,41.0292106,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>İstiklal Caddesi</name>
+      <description>Fußgängerzone · Nachtleben · Gratis | İstiklal Cd., Beyoğlu/İstanbul, Türkiye | Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#TR-market</styleUrl>
+      <Point><coordinates>28.9779527,41.0337874,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Archeo Hostel (Tophane)</name>
+      <description>Dein Hostel · direkt am Bosporus | Hacımimi, Boğazkesen Cd. No:25, 34425 Beyoğlu/İstanbul, Türkiye | Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#TR-market</styleUrl>
+      <Point><coordinates>28.9801193,41.0279062,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Eminönü Fähranleger</name>
+      <description>Linienfähre Bosporus · günstig mit İstanbulkart | Hobyar, 34112 Fatih/İstanbul, Türkiye | Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#TR-market</styleUrl>
+      <Point><coordinates>28.974010000000003,41.017869999999995,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>İstanbul Modern</name>
+      <description>Modernes Kunstmuseum direkt in Karaköy, 5 Min vom Hostel. Zeitgenössische türkische Kunst in einem Industriegebäude am Bosporus. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9819,41.0256,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Karaköy — dein Hostel-Viertel!</name>
+      <description>Streetart, Designshops, Cafés, Fischrestaurants. Direkt am Bosporus. Abends sehr lebendig. Archeo Hostel liegt mittendrin — perfekte Ausgangslage. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9744,41.0242,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cihangir</name>
+      <description>Hipster-Viertel direkt hinter Taksim. Arty, viele unabhängige Buchläden, kleine Galerien, Cafés. Zum Durchschlendern. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Istanbul</description>
+      <styleUrl>#TR-sight</styleUrl>
+      <Point><coordinates>28.9827,41.0313,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Großer Basar (Kapalı Çarşı)</name>
+      <description>Einer der ältesten und größten überdachten Basare der Welt, 4.000 Läden. Gratis reinschauen, nichts kaufen müssen. Feilschen gehört dazu — aber nicht bei Essen. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Istanbul</description>
+      <styleUrl>#TR-market</styleUrl>
+      <Point><coordinates>28.9681,41.0106,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Midye Dolma ⭐⭐</name>
+      <description>Mit gewürztem Reis und Pinienkernen gefüllte Muscheln, von Straßenständen mit Zitrone. Kult in Istanbul. Direkt in Karaköy: Tarihi Karaköy Midyecisi (seit 1921). | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#TR-food</styleUrl>
+      <Point><coordinates>28.9772,41.0235,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Balık Dürüm / Balık Ekmek ⭐</name>
+      <description>Gegrilltes Fischsandwich. An der Galatabrücke und in Karaköy. Bester: Balık Dürüm Mehmet Usta in Karaköy — deboned, mit Granatapfelkernen und Spezialgewürzen. | Hacımimi, Necatibey Cd. 71B, 34425 Beyoğlu/İstanbul, Türkiye | Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#TR-food</styleUrl>
+      <Point><coordinates>28.978142,41.024994,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Karaköy Güllüoğlu Baklava ⭐⭐</name>
+      <description>Legendäre Baklava-Bäckerei, gilt als beste in Istanbul. Direkt in Karaköy, paar Minuten vom Hostel. Pistazien-Baklava probieren. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#TR-food</styleUrl>
+      <Point><coordinates>28.9772,41.0225,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Islak Burger ⭐</name>
+      <description>Dampfburger, typisch für die Nacht nach dem Ausgehen. Kızılkayalar in Taksim. Sehr lokal und günstig. | Taksim Meydanı, Kocatepe, 34435 Beyoğlu/İstanbul, Türkiye | Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#TR-food</styleUrl>
+      <Point><coordinates>28.985092,41.037002,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Börek</name>
+      <description>Blätterteig mit Käse, Spinat oder Hackfleisch. Beim Balat Börekcisi im Balat-Viertel besonders gut. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Istanbul</description>
+      <styleUrl>#TR-food</styleUrl>
+      <Point><coordinates>28.9489,41.0295,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Thailand (Blau)</name>
+    <Placemark>
+      <name>Wat Arun ⭐</name>
+      <description>Fotogenischster Tempel am Chao Phraya · ~100 Baht | 158 Thanon Wang Doem, Khwaeng Wat Arun, Khet Bangkok Yai, Krung Thep Maha Nakhon 10600, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.488444,13.7438652,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Saket (Golden Mount) ⭐</name>
+      <description>344 Stufen · 360°-Panorama · günstig | 344 Thanon Chakkraphatdi Phong, Khwaeng Ban Bat, Khet Pom Prap Sattru Phai, Krung Thep Maha Nakhon 10100, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.5066745,13.7527691,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Charoen Krung Art District ⭐⭐</name>
+      <description>Neuestes Kunstquartier · Galerien &amp; Cafés · gratis | 48 Charoen Krung 30, Khwaeng Bang Rak, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.5145846,13.7283667,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Klong Bang Luang ⭐⭐</name>
+      <description>Geheimes Künstlerdorf am Kanal · gratis | Soi Phet Kasem 20, Khwaeng Pak Khlong Phasi Charoen, Khet Phasi Charoen, Krung Thep Maha Nakhon 10160, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.4635193,13.730852,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>BACC (Siam)</name>
+      <description>Bangkok Art &amp; Culture Centre · kostenlos | 939 Rama I Rd, Khwaeng Wang Mai, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.5302166,13.746737,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jim Thompson House</name>
+      <description>Seidenmuseums-Villa · ~200 Baht | 6 Soi Kasem San 2, Khwaeng Wang Mai, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.5281613,13.7493569,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chinatown / Yaowarat</name>
+      <description>Abends mit Streetfood-Ständen besuchen | Yaowarat Rd, Krung Thep Maha Nakhon, Thailand | Kategorie: Essen &amp; Trinken | Stadt: Bangkok</description>
+      <styleUrl>#TH-food</styleUrl>
+      <Point><coordinates>100.5129349,13.7373794,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jodd Fairs Dan Neramit ⭐</name>
+      <description>Hipster Nachtmarkt · sehr lokal | Phahon Yothin Road, Khwaeng Chom Phon, Khet Chatuchak, Krung Thep Maha Nakhon 10900, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Bangkok</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>100.5643002,13.8202271,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Or Tor Kor Market</name>
+      <description>Premium-Frischmarkt neben Chatuchak | 101 Thanon Yan Phahon Yothin, Khwaeng Chatuchak, Khet Chatuchak, Krung Thep Maha Nakhon 10900, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Bangkok</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>100.5475328,13.7971283,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Palace + Wat Phra Kaew</name>
+      <description>Klassiker · ~500 Baht | Na Phra Lan Rd, Khwaeng Phra Borom Maha Ratchawang, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.4927041,13.7516435,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chao Phraya Sky Park</name>
+      <description>Neues Stadtprojekt: Ein schwebendes Grünband auf einer stillgelegten Eisenbahnbrücke über den Chao Phraya Fluss. Einzigartiger Blickwinkel auf den Fluss und die anliegenden Tempel von oben. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Bangkok</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>100.4941,13.7405,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jay Fai ⭐</name>
+      <description>Bangkoks berühmteste Garküche mit Michelin-Stern — Khun Jay Fai kocht seit Jahrzehnten selbst mit riesigen Woks, Schutzbrille und Wollmütze. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Bangkok</description>
+      <styleUrl>#TH-food</styleUrl>
+      <Point><coordinates>100.5045,13.7527,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Klong Lat Mayom Floating Market</name>
+      <description>Einer der wenigen echten lokalen Schwimmmärkte, kein Touristenmarkt. Thais kaufen hier am Wochenendmorgen Gemüse, Kräuter, frisch zubereitetes Essen und Haushaltsartikel von kleinen Booten. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Bangkok</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>100.412,13.762,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Kaew Ku ⭐⭐⭐</name>
+      <description>Bizarrer Skulpturenpark · 200+ Figuren · 4 km vom Zentrum | Wat That, Mueang Nong Khai District, Nong Khai 43000, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Nong Khai</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>102.7814193,17.8870414,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Pho Chai</name>
+      <description>Goldener Buddha mit Mekong-Geschichte · gratis | Nai Mueang, Mueang Nong Khai District, Nong Khai 43000, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Nong Khai</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>102.7573398,17.8849023,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mekong Promenade</name>
+      <description>Früh morgens: Mönche, Jogger, Blick nach Laos | Mekong Riverside Walkway, Nong Khai, Thailand | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khai</description>
+      <styleUrl>#TH-nature</styleUrl>
+      <Point><coordinates>102.7402,17.8783,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tha Sadet Market</name>
+      <description>Grenzmarkt · ab 7 Uhr · Waren aus Laos &amp; Vietnam | Nai Mueang, Mueang Nong Khai District, Nong Khai 43000, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khai</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>102.7473491,17.8855331,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Freundschaftsbrücke</name>
+      <description>1. Thai-Laos Freundschaftsbrücke · Grenzübergang | Thanaleng, Ban Dongphosy, Hadxayfong District, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khai</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>102.7150977,17.8799674,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phra That Nong Khai ("Versunkene Pagode")</name>
+      <description>Bei Niedrigwasser (September–November) taucht mitten im Mekong eine alte Pagode auf, die einst ins Wasser gefallen ist — ein einzigartiges Phänomen. Von der Promenade aus sichtbar. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Nong Khai</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>102.758,17.889,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Naem Nuang ⭐</name>
+      <description>Vietnamesische Reispapier-Rolls — Kult-Adresse ist Daeng Naem Nuang am Tha Sadet Markt. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Nong Khai</description>
+      <styleUrl>#TH-food</styleUrl>
+      <Point><coordinates>102.745,17.888,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sa-Ard 100 Pi Market (Wochenendmarkt)</name>
+      <description>Kleiner authentischer Wochenendmarkt mit Isan-Essen und lokalen Waren, falls du am Samstag oder Sonntag in Nong Khai bist. Wenig bekannt, sehr lokal, keine Touristen. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khai</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>102.7437,17.88392,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phimai Historical Park ⭐⭐⭐</name>
+      <description>11. Jhdt. · älter als Angkor · ~200 Baht · 60 km nördl. | 6FCW+F29, Nai Mueang, Phimai District, Nakhon Ratchasima, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>102.4941514,15.2200177,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Thao Suranari Monument ⭐</name>
+      <description>Stadtheldin &quot;Mutter Mo&quot; · Zentrum Altstadt · gratis | Nakhon Ratchasima, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>102.1006,14.9739,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Sala Loi ⭐</name>
+      <description>Tempel in Bootform auf Teich · ungewöhnlich · gratis | Nakhon Ratchasima, Thailand | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>102.1028,14.9744,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Save One Night Market ⭐⭐</name>
+      <description>Riesiger Nachtmarkt · sehr lokal · abends | Nakhon Ratchasima, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Korat</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>102.1178,14.9648,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Terminal 21 Korat</name>
+      <description>Lokales Shopping · günstiger Food Court | Nakhon Ratchasima, Thailand | Kategorie: Markt / Shopping / Sonstiges | Stadt: Korat</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>102.1,14.9759,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Ban Rai *(30–40 km außerhalb)*</name>
+      <description>Riesiger moderner Tempel mit einer 27 Meter hohen Elefantenstatue, die von innen begehbar ist. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>101.76,15.313,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Dan Kwian Pottery Village</name>
+      <description>15 km von Korat auf dem Weg nach Phimai — guter Stopp auf der Hinfahrt. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Korat</description>
+      <styleUrl>#TH-sight</styleUrl>
+      <Point><coordinates>102.242,14.876,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Khao Yai National Park ⭐⭐</name>
+      <description>UNESCO-Welterbe, ~1,5h von Korat. Einer der besten Nationalparks in Thailand: tropischer Monsunwald, wilde Elefanten (Begegnungen auf der Straße!), Gibbons, über 300 Vogelarten, begehbare Wasserfälle… | Nakhon Ratchasima, Thailand | Kategorie: Natur &amp; Aktivität | Stadt: Korat</description>
+      <styleUrl>#TH-nature</styleUrl>
+      <Point><coordinates>101.530441,14.310923,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>100 Pee Muang Ya Market</name>
+      <description>Lokaler Abendmarkt nahe dem Bahnhof mit Street-Food aus der Isan-Küche. Kleiner als Save One Night Market, aber authentischer und näher am Zentrum. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Korat</description>
+      <styleUrl>#TH-market</styleUrl>
+      <Point><coordinates>102.085,14.98,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Laos (Grün)</name>
+    <Placemark>
+      <name>Pha That Luang ⭐⭐</name>
+      <description>45 m goldene Stupa · abends im Sonnenuntergang | That Luang, Xaysettha 10009, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.6364667,17.9766165,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Patuxai Monument ⭐</name>
+      <description>Laos&apos; Arc de Triomphe · bester Stadtblick · ~5.000 KIP | Ave Lane Xang, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.6187343,17.9705363,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Si Saket ⭐</name>
+      <description>Ältester Tempel 1818 · tausende Buddha-Figuren | Ave Lane Xang, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.6114082,17.9631086,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>COPE Visitor Center ⭐⭐</name>
+      <description>Clusterbomben-Museum · kostenlos · sehr bewegend | Boulevard Khou Vieng, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.620372,17.95775,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mekong Riverside</name>
+      <description>Sonnenuntergang und lokale Atmosphäre | Vientiane, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vientiane</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.6021948,17.9633969,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ban Anou Night Market ⭐</name>
+      <description>Lokaler Streetfood-Markt · ab 5.000 KIP | Rue Phai Nam, Vientiane, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Vientiane</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.6058386,17.9693475,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Buddha Park / Xieng Khuan ⭐⭐</name>
+      <description>25 km außerhalb · gleicher Künstler wie Sala Kaew Ku | Deua, Thanon Tha, Vientiane, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.7648218,17.9123504,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mönch-Chats am Sangha College</name>
+      <description>Am ersten Sonntag im Monat treffen sich Mönche des Sangha Colleges mit Touristen, um Englisch zu üben und Fragen über ihr Leben, ihren Glauben und ihren Alltag im Kloster zu beantworten. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Vientiane</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.606,17.964,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Lagoon 1</name>
+      <description>Bekannteste Lagune · Sprungplattform · ~50.000 KIP | W9GW+G5G, Naka, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.3954544,18.9263038,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Lagoon 3 ⭐⭐</name>
+      <description>Geheimtipp · Rope Swing · Zipline · weniger Touristen | Ban Naxay Vangvieng district, Ban Nampè, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.3368676,18.9423637,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Lagoon 4</name>
+      <description>Versteckteste Lagune · kaum Touristen | 2CWF+3Q, Phoxay, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.4243784,19.0451405,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Chang Cave</name>
+      <description>Zugänglichste Höhle · gut beleuchtet · Aussicht oben | WC6R+2VP, Vang Vieng, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.4422184,18.9100816,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Phu Kham</name>
+      <description>Liegender Buddha in Höhle · neben Blue Lagoon 1 | W9GW+M5H, Naka, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.3955,18.9267,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nam Xay Viewpoint ⭐</name>
+      <description>Beliebtester Aufstieg · 360°-Karstblick | W9FP+CQQ, Naka, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.3869781,18.9235992,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Vang Vieng Zentrum</name>
+      <description>Motorrad mieten · Markt · Baguette-Stände | Vang Vieng, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.44379,18.95009,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lisha (The Grand) Riverside Hotel</name>
+      <description>Von Reisenden empfohlen: VIP-Zimmer für 2 Personen ~1.400 Baht/Nacht inkl. Frühstücksbuffet (über trip.com/Agoda/Booking buchbar). Eigenes Bad mit Wanne, TV, Kühlschrank, Pool, direkt am Fluss. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.446,18.923,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Nam (Wasserhöhle)</name>
+      <description>Das ungewöhnlichste Höhlenerlebnis: Man zieht sich an einem Seil auf einem aufgeblasenen Schlauch durch eine dunkle Höhle mit unterirdischem Fluss. Im Dunkeln, mit Stirnlampe, Wasser um einen herum. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.411,18.988,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Sang Dreieck (4 Höhlen)</name>
+      <description>14 km vom Zentrum: Vier Höhlen nah beieinander als Halbtagesausflug kombinierbar. | WC5R+XXG Unnamed Road ວັງວຽງ, ลาว | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.442449,18.909943,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mr. Mo Restaurant ⭐⭐</name>
+      <description>Von Einheimischen empfohlener Geheimtipp, kein Touristenladen. Nudelsuppe, Laab (Fleischsalat) und Khao Moo Krob (knuspriger Reis mit Schweinefleisch) — alles hausgemacht. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.418386,18.941129,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phu Mai Café</name>
+      <description>Weiterer Café-Name, der bei Reisenden als fester Stopp in Vang Vieng auftauchte, ohne dass mehr Details überliefert sind — einfach mal nachschauen, ob's auf dem Weg liegt. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.418386,18.941129,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kajak ab der Namsong Blue Bridge ⭐</name>
+      <description>Auch ohne organisierte Tour spontan machbar: Startpunkt an der blauen Brücke (Sapan Fah/Namsong Blue Bridge), ~150.000 KIP/Person, Strecke ca. 10 km. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Vang Vieng</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.446,18.928,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Almosenzeremonie ⭐⭐⭐</name>
+      <description>ab 5:30 Uhr · Nebenstraßen nutzen · respektvoll! | Sisavangvong Road, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.1355,19.891,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wat Xieng Thong ⭐⭐</name>
+      <description>Schönster Tempel · Gold-Mosaik · 16. Jhdt. | V4WV+WC8, Khem Khong, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.1435649,19.897292,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mount Phousi ⭐</name>
+      <description>328 Stufen · goldener Stupa · Sonnenuntergangs-Blick | Ban Pakham, Sisavangvong Road, Luang Prabang, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.1370062,19.890322,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Royal Palace Museum</name>
+      <description>Ehem. Königspalast · Phra Bang Buddha · ~30.000 KIP | 27 Ounheun Rd, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.1355556,19.8922222,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TAEC ⭐⭐</name>
+      <description>Museum ethnische Minderheiten · sehr gut kuratiert | Behind Dara Market, Ban Khamyong, Luang Prabang, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.1352282,19.8885353,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuang Si Wasserfälle ⭐⭐⭐</name>
+      <description>30 km südlich · türkise Terrassen · Schwimmen | Kuang Si Waterfall, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>101.9931839,19.749573,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pak Ou Höhlen</name>
+      <description>2h Bootsfahrt · 6.000 Buddha-Figuren | 26X6+CGG, Pak Ou, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.2113255,20.0485582,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nachtmarkt + Morgenmarkt ⭐</name>
+      <description>Abends Handwerk &amp; Streetfood · morgens Phosi Market | Ban Pakham, Sisavangvong Road, Luang Prabang, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.1340698,19.8892734,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sokview Residence ⭐⭐</name>
+      <description>Neu eröffnete Unterkunft direkt am Mekong. Deluxe River View Zimmer ~1.600 Baht/Nacht (trip.com/Agoda/Booking), komplett neu ausgestattet (Bad mit Wanne, Waschmaschine, Kühlschrank, Sofa/Netflix, Balk… | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.11515,19.901387,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ock Pop Tok Living Crafts Centre</name>
+      <description>Traditionelle Weberei direkt am Mekong. Man kann zuschauen wie traditionelle Seidentextilien auf Handwebstühlen gewebt werden — komplexe Muster aus Hmong- und Lao-Traditionen. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.1263,19.8757,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ban Chan Pottery Village ⭐</name>
+      <description>Kleines Töpferdorf auf der anderen Mekong-Seite, per kleinem Fischerboot erreichbar (~5.000 KIP für die Überfahrt — das Boot und die Flussüberquerung sind Teil des Erlebnisses). | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>102.118,19.888,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tad Sae Wasserfall ⭐</name>
+      <description>Weniger bekannte, aber wunderschöne Alternative zu Kuang Si. Nur per Longtail-Boot über den Nam Khan erreichbar (~15.000 KIP pro Richtung — die Bootsfahrt durch den engen Fluss ist Teil des Erlebnisse… | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.25,19.8092,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bamboo Garden Restaurant ⭐</name>
+      <description>TripAdvisor "Travellers' Choice"-Award, gutes Lao/Thai-Essen (Reis, Larb, Suppe, gebratenes Gemüse), WiFi vorhanden. Solide, mehrfach bestätigte Empfehlung von Reisenden. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.11515,19.901387,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Formula B ⭐</name>
+      <description>Vintage-Café in einem hübschen Kolonialgebäude, Milchshakes/Frappés, Deko mit alten Schallplatten und Buddha-Statuen. Besonderes Ambiente, gut für eine Pause in der Altstadt. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Luang Prabang</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.11515,19.901387,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nong Khiaw Zentrum</name>
+      <description>Brücke über den Nam Ou · Karstpanorama | Nong Khiaw, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.6115749,20.5710354,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kamphan Guesthouse</name>
+      <description>Unterkunftstipp · Flussblick · ~250.000 KIP/2 Pers. | 1C, Nong Khiaw, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.6149302,20.5713365,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pha Daeng Peak ⭐⭐</name>
+      <description>360°-Aussicht · Sonnenauf-/untergang · ~20.000 KIP | Nong Khiaw, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.6255511,20.5707695,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pha Tok Höhlen</name>
+      <description>Kriegsgeschichte · ~20.000 KIP · Reisfeld-Zugang | 1C, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.629529,20.553183,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sleeping Woman Viewpoint</name>
+      <description>Zweiter Aussichtspunkt auf der Nordseite des Flusses, ca. 1 Std. Aufstieg. Weniger überlaufen als Pha Daeng. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.617,20.576,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>"100 Waterfalls"-Trek ⭐⭐</name>
+      <description>Gilt als einer der schönsten Treks in Laos, ein- bis mehrtägig organisiert (z.B. von Tiger Trail). Für alle mit etwas mehr Zeit/Kondition. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.63,20.533,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mandala Ou Resort</name>
+      <description>Falls ihr's etwas komfortabler wollt (echter Splurge, kein Budget-Tipp): einziges Hotel im Ort mit Pool, hoch über dem Fluss gelegen, Bungalows mit Öko-Keramikheizung, kostenloses Fahrrad für Gäste. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.6095,20.5738,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>CT Restaurant</name>
+      <description>Direkt an der Brücke, schöner Flussblick von der Terrasse, guter Lao-Kaffee, kostenloses WLAN. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.612,20.5705,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Vongmany Restaurant</name>
+      <description>Gutes Lao-Essen, probiert das lokale Gericht Jeow Mak Len (pfannengebratene Tomaten mit Kräutern, dazu gedünstetes Gemüse zum Dippen) — bei Einheimischen sehr beliebt. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.98475,20.569575,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Delilah's</name>
+      <description>Alles hausgemacht (Brot, Eis, Suppen, Salate), Lao-Western-Fusion mit kreativem Twist. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.98475,20.569575,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chennai</name>
+      <description>Gutes indisches Restaurant, Thali für zwei Personen für ~30.000 KIP, gute Shakes. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-food</styleUrl>
+      <Point><coordinates>102.98475,20.569575,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kräuter-Dampfbad &amp; Massage "Sabai Sabai"</name>
+      <description>Nach dem Pha-Daeng-Aufstieg oder einem Tag Kajak genau richtig: traditionelles laotisches Kräuter-Dampfbad, danach Öl- oder Fußmassage. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.98475,20.569575,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sonnenuntergang von der Brücke statt vom Viewpoint</name>
+      <description>Während alle zum Sonnenuntergang auf Pha Daeng oder Sleeping Woman hochsteigen, bleiben viele Einheimische einfach auf der Brücke im Zentrum — kostenlos, kein Aufstieg, fast der gleiche Blick auf die… | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Nong Khiaw</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.6127,20.5708,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Muang Ngoi Zentrum</name>
+      <description>Nur per Boot erreichbar · eine Hauptstraße, keine Autos | Muang Ngoy, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>102.6754547,20.7089805,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ban Na Dorf ⭐⭐</name>
+      <description>Tageswanderung · ethnische Minderheit · Übernachtung möglich | Ban Na, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.7112532,20.6962608,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Kang Höhle</name>
+      <description>Flusshöhle auf dem Weg nach Ban Na | PM2V+758, Luang Prabang, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.6929386,20.7006562,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pha Noi Höhle</name>
+      <description>10 Min. Waldweg · ~10.000 KIP · Taschenlampe nötig | PM8G+62G, Muang Ngoy, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.6750821,20.7155586,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Muang Ngoi Viewpoint</name>
+      <description>Kurzer Aufstieg direkt vom Dorf aus (Trailhead bei Wat Okad Savaram) — deutlich weniger Aufwand als Pha Daeng in Nong Khiaw, aber ähnlich schöner Blick auf Fluss und Karst. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Muang Ngoi Neua</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>102.672,20.706,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Thakhek Zentrum</name>
+      <description>Start-/Endpunkt des Loops · Mekong-Städtchen | Thakhek, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>104.8337879,17.4030206,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tham Nang Aen ⭐</name>
+      <description>Beleuchtete Höhle · Ruderboot-Fahrt hindurch | CWVX+GCJ, Xiangliab, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Thakhek Loop</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>104.9485302,17.4438455,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kong Lor Cave ⭐⭐⭐</name>
+      <description>7 km Flusshöhle · Bootsfahrt im Dunkeln · 2–3 Std. | Tham Kong Lo, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Thakhek Loop</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>104.7615237,17.9569162,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tha Falang Schwimmloch</name>
+      <description>Kristallklares Wasser · Tag 1 der Schleife | Xiangliab, Laos | Kategorie: Natur &amp; Aktivität | Stadt: Thakhek Loop</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>104.912938,17.4684725,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tag 1: Thakhek → Thalang</name>
+      <description>Route 12 Richtung Osten. Unterwegs: Tha Falang Schwimmloch (kristallklares Wasser, guter erster Stopp), Tham Nong Pa Fa ("Buddha-Höhle"), Tham Nang Aen (beleuchtete Schauhöhle mit Ruderboot-Fahrt durc… | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>105.08,17.96,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tag 2: Thalang → Kong Lor Village</name>
+      <description>Weiter über Sandstein-Buddha-Felsskulpturen, die "Dragon Cave" (Mangkone-Höhle), eine kühle Quellenlagune zum Abkühlen, bis zum kleinen Dorf Kong Lor — Ausgangspunkt für die Höhle am nächsten Tag. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>104.74,18.031,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tag 4: Nahin → zurück nach Thakhek</name>
+      <description>Rückweg mit weiteren Karst-Aussichtspunkten unterwegs, bevor es zurück zum Ausgangspunkt geht. Wer 5 Tage Zeit hat, baut hier noch einen Zwischenstopp oder Seitenweg ein. | Ban Nahin, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: Thakhek Loop</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>104.213025,18.243041,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Don Det</name>
+      <description>Haupt-Backpacker-Insel · günstige Guesthouses | Don Det, Laos | Kategorie: Markt / Shopping / Sonstiges | Stadt: 4000 Islands (Si Phan Don)</description>
+      <styleUrl>#LA-market</styleUrl>
+      <Point><coordinates>105.9200531,13.975873,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Don Khon</name>
+      <description>Ruhiger, französisches Kolonialerbe, Wasserfälle | Don Khon, Laos | Kategorie: Sehenswürdigkeit / Kultur | Stadt: 4000 Islands (Si Phan Don)</description>
+      <styleUrl>#LA-sight</styleUrl>
+      <Point><coordinates>105.9259271,13.9529721,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Khone Phapheng Falls ⭐⭐</name>
+      <description>Breitester Wasserfall der Welt · 13 km Stromschnellen | Khon Phapheng Falls, Laos | Kategorie: Natur &amp; Aktivität | Stadt: 4000 Islands (Si Phan Don)</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>105.9865704,13.9601065,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Delfin-Beobachtungspunkt ⭐</name>
+      <description>Irrawaddy-Flussdelfine · früh morgens/spät nachm. | Dolphin Pool, nahe Laos-Kambodscha-Grenze | Kategorie: Natur &amp; Aktivität | Stadt: 4000 Islands (Si Phan Don)</description>
+      <styleUrl>#LA-nature</styleUrl>
+      <Point><coordinates>105.94,13.85,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Vietnam (Gelb)</name>
+    <Placemark>
+      <name>Marble Mountains ⭐⭐</name>
+      <description>Tempel + Höhlen in Kalksteinhügeln · ~40.000 VND | 81 Huyền Trân Công Chúa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.2631605,16.0037104,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Dragon Bridge ⭐</name>
+      <description>Fr/Sa/So 21 Uhr: Feuer &amp; Wasser-Show · gratis | Cầu Rồng, An Hải, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.2276926,16.0611042,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lady Buddha Son Trà ⭐</name>
+      <description>67m Statue · Motorradfahrt durch Dschungel | Vườn Lâm Tỳ Ni, Hoàng Sa, Sơn Trà, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.2769531,16.0996678,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Museum of Cham Sculpture ⭐⭐</name>
+      <description>Weltgrößte Cham-Sammlung · ~60.000 VND | 02 Đ. 2 Tháng 9, Hải Châu, Đà Nẵng, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.2232677,16.0603007,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Han Market</name>
+      <description>Lokaler Markt · Meeresfrüchte · Textilien | 119 Trần Phú, Hải Châu, Đà Nẵng, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Da Nang</description>
+      <styleUrl>#VN-market</styleUrl>
+      <Point><coordinates>108.224069,16.0680836,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mỹ Khê Beach</name>
+      <description>10 km weißer Sandstrand · ideal im August | My Khe Beach, Đà Nẵng, Vietnam | Kategorie: Natur &amp; Aktivität | Stadt: Da Nang</description>
+      <styleUrl>#VN-nature</styleUrl>
+      <Point><coordinates>108.2469346,16.0616944,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Han River Promenade</name>
+      <description>Abends entlang des Han Flusses spazieren — viele Bars und Restaurants, Blick auf die beleuchtete Dragon Bridge. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Da Nang</description>
+      <styleUrl>#VN-nature</styleUrl>
+      <Point><coordinates>108.2244,16.07,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mỹ Sơn Sanctuary als Architektur</name>
+      <description>Die Cham-Tempel in Mỹ Sơn sind aus rotem Backstein gebaut mit einer Technik die bis heute nicht vollständig verstanden ist — kein sichtbarer Mörtel, dennoch hochstabil über Jahrhunderte. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Da Nang</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.1242,15.7639,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hai Van Pass ⭐</name>
+      <description>Vietnams berühmteste Bergstraße — bekannt aus der Top Gear Vietnam Special Folge (Jeremy Clarkson, Richard Hammond, James May fuhren sie mit Motorrädern). | Đèo Hải Vân, Chân Mây - Lăng Cô, Tp. Huế, Huế, Việt Nam | Kategorie: Natur &amp; Aktivität | Stadt: Da Nang</description>
+      <styleUrl>#VN-nature</styleUrl>
+      <Point><coordinates>108.133333,16.2,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Japanische Brücke ⭐</name>
+      <description>Symbol Hội Ans · 17. Jhdt. · im Eintrittsticket | Nguyễn Thị Minh Khai, Hội An, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.3260704,15.8770873,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phúc Kiến Halle ⭐⭐</name>
+      <description>Chines. Versammlungshalle · Rot &amp; Gold · 17. Jhdt. | 46 Trần Phú, Hội An, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.3306281,15.8774847,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tấn Ký Altes Haus</name>
+      <description>200 Jahre altes Handelshaus · Originalfamilie wohnt noch drin | 101 Nguyễn Thái Học, Hội An, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.3277659,15.8764821,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>An Bang Beach ⭐</name>
+      <description>3 km vom Zentrum · ruhiger &amp; lokaler als Mỹ Khê | Đ. Hai Bà Trưng, Hội An, Vietnam | Kategorie: Natur &amp; Aktivität | Stadt: Hội An</description>
+      <styleUrl>#VN-nature</styleUrl>
+      <Point><coordinates>108.3406489,15.9136072,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bánh Mì Phượng ⭐</name>
+      <description>Bourdain-Empfehlung · &quot;bestes Bánh Mì der Welt&quot; | 2b Đ. Phan Chu Trinh, Hội An, Vietnam | Kategorie: Essen &amp; Trinken | Stadt: Hội An</description>
+      <styleUrl>#VN-food</styleUrl>
+      <Point><coordinates>108.3320488,15.878499,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Reaching Out ⭐</name>
+      <description>Social Enterprise · Taube Mitarbeiter · Handwerk | 131 Trần Phú, Hội An, Vietnam | Kategorie: Essen &amp; Trinken | Stadt: Hội An</description>
+      <styleUrl>#VN-food</styleUrl>
+      <Point><coordinates>108.3272791,15.8770577,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Die Altstadt (Phố Cổ) ⭐⭐⭐</name>
+      <description>Kompaktes UNESCO-Viertel mit Häusern aus dem 15.–19. Jahrhundert, aus der Zeit als Hội An einer der wichtigsten Handelshäfen Südostasiens war. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Hội An</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>108.327,15.8772,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>White Rose Dumplings (Bánh Bao Vạc) ⭐</name>
+      <description>Zarte, weiße, fast durchscheinende Reismehl-Teigtaschen mit Garnelen-Füllung, geformt wie weiße Rosen — optisch außergewöhnlich schön. Nur in Hội An zu finden, und das Rezept wird streng gehütet. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Hội An</description>
+      <styleUrl>#VN-food</styleUrl>
+      <Point><coordinates>108.3227,15.8797,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Frühmorgens einkaufen am Hội An Markt</name>
+      <description>Der Hội An Central Market öffnet früh morgens (ab 6 Uhr) — bevor die ersten Touristen ankommen, kaufen Einheimische hier frischen Fisch, Gemüse, Kräuter. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Hội An</description>
+      <styleUrl>#VN-market</styleUrl>
+      <Point><coordinates>108.3312,15.8768,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>War Remnants Museum ⭐⭐⭐</name>
+      <description>Vietnamkrieg aus VN-Perspektive · Muss-Besuch · $1,50 | Phường 6, Quận 3, Hồ Chí Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.6920916,10.7795106,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Reunification Palace ⭐⭐</name>
+      <description>1960er-Architektur · Kriegsende 1975 · ~40.000 VND | Ben Thanh, Ho Chi Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.6953021,10.7769942,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jade Emperor Pagoda ⭐</name>
+      <description>Taoistischer Tempel 1909 · Weihrauch · gratis | 73 Mai Thị Lựu, Tân Định, Hồ Chí Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.6981791,10.7919963,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ben Thành Market ⭐</name>
+      <description>Wahrzeichen · Kaffee · Gewürze · Lacquarewaren | Ben Thanh, Ho Chi Minh, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-market</styleUrl>
+      <Point><coordinates>106.6980208,10.7725168,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Saigon Square</name>
+      <description>Mode &amp; Accessoires · Feilschen! · klimatisiert | 77-89 Nam Kỳ Khởi Nghĩa, Bến Thành, Hồ Chí Minh, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-market</styleUrl>
+      <Point><coordinates>106.7002091,10.7727039,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cholon Chinatown</name>
+      <description>Bình Tây Market · Großhandel · Atmosphäre | 57A Tháp Mười, Bình Tây, Hồ Chí Minh, Vietnam | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-market</styleUrl>
+      <Point><coordinates>106.6510455,10.7493638,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Saigon Riverfront Park ⭐⭐</name>
+      <description>Skyline-Blick für Locals · fast keine Touristen | Bach Dang Riverside, Hồ Chí Minh, Vietnam | Kategorie: Natur &amp; Aktivität | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-nature</styleUrl>
+      <Point><coordinates>106.7036,10.7803,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>42 Nguyễn Huệ ⭐⭐</name>
+      <description>Altes Apartmenthaus → Galerien &amp; Concept Stores | 42 Nguyễn Huệ, Sài Gòn, Hồ Chí Minh, Vietnam | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.7036362,10.7741486,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Saigon Central Post Office ⭐</name>
+      <description>Prachtbau aus der französischen Kolonialzeit (1886–1891), entworfen von Gustave Eiffel (desselbe wie der Eiffelturm). | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.6999,10.7799,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Notre Dame Cathedral</name>
+      <description>Neugotische Kirche aus dem Jahr 1880, aus roten Backsteinen (direkt aus Frankreich importiert). Außen imposant, innen nüchtern. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.699,10.7797,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>22 Lý Tự Trọng (Apartment Building)</name>
+      <description>Ähnliches Konzept wie 42 Nguyễn Huệ — altes Wohnhaus umfunktioniert zu Shops und Cafés. Zwei dieser Gebäude in der Nähe zu kombinieren lohnt sich für eine Runde durch Saigons Independent-Kreativszene. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.702,10.7778,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Craft Beer-Szene</name>
+      <description>Saigon hat eine der besten Craft Beer-Szenen Asiens. Pasteur Street Brewing ist die bekannteste Brauerei (Passion Fruit Wheat Beer gilt als ihr bestes). Heart of Darkness Brewery als Alternative. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-food</styleUrl>
+      <Point><coordinates>106.6987,10.7757,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pham Viet Chanh Street</name>
+      <description>Schicke Ausgehstraße in Binh Thanh District, weit weg von den touristischen Gebieten rund um Ben Thành. Upscale Bars mit gutem Design, internationales Essen, Expats und Locals. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-sight</styleUrl>
+      <Point><coordinates>106.7005,10.7935,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bánh Mì Huỳnh Hoa ⭐⭐</name>
+      <description>Gilt als legendärstes Bánh Mì in ganz Saigon. Überladenes Sandwich mit fünf verschiedenen Fleischsorten — Paté, Schweinefleisch, Mortadella, geräuchertes Fleisch, Leberwurst — plus Gemüse und Saucen. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-food</styleUrl>
+      <Point><coordinates>106.6902,10.7688,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Phở Lê (District 11) ⭐</name>
+      <description>Weithin bekanntes, sehr günstiges Pho-Restaurant. Sehr intensive, klare Rinderbrühe die stundenlang gekocht wird. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-food</styleUrl>
+      <Point><coordinates>106.6795,10.7539,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Egg Coffee (Cà Phê Trứng)</name>
+      <description>Kult-Kaffee auch in Saigon immer präsenter. Storii Coffee gilt als gute Adresse für Egg Coffee in angenehmer Atmosphäre. Auch viele andere Ca-Phê-Läden bieten es an. | ⚠️ Koordinaten grob (Stadtzentrum) – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-food</styleUrl>
+      <Point><coordinates>106.693512,10.774675,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Vietnamese Local Brands ⭐⭐⭐</name>
+      <description>Das interessantere Shopping in Saigon. Lokale Designermode in District 1 und 3 — günstig, hochwertig, eigener Stil. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-market</styleUrl>
+      <Point><coordinates>106.6987,10.7688,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ho Thi Ky Market (Quận 10) ⭐</name>
+      <description>Geheimtipp! Blumenmarkt und Streetfood-Markt in einem — kaum Touristen, fast nur Locals. Früh morgens am buntesten wenn die frischen Blumen ankommen und die Foodstände aufmachen. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Markt / Shopping / Sonstiges | Stadt: Ho Chi Minh City</description>
+      <styleUrl>#VN-market</styleUrl>
+      <Point><coordinates>106.6768,10.7658,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Kambodscha (Lila)</name>
+    <Placemark>
+      <name>Angkor Wat ⭐⭐⭐</name>
+      <description>Größtes religiöses Bauwerk der Welt · Sonnenaufgang 5h | Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.8669857,13.4124693,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bayon Temple ⭐⭐⭐</name>
+      <description>200+ Steingesichter auf 54 Türmen · surreal | Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.8589036,13.4412831,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ta Prohm ⭐⭐</name>
+      <description>Tomb-Raider-Tempel · von Bäumen überwachsen | Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.8893041,13.4347941,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Angkor Thom</name>
+      <description>Alte Hauptstadt · Südtor mit Naga-Brücke | South Gate, Angkor Thom, Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.8595523,13.4276031,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Banteay Srei ⭐⭐</name>
+      <description>25 km nördlich · feinste Schnitzereien · roter Sandstein | Banteay Srei, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.9666115,13.6031005,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Banteay Kdei ⭐</name>
+      <description>Ruhige Ruine · wenig Touristen · ursprünglich | Angkor Archaeological Park, Krong Siem Reap, Cambodia | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.8985128,13.4299495,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Old Market (Psar Chas)</name>
+      <description>Seide · Holzschnitzerei · Feilschen ab 40% | Psar Chas, Siem Reap, Cambodia | Kategorie: Markt / Shopping / Sonstiges | Stadt: Siem Reap</description>
+      <styleUrl>#KH-market</styleUrl>
+      <Point><coordinates>103.8552,13.3611,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pub Street</name>
+      <description>Backpacker-Straße · Bier $0,50 · Essen günstig | Pub Street, Siem Reap, Cambodia | Kategorie: Markt / Shopping / Sonstiges | Stadt: Siem Reap</description>
+      <styleUrl>#KH-market</styleUrl>
+      <Point><coordinates>103.8556,13.3617,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pre Rup</name>
+      <description>Tempel auf einem Hügel aus dem 10. Jahrhundert. Gut für Sonnenuntergang als Alternative zu Angkor Wat — weniger voll, ähnlich schönes Licht über den Tempelfeldern. Brick-and-Laterite Konstruktion. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.921,13.4348,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tonle Sap Lake ⭐</name>
+      <description>Südostasiens größter Süßwassersee, 20 km von Siem Reap. Einzigartiges Phänomen: Im Regenzeit-Monsun (Juni–November) steigt der Mekong so stark an dass der Fluss die Richtung umkehrt und Wasser in den… | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Natur &amp; Aktivität | Stadt: Siem Reap</description>
+      <styleUrl>#KH-nature</styleUrl>
+      <Point><coordinates>103.8235,13.2455,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Landmine Museum ⭐</name>
+      <description>Kleines privates Museum über Landminen-Geschichte in Kambodscha. Gegründet vom ehemaligen Kindersoldat Aki Ra der heute Minen entschärft. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Sehenswürdigkeit / Kultur | Stadt: Siem Reap</description>
+      <styleUrl>#KH-sight</styleUrl>
+      <Point><coordinates>103.962,13.576,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Asana Old Wooden House ⭐</name>
+      <description>Verstecktes Lokal hinter Pub Street, untergebracht im letzten erhaltenen traditionellen Holzhaus des Stadtzentrums. | ⚠️ Koordinaten ungefähr – API-Quota erreicht, noch zu verifizieren | Kategorie: Essen &amp; Trinken | Stadt: Siem Reap</description>
+      <styleUrl>#KH-food</styleUrl>
+      <Point><coordinates>103.8558,13.3546,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
